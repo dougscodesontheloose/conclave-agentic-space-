@@ -1,0 +1,39 @@
+name: Sexy Content Engine
+code: sexy_content
+description: "Motor de conteúdo de alto impacto para LinkedIn. Aceita referências já prontas ou pesquisa por conta própria. Produz Posts, Carrosséis Visuais premium e Artigos — always aligned with the user's brand voice and visual identity."
+icon: 💠
+version: "2.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - create-html-carousel
+  - linkedin-writing
+  - blotato
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/visual-identity.md
+  - pipeline/data/color-palettes.md
+  - pipeline/data/technique-registry.md
+  - pipeline/data/pietro-anti-patterns.md
+
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-triage.md
+    - step-02-pesquisa-ou-referencia.md
+    - step-03-checkpoint-conteudo.md
+    - step-04-selecao-formato.md
+    - step-05-gerar-angulos.md
+    - step-06-checkpoint-angulo.md
+    - step-07-produzir-conteudo.md
+    - step-08-design-carousel.md
+    - step-09-revisao-qualidade.md
+    - step-10-checkpoint-aprovacao.md
+    - step-11-publicar-conteudo.md

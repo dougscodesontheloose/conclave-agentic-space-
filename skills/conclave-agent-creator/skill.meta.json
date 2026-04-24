@@ -1,0 +1,12 @@
+{
+  "slug": "conclave-agent-creator",
+  "display_name": "Best-Practice & Agent Creator",
+  "category": "composites",
+  "tags": ["conclave", "meta", "agents", "best-practices", "research"],
+  "type": "prompt",
+  "version": "3.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/conclave-agent-creator/SKILL.md"
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "squad_id": "from-html-to-carousel",
+    "displayName": "From HTML to Carousel",
+    "description": "Traduz textos densos em carrosséis visuais e sucintos (5-10 slides) para LinkedIn e Instagram.",
+    "intents": [
+      "linkedin"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "lazarus",
+    "displayName": "Lazarus Protocol",
+    "description": "Ambiente para otimização de performance humana, biomecânica e biohacking. Integra dados de saúde offline (.csv) com o Conclave.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "refract",
+    "displayName": "Refract",
+    "description": "Estúdio de engenharia cross-platform sob demanda. Web-first (PWA/JS/TS/Three.js/Python), com portabilidade gated para macOS (SwiftUI+SceneKit) e Windows (WinUI 3+Win2D). Paridade visual é requisito, não bônus.",
+    "intents": [
+      "pwa"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "council_test",
+    "displayName": "Revisão de Excelência",
+    "description": "Executa a revisão usando o protocolo de 3 personas.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "sexy_content",
+    "displayName": "Sexy Content Engine",
+    "description": "Motor de conteúdo de alto impacto para LinkedIn. Aceita referências já prontas ou pesquisa por conta própria. Produz Posts, Carrosséis Visuais premium e Artigos — always aligned with the user's brand voice and visual identity.",
+    "intents": [
+      "linkedin",
+      "post"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  }
+]

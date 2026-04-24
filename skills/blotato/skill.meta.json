@@ -1,0 +1,12 @@
+{
+  "slug": "blotato",
+  "display_name": "Blotato Social Publisher",
+  "category": "capabilities",
+  "tags": ["publishing", "social-media", "instagram", "linkedin", "twitter", "scheduling"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use the blotato MCP tools"
+  }
+}

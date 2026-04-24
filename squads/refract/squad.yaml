@@ -1,0 +1,31 @@
+name: Refract
+code: refract
+description: "Estúdio de engenharia cross-platform sob demanda. Web-first (PWA/JS/TS/Three.js/Python), com portabilidade gated para macOS (SwiftUI+SceneKit) e Windows (WinUI 3+Win2D). Paridade visual é requisito, não bônus."
+icon: 🔷
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/parity-rubric.md
+  - pipeline/data/technique-registry.md
+  - pipeline/data/pietro-anti-patterns.md
+
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-decompose.md
+    - step-02-build-backend.md
+    - step-03-build-web.md
+    - step-04-checkpoint-web-approval.md
+    - step-05-checkpoint-platform-choice.md
+    - step-06-port-swift.md
+    - step-07-port-dotnet.md
+    - step-08-visual-parity.md
+    - step-09-checkpoint-final.md

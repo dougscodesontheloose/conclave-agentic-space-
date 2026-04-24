@@ -1,0 +1,26 @@
+name: "From HTML to Carousel"
+code: "from-html-to-carousel"
+description: "Traduz textos densos em carrosséis visuais e sucintos (5-10 slides) para LinkedIn e Instagram."
+icon: "🎠"
+skills:
+  - web_search
+  - web_fetch
+  - create-html-carousel
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+pipeline:
+  steps:
+    - step-00-checkpoint-input.md
+    - step-01-cria-estrutura.md
+    - step-02-escreve-legenda.md
+    - step-03-checkpoint-copy.md
+    - step-04-geracao-visual.md
+    - step-05-revisao.md
+    - step-06-checkpoint-final.md
+    - step-07-legenda-publicacao.md

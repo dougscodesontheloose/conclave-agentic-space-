@@ -1,0 +1,13 @@
+name: Lazarus Protocol
+code: lazarus
+description: Ambiente para otimização de performance humana, biomecânica e biohacking. Integra dados de saúde offline (.csv) com o Conclave.
+icon: "🧪"
+type: personal_assistant
+version: 1.0.0
+main_skill: squads/lazarus/health/SKILL.md
+tags:
+  - health
+  - fitness
+  - nutrition
+  - lazarus
+  - personal

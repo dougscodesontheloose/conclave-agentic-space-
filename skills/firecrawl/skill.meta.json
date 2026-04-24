@@ -1,0 +1,12 @@
+{
+  "slug": "firecrawl",
+  "display_name": "Firecrawl Web Scraper",
+  "category": "capabilities",
+  "tags": ["research", "scraping", "web", "fallback", "javascript-rendering"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use firecrawl_scrape MCP tool (fallback only — try web_fetch first)"
+  }
+}

@@ -1,0 +1,95 @@
+# Quality Rubric — Conclave Agent & Step Validation Thresholds
+# Referenced by Build phase validation gates.
+# Single source of truth for min-count rules.
+
+agent_profiles:
+  thin:
+    min_lines: 40
+    required_sections:
+      - Persona
+      - Principles
+      - Integration
+    persona_subsections: [Role, Identity, Communication Style]
+    min_principles: 3
+    optional_sections: []
+    skip_sections:
+      - Operational Framework
+      - Voice Guidance
+      - Output Examples
+      - Anti-Patterns
+      - Quality Criteria
+
+  standard:
+    # Agents WITH tasks: — operational framework moves to task files
+    min_lines: 80
+    required_sections:
+      - Persona
+      - Principles
+      - Voice Guidance
+      - Anti-Patterns
+      - Quality Criteria
+      - Integration
+    persona_subsections: [Role, Identity, Communication Style]
+    min_principles: 6
+    voice_always_use_min: 5
+    voice_never_use_min: 3
+    tone_rules_min: 2
+    never_do_min: 4
+    always_do_min: 3
+    quality_criteria_min: 3
+    skip_sections:
+      - Operational Framework   # moves to task files
+      - Output Examples         # moves to task files
+
+  deep:
+    # Agents WITHOUT tasks: — all sections inline
+    min_lines: 100
+    required_sections:
+      - Persona
+      - Principles
+      - Operational Framework
+      - Voice Guidance
+      - Output Examples
+      - Anti-Patterns
+      - Quality Criteria
+      - Integration
+    persona_subsections: [Role, Identity, Communication Style]
+    min_principles: 6
+    min_process_steps: 5
+    min_decision_criteria: 3
+    voice_always_use_min: 5
+    voice_never_use_min: 3
+    tone_rules_min: 2
+    output_examples_min: 1
+    output_example_min_lines: 15
+    never_do_min: 4
+    always_do_min: 3
+    quality_criteria_min: 3
+
+task_files:
+  min_lines: 50
+  required_sections:
+    - Process
+    - Output Format
+    - Output Example
+    - Quality Criteria
+    - Veto Conditions
+  required_frontmatter: [task, order, input, output]
+  min_process_steps: 3
+  min_quality_criteria: 3
+  min_veto_conditions: 2
+  output_example_min_lines: 15
+
+step_files:
+  min_lines: 60
+  required_sections:
+    - Context Loading
+    - Instructions
+    - Output Format
+    - Veto Conditions
+    - Quality Criteria
+  optional_sections:
+    - Output Example    # advisory, non-blocking
+  min_process_steps: 3  # within Instructions.Process
+  min_veto_conditions: 2
+  checkpoint_sections: []  # checkpoints skip all section checks

@@ -1,0 +1,75 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Conclave: Menu",
+      "type": "shell",
+      "command": "/conclave menu",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: Init (scaffold in current folder)",
+      "type": "shell",
+      "command": "/conclave init",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: Where (show resolved paths)",
+      "type": "shell",
+      "command": "/conclave where",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: List Squads",
+      "type": "shell",
+      "command": "/conclave list",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: Skills",
+      "type": "shell",
+      "command": "/conclave skills",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: Dashboard",
+      "type": "shell",
+      "command": "/conclave dashboard",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Conclave: Run Refract",
+      "type": "shell",
+      "command": "/conclave run refract",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

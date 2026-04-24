@@ -1,0 +1,14 @@
+name: Data Ops
+code: data_ops
+description: Squad avançado para gestão do ciclo de vida completo de dados (criação, limpeza, engenharia, análise e envelopamento), focado em eficiência e clareza para stakeholders.
+icon: "📊"
+type: data_processing
+version: 1.0.0
+main_skill: squads/data_ops/repertoire/data-pipeline-standard.md
+tags:
+  - data
+  - analytics
+  - data-science
+  - bi
+  - sql
+  - python

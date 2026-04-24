@@ -1,0 +1,7 @@
+./agents/pietro-prompt.agent.md,Pietro Prompt,🎯,Engenheiro de Refinamento
+./agents/arquiteto.agent.md,Arquiteto,🏛️,Orquestrador de Demanda
+./agents/wade-web.agent.md,Wade Web,🌐,Dev Web (PWA/JS/TS/Three.js)
+./agents/pris-python.agent.md,Pris Python,🐍,Dev Python (backend/ML/scripts)
+./agents/sulu-swift.agent.md,Sulu Swift,🍎,Dev Swift (SwiftUI+SceneKit)
+./agents/dex-dotnet.agent.md,Dex Dotnet,🪟,Dev .NET (WinUI 3+Win2D)
+./agents/phasma-parity.agent.md,Phasma Parity,🔬,QA de Paridade Visual

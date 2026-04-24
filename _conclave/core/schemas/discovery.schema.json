@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "conclave/discovery.schema.json",
+  "title": "Discovery Phase Output",
+  "description": "Schema for squads/{code}/_build/discovery.yaml — output of Discovery phase.",
+  "type": "object",
+  "required": ["squad_code", "purpose", "domain", "language"],
+  "properties": {
+    "squad_code": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "URL-safe slug, unique across squads/"
+    },
+    "purpose":  { "type": "string", "minLength": 10 },
+    "domain":   { "type": "string", "enum": ["content", "research", "automation", "analysis", "mixed"] },
+    "language": { "type": "string" },
+    "company": {
+      "type": "object",
+      "properties": {
+        "name":     { "type": "string" },
+        "tone":     { "type": "string" },
+        "products": { "type": "string" }
+      }
+    },
+    "context":      { "type": "object" },
+    "tools_needed": { "type": "array", "items": { "type": "string" } },
+    "investigation": {
+      "type": "object",
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "profiles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url", "platform", "investigation_mode"],
+            "properties": {
+              "url":                { "type": "string" },
+              "platform":           { "type": "string", "enum": ["instagram", "youtube", "twitter", "linkedin"] },
+              "investigation_mode": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "target_formats": { "type": "array", "items": { "type": "string" } },
+    "template_used":  { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

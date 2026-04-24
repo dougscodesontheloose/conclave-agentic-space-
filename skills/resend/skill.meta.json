@@ -1,0 +1,12 @@
+{
+  "slug": "resend",
+  "display_name": "Resend Email",
+  "category": "capabilities",
+  "tags": ["email", "outreach", "communications", "transactional"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use the resend MCP tools"
+  }
+}

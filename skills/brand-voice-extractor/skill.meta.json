@@ -1,0 +1,12 @@
+{
+  "slug": "brand-voice-extractor",
+  "display_name": "Brand Voice Extractor",
+  "category": "capabilities",
+  "tags": ["competitive-intelligence", "brand", "research", "voice-analysis", "tone"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/brand-voice-extractor/SKILL.md"
+  }
+}

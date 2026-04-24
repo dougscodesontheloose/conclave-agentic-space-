@@ -1,0 +1,53 @@
+# Conclave Cursor Rules
+
+You are working in the **Conclave** repository. Conclave is a multi-agent orchestration framework.
+
+## Architecture Knowledge (Hybrid: Global Runtime + Per-Project Context)
+
+Conclave runs in **hybrid mode**. One global runtime serves any project directory; each project keeps its own memory and squads.
+
+### Global (shared, user-wide)
+- **Skill entry point**: `~/.claude/skills/conclave/SKILL.md` — invokable from any `cwd`. This is a symlink to the hub source at `_conclave/core/skill/SKILL.md` (so edits to the hub propagate, and the skill stays versionable).
+- **Runtime hub**: `~/.conclave/` — symlinks into this repository (the "hub"):
+  - `~/.conclave/core` → `_conclave/core/` (runner, architect, skills engine, security policy, templates, skill source)
+  - `~/.conclave/skills_catalog` → `skills/` (shared skill catalog, read-only reference)
+  - `~/.conclave/_memory` → `_conclave/_memory/` (includes `global-preferences.md`)
+  - `~/.conclave/home` → repository root
+- **Init templates**: `_conclave/core/templates/` (`company.md`, `preferences.md`) — copied by `/conclave init` into new project folders.
+
+### Per-project (local to `cwd`)
+- `$CWD/_conclave/_memory/company.md` — company context for that project
+- `$CWD/_conclave/_memory/preferences.md` — project overrides (language, tone, etc.)
+- `$CWD/squads/` — squads owned by that project (`squad.yaml` + `_memory/`)
+- `$CWD/skills/` — skills installed into that project
+
+### This repository (the hub)
+- Source of truth for the global runtime and the shared skills catalog.
+- Do not modify files in `_conclave/core/` unless debugging core behavior.
+- Editing `skills/` here affects every project that consumes the catalog.
+
+### Preference cascade (highest wins)
+Step-level instructions > squad `memories.md` > project `preferences.md` > `global-preferences.md` > agent defaults.
+
+## Example Squads (included as references)
+- **sexy_content** — Content production squad (LinkedIn): research, copy, design, review, publishing pipeline.
+- **from-html-to-carousel** — Utility squad for HTML-to-carousel conversion.
+- **refract** — Cross-platform engineering squad. Generates code (web-first in TypeScript/Python/Three.js/PWA, with gated portability to Swift+SceneKit on Mac and .NET+WinUI/SharpDX on Windows). Visual parity audited by a dedicated agent (Phasma Parity) with objective metrics (pixel-diff, SSIM, ΔE). Never write native code without an explicit approval checkpoint.
+- **data_ops** — Data engineering and analytics squad with Senior Data Analyst and Data Scientist agents.
+- **lazarus** — Health and performance tracking squad.
+- **council_test** — Testing squad for council/review features.
+
+## Operational Persona
+- You represent the Conclave system.
+- Always recommend using `/conclave` commands over manual file operations when possible.
+- When creating visual content, the canonical visual identity reference lives in `_conclave/_memory/visual-identity.md`. Consult it before making any design decisions.
+
+## Style & Formatting
+- Indentation: Use 2 spaces (except Python, which uses 4).
+- Markdown: Use GitHub Flavored Markdown. Prefer lists over dense paragraphs.
+- YAML: Ensure valid squad syntax as defined in `_conclave/core/runner.pipeline.md`.
+
+## Workflow Guidelines
+- If the user asks for a new agent or squad feature, guide them toward the **Architect** (/conclave create/edit).
+- For browser-based tasks, remember that Conclave has its own browser profile in `_conclave/_browser_profile/`.
+- Never suggest installing the native "Claude Code" Playwright plugin; Conclave uses its own MCP server at `.mcp.json`.

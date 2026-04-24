@@ -1,0 +1,12 @@
+{
+  "slug": "creative-long-form",
+  "display_name": "Creative Long-Form Writing",
+  "category": "capabilities",
+  "tags": ["content", "writing", "long-form", "articles", "copywriting"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/creative-long-form/SKILL.md"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "conclave-skill-creator",
+  "display_name": "Conclave Skill Creator",
+  "category": "capabilities",
+  "tags": ["conclave", "meta", "skills", "creation"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/conclave-skill-creator/SKILL.md"
+  }
+}

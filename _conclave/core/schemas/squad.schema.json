@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "conclave/squad.schema.json",
+  "title": "Squad Configuration",
+  "description": "Schema for squads/{code}/squad.yaml — validated by Gate -1 in warn mode.",
+  "type": "object",
+  "required": ["name", "code", "description", "icon", "version", "skills", "pipeline"],
+  "properties": {
+    "name":        { "type": "string", "minLength": 3 },
+    "code":        { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+    "description": { "type": "string", "minLength": 10 },
+    "icon":        { "type": "string" },
+    "version":     { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "data": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pipeline": {
+      "type": "object",
+      "required": ["steps"],
+      "properties": {
+        "steps": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

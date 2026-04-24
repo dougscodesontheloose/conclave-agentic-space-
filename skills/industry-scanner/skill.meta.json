@@ -1,0 +1,12 @@
+{
+  "slug": "industry-scanner",
+  "display_name": "Industry Scanner",
+  "category": "composites",
+  "tags": ["competitive-intelligence", "research", "industry-analysis", "strategy", "trends"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/industry-scanner/SKILL.md"
+  }
+}

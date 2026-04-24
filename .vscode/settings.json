@@ -1,0 +1,42 @@
+{
+  "chat.promptFilesLocations": [
+    ".github/prompts"
+  ],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.npm-cache": true,
+    "**/.puppeteer-cache": true,
+    "**/.nvm": true,
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "**/_conclave/_browser_profile": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/output": true,
+    "**/_browser_profile": true,
+    "**/.venv": true,
+    "**/_conclave/logs": true,
+    "**/squads/*/output": true,
+    "**/squads/*/_investigations": true
+  },
+  "editor.wordWrap": "on",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "on",
+      "strings": "on"
+    },
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "on"
+  },
+  "yaml.schemas": {
+    "http://json.schemastore.org/github-workflow": ".github/workflows/*.yaml",
+    "http://json.schemastore.org/package": "package.json"
+  },
+  "yaml.format.enable": true
+}

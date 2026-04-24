@@ -1,0 +1,12 @@
+{
+  "slug": "icp-profiler",
+  "display_name": "ICP Profiler",
+  "category": "capabilities",
+  "tags": ["research", "audience", "icp", "lead-generation", "strategy"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/icp-profiler/SKILL.md"
+  }
+}

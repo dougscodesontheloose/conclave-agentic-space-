@@ -1,0 +1,12 @@
+{
+  "slug": "image-ai-generator",
+  "display_name": "AI Image Generator",
+  "category": "capabilities",
+  "tags": ["design", "images", "ai-generation", "visual"],
+  "type": "script",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/image-ai-generator/SKILL.md"
+  }
+}

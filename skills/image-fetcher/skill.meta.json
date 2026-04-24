@@ -1,0 +1,12 @@
+{
+  "slug": "image-fetcher",
+  "display_name": "Image Fetcher",
+  "category": "capabilities",
+  "tags": ["research", "images", "web", "download", "scraping"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/image-fetcher/SKILL.md"
+  }
+}
