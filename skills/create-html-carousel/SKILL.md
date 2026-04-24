@@ -2,12 +2,12 @@
 name: create-html-carousel
 description: >
   Generates production-ready HTML carousels for LinkedIn (1080x1080px per slide).
-  Implements the "Poética Racional" design system — visual packages (Transparência Anatômica,
+  Implements the user's visual design system — visual packages (Transparência Anatômica,
   Arquitetura da Tensão, Telemetria & Cockpit, Brutalista Tecnológico, Soft Minimal Anthropic)
   with intentional palette crossings. Output is a single self-contained HTML file with all slides.
 description_pt-BR: >
   Gera carrosséis HTML prontos para LinkedIn (1080x1080px por slide).
-  Implementa o sistema de design "Poética Racional" — pacotes visuais com cruzamentos
+  Implementa o the user's visual design system — pacotes visuais com cruzamentos
   intencionais de paleta. Output: único arquivo HTML auto-contido com todos os slides.
 type: prompt
 version: "1.0.0"

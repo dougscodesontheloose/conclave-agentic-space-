@@ -13,7 +13,7 @@ model_tier: powerful
 
 Load these files before executing:
 - `squads/from-html-to-carousel/output/slide-copy.yaml` — Estrutura de dados aprovada do texto.
-- `_conclave/_memory/company.md` — Para resgatar elementos de nome de autor, ou brand se referenciada ("Poética Racional").
+- `_conclave/_memory/company.md` — Para resgatar elementos de nome de autor, ou brand se referenciada (the user's design system).
 - `squads/from-html-to-carousel/pipeline/data/research-brief.md` — Exigências de alto contraste e regras tipográficas visuais extraídas no design inicial.
 
 ## Instructions

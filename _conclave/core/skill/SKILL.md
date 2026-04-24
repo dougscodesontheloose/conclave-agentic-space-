@@ -36,10 +36,28 @@ On activation, perform these steps IN ORDER:
 
 1. Run `pwd` to determine `$CWD`.
 2. Check if `$CWD/_conclave/_memory/company.md` exists.
-   - **Exists** → load it, load `$CWD/_conclave/_memory/preferences.md`, load `$HOME/.conclave/core/security.policy.md`, then proceed to MAIN MENU.
+   - **Exists** → load it. Then run the **Environment Health Check** (step 2b). Then load `$CWD/_conclave/_memory/preferences.md`, load `$HOME/.conclave/core/security.policy.md`, and proceed to MAIN MENU.
    - **Missing** (no local `_conclave/` in cwd) → trigger INIT flow (below).
-3. Check `$HOME/.conclave/home/_conclave/core/intention_matrix.json` exists — if missing, run `reindex` script from the hub.
-4. Display the MAIN MENU.
+3. **2b. Environment Health Check** — detect unconfigured template files. Check each file below for its "still a template" marker:
+
+   | File | Template Marker | Status |
+   |---|---|---|
+   | `company.md` | Contains `<!-- NOT CONFIGURED -->` | ❌ Blocks everything |
+   | `preferences.md` | `**User Name:**` line is empty | ❌ Blocks language |
+   | `global-preferences.md` | Contains only `<!--` instructions, no actual rules | ⚠️ Agents use defaults |
+   | `visual-identity.md` | Contains only `<!--` instructions, no actual design data | ⚠️ Visual outputs generic |
+   | `visual-voice.md` | Contains only `<!--` instructions, no actual voice data | ⚠️ Design agents lack guidance |
+   | `linkedin-insights.md` | Section 1-4 all say `<!-- Fill after` | ✅ Optional |
+
+   **If ANY ❌ file is detected:** trigger the FIRST-RUN SETUP PIPELINE (`_conclave/core/first-run-setup.md`). This is a comprehensive guided onboarding that populates ALL files in sequence.
+
+   **If only ⚠️ files are detected:** inform the user once:
+   > "Some configuration files are still using defaults. Run `/conclave setup` anytime to complete your profile (visual identity, writing style, etc.)."
+
+   Then proceed to MAIN MENU.
+
+4. Check `$HOME/.conclave/home/_conclave/core/intention_matrix.json` exists — if missing, run `reindex` script from the hub.
+5. Display the MAIN MENU.
 
 ## Init Flow (`/conclave init` or auto-triggered)
 
@@ -55,10 +73,38 @@ If the user chooses "Initialize here":
 2. Copy template files from `$HOME/.conclave/core/templates/` (fallback: generate minimal stubs inline if the templates directory is missing):
    - `$HOME/.conclave/core/templates/company.md` → `$CWD/_conclave/_memory/company.md` (contains `<!-- NOT CONFIGURED -->` marker, which triggers onboarding)
    - `$HOME/.conclave/core/templates/preferences.md` → `$CWD/_conclave/_memory/preferences.md` (blank sections inherit from global)
-3. Trigger the ONBOARDING flow to fill `company.md`.
+3. Trigger the FIRST-RUN SETUP PIPELINE (`_conclave/core/first-run-setup.md`).
 4. Show the main menu.
 
-## Onboarding Flow (first time in a project)
+## First-Run Setup Pipeline
+
+**Entry point:** `_conclave/core/first-run-setup.md`
+
+This is a comprehensive, multi-phase guided setup that replaces the old simple onboarding. It covers:
+
+- **Phase 0:** Welcome, name, language, IDE preferences
+- **Phase 1:** Company/project profile (company.md) — with web research
+- **Phase 2:** Visual identity discovery (visual-identity.md, visual-voice.md) — interactive interview
+- **Phase 3:** Writing style & global preferences (global-preferences.md) — tone, rules, prohibitions
+- **Phase 4:** Social media insights (linkedin-insights.md) — optional audience data
+- **Phase 5:** Reference materials guidance (ref_visual_style/, ref_brand-style/) — optional
+- **Phase 6:** Squad configuration health check — validates all squad file references
+- **Phase 7:** Finalization — generates user-model.md, writes session log, shows summary
+
+Each phase has a checkpoint for user approval. Phases 4-5 can be skipped.
+
+Read the full pipeline at `_conclave/core/first-run-setup.md` before executing.
+
+### Re-running Setup
+
+The user can re-run any phase via:
+- `/conclave setup` — re-run the full setup pipeline
+- `/conclave edit-company` — re-run Phase 1 only
+- `/conclave settings` — re-run Phase 0 + Phase 3
+
+## Legacy Onboarding Flow (fallback)
+
+If `first-run-setup.md` is missing (e.g., older installations), fall back to the simple onboarding:
 
 If `company.md` is empty or contains `<!-- NOT CONFIGURED -->`:
 
@@ -100,6 +146,7 @@ Parse user input and route to the appropriate action:
 |---|---|
 | `/conclave` or `/conclave menu` | Show main menu |
 | `/conclave init` | Scaffold `_conclave/` in current directory |
+| `/conclave setup` | Run the First-Run Setup Pipeline (`first-run-setup.md`) — configure all profile files |
 | `/conclave help` | Show help text |
 | `/conclave create <description>` | Load Architect → Create Squad flow |
 | `/conclave list` | List all squads in `$CWD/squads/` |
@@ -109,7 +156,7 @@ Parse user input and route to the appropriate action:
 | `/conclave install <name>` | Install a skill from the catalog into `$CWD/skills/` |
 | `/conclave uninstall <name>` | Remove an installed skill from `$CWD/skills/` |
 | `/conclave delete <name>` | Confirm and delete squad directory |
-| `/conclave edit-company` | Re-run company profile setup |
+| `/conclave edit-company` | Re-run company profile setup (Phase 1 of first-run-setup) |
 | `/conclave show-company` | Display `company.md` contents |
 | `/conclave settings` | Show/edit `preferences.md` (project) or global |
 | `/conclave reset` | Confirm and reset project-local configuration |

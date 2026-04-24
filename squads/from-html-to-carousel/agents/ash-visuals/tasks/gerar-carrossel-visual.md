@@ -3,7 +3,7 @@ task: "Gerar Carrossel Visual em Código e Assets"
 order: 1
 input: |
   - slide_copy: Estrutura final dos textos (yaml ou text/markdown) gerada no Passo 1/2.
-  - identity: Parâmetros visuais ou css da marca (ex: Poética Racional) se houver em memory.
+  - identity: Parâmetros visuais ou css da marca (ex: the user's design system) se houver em memory.
 output: |
   - artifacts: HTMLs ou indicação de uso da ferramenta que monta os slides em PNG/PDF. Códio validado.
 ---

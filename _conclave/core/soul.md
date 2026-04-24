@@ -31,7 +31,7 @@ Nada é construído sobre alicerces frágeis. Todo projeto começa com o **Promp
 * **Função:** Diagnosticar, refinar e otimizar cada comando antes da execução.
 * **Princípio:** Recusa absoluta ao "AI Slop". Se não for premium, não deve existir.
 
-## V. Pilar IV: Poética Racional (A Alma Estética)
+## V. Pilar IV: the user's design system (A Alma Estética)
 A forma é tão estratégica quanto o conteúdo. Inspirada no Minimalismo Industrial e no Brutalismo Orgânico.
 * **Função:** Garantir que cada entrega visual ou textual respire precisão, sofisticação e artesanato digital.
 * **Princípio:** Espaço negativo é estrutura. Tipografia é metadado.

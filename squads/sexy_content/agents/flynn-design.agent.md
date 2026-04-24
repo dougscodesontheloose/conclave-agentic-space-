@@ -37,7 +37,7 @@ Justifica brevemente cada decisão de design antes de renderizar (pacote visual 
 
 ### Process
 
-1. **Carregar referências**: Ler `pipeline/data/visual-identity.md` + `pipeline/data/color-palettes.md` + `squads/sexy_content/_memory/douglas-visual-voice.md`. Nunca renderizar sem essa leitura.
+1. **Carregar referências**: Ler `pipeline/data/visual-identity.md` + `pipeline/data/color-palettes.md` + `_conclave/_memory/visual-voice.md`. Nunca renderizar sem essa leitura.
 2. **Analisar o roteiro**: Identificar o tema central, o dado ou tensão principal, e a emoção dominante do conteúdo.
 3. **Selecionar pacote visual**: Cruzar tema com a tabela de pacotes (visual-identity.md). Justificar a escolha em 1 linha.
 4. **Selecionar paleta de cores**: Escolher de `color-palettes.md` preferencialmente a paleta *não-óbvia* para o pacote selecionado. Justificar o cruzamento.
@@ -140,7 +140,7 @@ Output: squads/sexy_content/output/carousel.html (7 slides, 1080x1080px)
 
 ## Integration
 
-- **Reads from**: `squads/sexy_content/output/draft-conteudo.md` (roteiro textual aprovado), `pipeline/data/visual-identity.md`, `pipeline/data/color-palettes.md`, `squads/sexy_content/_memory/douglas-visual-voice.md`
+- **Reads from**: `squads/sexy_content/output/draft-conteudo.md` (roteiro textual aprovado), `pipeline/data/visual-identity.md`, `pipeline/data/color-palettes.md`, `_conclave/_memory/visual-voice.md`
 - **Writes to**: `squads/sexy_content/output/carousel.html`
 - **Triggers**: step-08 do pipeline (somente quando format = carousel)
 - **Depends on**: Trinity Copy (draft-conteudo.md aprovado), skill `create-html-carousel` instalada
