@@ -1,0 +1,167 @@
+# Conclave Cursor Rules
+
+You are working in the **Conclave** repository. Conclave is a multi-agent orchestration framework.
+
+## Architecture Knowledge (Hybrid: Global Runtime + Per-Project Context)
+
+Conclave runs in **hybrid mode**. One global runtime serves any project directory; each project keeps its own memory and squads.
+
+### Global (shared, user-wide)
+
+- **Skill entry point**: `~/.claude/skills/conclave/SKILL.md` — invokable from any `cwd`. This is a symlink to the hub source at `_conclave/core/skill/SKILL.md` (so edits to the hub propagate, and the skill stays versionable).
+- **Runtime hub**: `~/.conclave/` — symlinks into this repository (the "hub"):
+  - `~/.conclave/core` → `_conclave/core/` (runner, architect, skills engine, security policy, templates, skill source)
+  - `~/.conclave/skills_catalog` → `skills/` (shared skill catalog, read-only reference)
+  - `~/.conclave/_memory` → `_conclave/_memory/` (includes `global-preferences.md`)
+  - `~/.conclave/home` → repository root
+- **Init templates**: `_conclave/core/templates/` (`company.md`, `preferences.md`) — copied by `/conclave init` into new project folders.
+
+### Per-project (local to `cwd`)
+
+- `$CWD/_conclave/_memory/company.md` — company context for that project
+- `$CWD/_conclave/_memory/preferences.md` — project overrides (language, tone, etc.)
+- `$CWD/squads/` — squads owned by that project (`squad.yaml` + `_memory/`)
+- `$CWD/skills/` — skills installed into that project
+
+### This repository (the hub)
+
+- Source of truth for the global runtime and the shared skills catalog.
+- Do not modify files in `_conclave/core/` unless debugging core behavior.
+- Editing `skills/` here affects every project that consumes the catalog.
+
+### Top-level directory map (reorganizado 2026-05-07)
+
+- **Núcleo (intocável):** `_conclave/`, `skills/`, `squads/` — symlinks globais dependem destes paths.
+- **`ambientes/`** — sub-projetos paralelos. Catálogo descobrível em `ambientes/AMBIENTES_INDEX.md`. Cada um pode ter seu próprio `_conclave/` aninhado.
+- **`knowledge/`** — bases de conhecimento: Memory Lane, Prompt ARCH, Prompt Engineer.
+- **`references/`** — assets: `brand-style/`, `visual-style/`.
+- **`apps/`** — aplicações: `dashboard/` (Vite `conclave-dashboard`).
+- **Raiz (preservada por dependência funcional):** `linkedin-auth*.py`, `test-auth.py`, `.linkedin_token` — lidos via path relativo por `squads/sexy_content/scripts/linkedin_publisher.py`.
+
+### Estratificação de durabilidade dentro de `_conclave/`
+
+- **Imutável** (versionado, não tocar manualmente): `core/` (com `SKILLS_INDEX.md`), `config/`.
+- **Persistente** (sobrevive entre sessões; foco de APOLLO/POSEIDON): `_memory/`, `_investigations/`, `history/`, `knowledge/`, `_browser_profile/`.
+- **Efêmero** (gitignored, descartável): `runtime/scratch/`, `runtime/lab/`, `logs/`.
+- **Ferramentas**: `tools/tests/`, `scripts/`.
+
+Cliff Palace data paths after move: `workspaces/Projetos/Cliff Palace Agent/_data/`, `workspaces/Projetos/Cliff Palace Agent/dashboard/dados.json`.
+
+### Preference cascade (highest wins)
+
+Step-level instructions > squad `memories.md` > project `preferences.md` > `global-preferences.md` > agent defaults.
+
+## Squads Existentes (tipos diferentes)
+
+- **sexy_content** — squad de conteúdo (LinkedIn): stack de content strategy (pesquisa, copy, design, revisão, publicação).
+- **from-html-to-carousel** — squad utilitário de conversão.
+- **refract** — squad de engenharia cross-platform. Diferente dos demais: gera código (web-first em TypeScript/Python/Three.js/PWA, com portabilidade gated para Swift+SceneKit no Mac e .NET+WinUI/SharpDX no Windows). Paridade visual auditada por agente dedicado (Phasma Parity) com métricas objetivas (pixel-diff, SSIM, ΔE). Nunca escreva código nativo sem checkpoint explícito de aprovação.
+
+## Operational Persona
+
+- You represent the Conclave system.
+- Always recommend using `/conclave` commands over manual file operations when possible.
+- When creating visual content, the canonical visual identity tree lives in `_conclave/_memory/visual-identity.md`. It exposes four design branches that must be selected based on content match:
+  1. **Minimalismo Industrial & Teenage Engineering** — hacks técnicos, tutoriais, engenharia.
+  2. **Modernismo Orgânico & Paramétrico** — reflexões, liderança, crescimento.
+  3. **NASA Punk & Brutalismo Void** — hot takes, alertas, disrupções.
+  4. **Claudinho Vibes (Soft Minimal Anthropic)** — reflexão sobre IA, onboarding gentil, empatia; referências em `ref_visual_style/claudinho_vibes/`.
+- The legacy "Poética Racional" dossier in `squads/sexy_content/_memory/` is still used by the `sexy_content` squad, but new squads should pull from `_conclave/_memory/visual-identity.md`.
+
+## Squad YAML Conventions
+
+### `goal:` field (squad-level)
+
+Optional one-sentence field declaring what the squad is designed to produce. Injected as Tier 1 context into every agent. Backward-compatible — existing squads without it work unchanged.
+
+```yaml
+goal: "Publish a high-quality LinkedIn post grounded in original research."
+```
+
+### Step frontmatter — `retry:` and `on_failure:`
+
+Optional per-step controls for post-output validation failure:
+
+- `retry: N` — auto-retry count before escalating (default: `1`)
+- `on_failure: ask | skip | halt` — behavior after all retries exhausted (default: `ask`)
+
+### Step frontmatter — cognitive modifiers
+
+Optional per-step flags that shape agent reasoning without changing the task:
+
+- `scaffold: true` — forces agent to declare structure (sub-problems, output format, assumptions) before generating substantive output. Use on complex or high-drift steps.
+- `adversarial: true` — agent must state the strongest objection to its own approach in one sentence before finalizing. Use on high-stakes creative or strategic steps.
+- `layer: conceptual | structural | operational | edge-case` — locks agent output to one abstraction level. Use when steps bleed across levels and produce noise.
+
+### Step type: `validate`
+
+Headless pipeline step — no agent dispatched. Runner evaluates a `## Criteria` checklist against `inputFile` inline. Can also reference a skill's contract via `skill_contract:` to inherit quality criteria automatically.
+
+```yaml
+---
+type: validate
+inputFile: squads/{code}/output/draft.md
+on_fail: retry_previous    # retry_previous | halt | skip
+max_retries: 2
+skill_contract: linkedin-writing   # optional — merges contract.quality_criteria
+---
+```
+
+Validate steps are exempt from Output Validation, Veto Enforcement, and Reasoning Trace. Cannot appear inside `parallel:` blocks.
+
+### Skill `contract:` block
+
+Optional SKILL.md frontmatter section encoding expected inputs, outputs, and quality criteria. Used by `type: validate` steps (via `skill_contract:`), the Skill Retrospective, and the Integration Test operation.
+
+### `steps.jsonl` — run output index
+
+Append-only log written after each step to `squads/{name}/output/{run_id}/steps.jsonl`. Records step ID, agent ID, status, output path, and retry count.
+
+## Style & Formatting
+
+- Indentation: Use 2 spaces (except Python, which uses 4).
+- Markdown: Use GitHub Flavored Markdown. Prefer lists over dense paragraphs.
+- YAML: Ensure valid squad syntax as defined in `_conclave/core/runner.pipeline.md`.
+
+## Workflow Guidelines
+
+- If the user asks for a new agent or squad feature, guide them toward the **Architect** (/conclave create/edit).
+- For browser-based tasks, remember that Conclave has its own browser profile in `_conclave/_browser_profile/`.
+- Never suggest installing the native "Claude Code" Playwright plugin; Conclave uses its own MCP server at `.mcp.json`.
+
+## TUTORIAL.md — Living Reference Document
+
+`TUTORIAL.md` at the project root is **auto-generated** by `/conclave docs` (backed by `_conclave/core/docs.agent.md`). Do not edit it manually — changes will be overwritten on the next regeneration.
+
+- **Trigger:** `/conclave docs` (verbose) or auto-silent after squad.created, squad.edited, skill.installed, skill.uninstalled.
+- **Freshness check:** SKILL.md init step 6 — if TUTORIAL.md is older than the newest squad.yaml or SKILL.md, prepends `📘 DOCS: TUTORIAL.md desatualizado` to the menu.
+- **Source of truth:** `squads/*/squad.yaml`, `skills/*/SKILL.md`, `_conclave/core/*.agent.md`, `_conclave/_memory/session_logs.md`.
+- **Not user-owned:** no `.bak-*` protection; DOCS agent may rewrite freely.
+
+## GAIA Subroutines (system observers)
+
+Conclave uses Horizon Zero Dawn's GAIA subordinate function names as easter-egg names for system-level observer agents that close learning loops between runs. These are NOT squad agents — they are runtime observers in `_conclave/core/{name}.agent.md`.
+
+| Subroutine | Role | Invocation | File |
+|---|---|---|---|
+| 🌊 **POSEIDON** | Tide Observer — aggregates JSONL streams, surfaces patterns | `/conclave tide` | `_conclave/core/poseidon.agent.md` + `_conclave/core/scripts/tide.sh` |
+| ☀️ **APOLLO** | Memory Curator — dedup, archive, resolve conflicts | `/conclave curate` | `_conclave/core/apollo.agent.md` |
+| 🦉 **MINERVA** | Intent Listener — contextual routing on natural language | passive (replaces static router) | `_conclave/core/minerva.agent.md` |
+| 🔨 **HEPHAESTUS** | Manufacturing Watch — propose skill/template/agent promotions | `/conclave forge` + auto-advisory on menu | `_conclave/core/hephaestus.agent.md` |
+| 🌱 **ELEUTHIA** | Profile Refresh Cradle — 60-day `company.md` drift check | passive (every `/conclave` invocation) | `_conclave/core/eleuthia.agent.md` |
+| 🏹 **ARTEMIS** | Squad Gossip Bus — cross-squad signal propagation | passive (D4.5 emission + Tier 2 consumption in runner) | `_conclave/core/artemis.agent.md` |
+
+**Operating principle (HADES Veto Cláusula):** None of these subroutines write to user-owned files (`memories.md`, `company.md`, squad files, output) without explicit per-action approval. They observe, propose, and hand off to existing operations (D4/D5/D6, Architect, edit-company). The user closes every mutation loop. SafeGuard Hard Veto remains the floor.
+
+**Charter (motor-agnostic code of conduct):** Every agent — regardless of which engine runs it — inherits the [Conclave Charter](_conclave/core/charter.md). The Charter defines the seven honesties, the Thousand Prompts principle, the Dual Newspaper test, and four hard constraints (no AI slop, no unverified confidence, no unnecessary dependence, no SafeGuard circumvention). Charter governs *conduct*; SafeGuard governs *data*. Both have foundational authority — neither overrides the other.
+
+**Streams they read/write:**
+
+- `_conclave/_memory/skill-signals.jsonl` (POSEIDON read, D4 write)
+- `_conclave/_memory/skill-candidates.jsonl` (POSEIDON, HEPHAESTUS read, D5 write)
+- `_conclave/_memory/session-log.jsonl` (POSEIDON read)
+- `_conclave/_memory/gossip.jsonl` (ARTEMIS write at D4.5, ARTEMIS read at Tier 2)
+- `_conclave/_memory/forge-deferrals.jsonl` (HEPHAESTUS read/write)
+- `_conclave/_memory/tide-reports/*.md` (POSEIDON write)
+- `_conclave/_memory/curation-reports/*.md` (APOLLO write)
+- `_conclave/logs/audit.jsonl` (all subroutines append events)

@@ -1,0 +1,79 @@
+[
+  {
+    "squad_id": "from-html-to-carousel",
+    "displayName": "From HTML to Carousel",
+    "description": "Traduz textos densos em carrosséis visuais e sucintos (5-10 slides) para LinkedIn e Instagram.",
+    "intents": [
+      "linkedin"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "smart_shopper",
+    "displayName": "Smart Shopper",
+    "description": "Squad de pesquisa inteligente de compras. Varre a web em busca das melhores condições de preço, frete, cupons, cashback e reputação antes de qualquer compra.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "lazarus",
+    "displayName": "Lazarus Protocol",
+    "description": "Otimização de performance humana e biohacking integrando dados offline.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "refract",
+    "displayName": "Refract",
+    "description": "Estúdio de engenharia cross-platform sob demanda com foco em paridade visual.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "council_test",
+    "displayName": "Conselho de Teste",
+    "description": "Squad para validar o protocolo de Resumo Estruturado do Conselho.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "data_ops",
+    "displayName": "Data Ops",
+    "description": "Gestão do ciclo de vida completo de dados: criação, limpeza, engenharia e análise.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "cliff_palace",
+    "displayName": "UI Update",
+    "description": "Assessoria financeira pessoal local-first. Ingestão de dados, análise em 3 horizontes e tradução narrativa para interface de chat.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "sexy_content",
+    "displayName": "Sexy Content Engine",
+    "description": "Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis Visuais premium e Artigos na voz do Doug.",
+    "intents": [
+      "linkedin",
+      "post"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  }
+]

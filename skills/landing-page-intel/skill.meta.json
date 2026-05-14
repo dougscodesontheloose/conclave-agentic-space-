@@ -1,0 +1,12 @@
+{
+  "slug": "landing-page-intel",
+  "display_name": "Landing Page Intel",
+  "category": "capabilities",
+  "tags": ["competitive-intelligence", "landing-pages", "copy-analysis", "conversion", "research"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/landing-page-intel/SKILL.md"
+  }
+}

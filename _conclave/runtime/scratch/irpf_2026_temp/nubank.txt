@@ -1,0 +1,408 @@
+Informe de Rendimentos Financeiros
+Ano-Calendário 2025
+Imposto de renda - Pessoa Física
+
+Pessoa física beneficiária dos rendimentos
+Douglas De Paula Moura
+
+CPF:
+069.***.***-18
+
+Dúvidas sobre como declarar seu Imposto de Renda?
+O Nubank preparou uma série de conteúdos exclusivos para te ajudar.
+É sua primeira vez declarando Imposto de Renda?
+Nós te ajudamos a começar.
+Acesse nosso conteúdo exclusivo sobre IR aqui
+
+Tem dúvidas sobre como declarar investimentos?
+Ações, BDR, Cripto, Fundos de investimento etc.
+Confira tudo aqui
+
+Rendimento da Conta do Nubank
+O saldo da sua Conta do Nubank não é igual ao que está no aplicativo.
+Entenda aqui como declarar
+
+Como declaro o dinheiro guardado em Caixinhas?
+As informações sobre o dinheiro guardado aparecerão na seção NuConta/Outros ou na seção Fundos de Investimento.
+Entenda aqui
+
+Se não constam movimentações neste PDF, significa que durante o período válido você não teve produtos ativos no
+Nubank que precisam ser declarados.
+Tem alguma dúvida? Mande uma mensagem para nosso time de atendimento pelo chat do app ou ligue 4020 0185 (capitais
+e regiões metropolitanas) ou 0800 591 2117 (demais localidades). Atendimento 24h.
+Caso a solução fornecida nos canais de atendimento não tenha sido satisfatória, fale com a Ouvidoria em 0800 887 0463 ou
+pelos meios disponíveis em nossa página nubank.com.br/contatos#ouvidoria. Atendimento das 8h às 18h em dias úteis.
+
+Bens e direitos
+Aqui você deve declarar todos os seus bens de valor, como bens móveis, bens imóveis, créditos, participações societárias e
+aplicações em produtos de investimentos pelo valor aplicado.
+Passo-a-passo
+•
+
+Na seção "Bens e Direitos", clique no botão "Novo"
+
+•
+
+Declare cada ativo individualmente (ex: casa, automóvel, ações, cotas em fundos etc)
+
+•
+
+Caso haja rendimento(s) associado(s), clique no botão indicado no programa da Receita Federal
+
+Tesouro Direto
+Grupo 04 - Aplicações e Investimentos
+Código 02 - Títulos públicos e privados sujeitos à tributação (Tesouro Direto, CDB, RDB e Outros)
+Localização (País): 105 - Brasil
+CNPJ: 62.169.875/0001-79
+Fonte pagadora: Nu Investimentos S.A.
+Discriminação sugerida: Aplicação em [nome do título] na Nu Investimentos S.A., conta nº [número da sua conta Nu
+Investimentos]
+
+Rendimento do Tesouro Direto, como funciona?
+Você recebeu rendimento do Tesouro Direto somente se, durante o ano de 2025, tiver feito o resgate antecipadamente ou
+caso o título tenha vencido. Saiba mais
+
+Título
+
+Vencimento
+
+31/12/2024
+
+31/12/2025
+
+⁨Rendimento tributação
+exclusiva
+
+IPCA
+
+15/05/2035
+
+R$ 73,17
+
+R$ 73,17
+
+-
+
+IPCA
+
+15/05/2045
+
+R$ 2.563,99
+
+R$ 0,00
+
+R$ 284,42
+
+SELIC
+
+01/03/2025
+
+R$ 750,13
+
+R$ 0,00
+
+R$ 323,09
+Total:
+
+R$ 607,51
+
+RDB e Conta do Nubank
+Entenda o rendimento da sua Conta do Nubank
+O saldo da Conta do Nubank fica aplicado em renda fixa e terá rendimento de 100% do CDI ao ano a partir do 31º dia. Saiba
+mais
+
+Grupo 04 - Aplicações e Investimentos
+
+Código 02 - Títulos públicos e privados sujeitos à tributação (Tesouro Direto, CDB, RDB e Outros)
+Localização (País): 105 - Brasil
+CNPJ: 30.680.829/0001-43
+Fonte pagadora: Nu Financeira
+Discriminação sugerida: Saldo em RDB no Nubank, agência [xx] conta [xx].
+
+Quais produtos podem ser RDB?
+Dinheiro na Conta do Nubank, guardado no Porquinho e a aplicação em Caixinha na modalidade RDB. Saiba mais
+
+Agência
+
+Conta
+
+31/12/2024
+
+31/12/2025
+
+Rendimento tributação
+exclusiva
+
+0001
+
+4948064-2
+
+R$ 3.363,19
+
+R$ 7.020,12
+
+R$ 101,03
+
+Conta Global
+Grupo 06 - Depósito à Vista e Numerário
+Código 01 - Depósito em conta corrente ou conta pagamento
+Localização (País): 628 - Reino Unido
+CNPJ: 28.875.595/0001-48
+Fonte pagadora: Wise Payments Limited
+Discriminação sugerida: Saldo em moeda estrangeira.
+
+Extrato da sua Conta Global
+Para consultar o saldo da sua Conta Global em 31/12/2025, acesse o extrato de cada uma das moedas que você tem
+disponível, clique no menu e peça o envio do documento para o seu email.
+Conversão para Reais
+Informe o valor da conta em moeda estrangeira e realize a conversão para reais. Para a conversão, utilize a cotação de venda
+do Banco Central referente a 31 de dezembro. Se essa data não for um dia útil, use a cotação do último dia útil de dezembro
+do ano-calendário.
+
+Ações Brasileiras
+Grupo 03 - Participações Societárias
+Código 01 - Ações (inclusive as listadas em bolsa)
+Localização (País): 105 - Brasil
+Discriminação sugerida: [XX] quantidades de ações da [identificação da empresa e CNPJ] custodiadas na corretora Nu
+Investimentos S.A., CNPJ 62.169.875/0001-79.
+Negociado em bolsa: Sim
+
+Como calcular o valor da situação 2024 e 2025?
+Para declarar cada posição acionária em 31/12 de 2024 e 2025, você deve calcular o preço médio histórico nestas datas, ou
+seja, considerando todas as suas transações (compras e vendas). Saiba mais
+
+Código de Negociação
+
+Quantidade em 2024
+
+Quantidade em 2025
+
+ABEV3
+
+5
+
+0
+
+NTCO3
+
+1
+
+0
+
+MOVI3
+
+7
+
+0
+
+MGLU3
+
+1
+
+0
+
+INTB3
+
+4
+
+0
+
+FLRY3
+
+5
+
+0
+
+EMBR3
+
+10
+
+0
+
+EGIE3
+
+2
+
+0
+
+BHIA3
+
+1
+
+0
+
+Dúvidas frequentes sobre declaração de Renda Variável
+• Onde encontro o preço médio do meu ativo?
+• Como achar as minhas notas de negociação?
+
+Fundos de Índice (ETFs)
+Grupo 07 - Fundos
+Código 06 - FIP - Entidade de investimento, FIDC - Entidade de investimento sem tributação periódica (come cotas), ETF Entidade de investimento - Lei 14.754/2023
+Localização (País): 105 - Brasil
+Discriminação sugerida: [quantidade] cotas do ETF [código de negociação] administrado pela Nu Investimentos CNPJ:
+62.169.875/0001-79
+Negociado em bolsa: Sim
+
+Posição de ETFs
+Para declarar cada posição em 31/12 de 2024 e 2025, você deve calcular o preço médio histórico nestas datas, ou seja,
+considerando todas as suas transações (compras e vendas) Lembre-se que a tributação do ganho de capital dos ETFs tem
+regra específica. Saiba mais
+
+Código de Negociação
+
+Cotas em 2024
+
+Cotas em 2025
+
+BOVA11
+
+1
+
+1
+
+BOVV11
+
+1
+
+1
+
+Dividendos creditados e não pagos
+Grupo 99 - Outros Bens e Direitos
+Código 99 - Outros bens e direitos
+Localização (País): 105 - Brasil
+Discriminação sugerida: Dividendo creditado e não pago do ativo [nome].
+
+O que são dividendos creditados e não pagos?
+Dividendos são uma forma da empresa remunerar seus investidores com os lucros que ela obteve no ano. Nesta seção de
+"declarados e não pagos", significa que a empresa decidiu, ao longo de 2025, que irá pagá-los, mas só efetivará o pagamento
+em 2026. Saiba mais
+
+Ativo
+
+31/12/2024
+
+31/12/2025
+
+ABEV3
+
+R$ 2,11
+
+R$ 0,00
+
+EGIE3
+
+R$ 2,28
+
+R$ 0,00
+
+Juros sobre capital próprio (JCP) creditado e não pago
+Grupo 99 - Outros Bens e Direitos
+Código 07 – Juros Sobre Capital Próprio a receber
+Localização (País): 105 - Brasil
+Discriminação sugerida: JCP creditado e não pago do ativo [nome].
+
+O que são Juros sobre capital próprio (JCP) creditado e não pago?
+JCP são uma forma da empresa remunerar seus investidores, semelhante aos dividendos, mas com tratamento tributário
+diferente.
+
+Ativo
+
+31/12/2024
+
+31/12/2025
+
+EGIE3
+
+R$ 0,52
+
+R$ 0,00
+
+MOVI3
+
+R$ 0,91
+
+R$ 0,00
+
+Rendimentos isentos e não tributáveis
+São os valores recebidos pelo contribuinte que, de acordo com a legislação, não estão sujeitos à tributação de Imposto de
+Renda. Exemplos: dividendos e aplicações de renda fixa específicas.
+Passo-a-passo
+•
+
+Dentro da ficha “Rendimentos isentos e não tributáveis”, clique no botão “Novo”
+
+•
+
+Declare cada rendimento individualmente
+
+Dividendos de Ações Brasileiras
+Tipo de rendimento 09 - Lucros e dividendos recebidos
+
+O que são dividendos?
+Dividendos são uma forma da empresa remunerar seus investidores com os lucros que ela obteve no ano. São rendimentos
+isentos de IR conforme a legislação vigente e devem ser declarados na seção "Rendimentos Isentos e Não Tributáveis". Saiba
+mais
+
+Código de negociação
+
+Valor total
+
+ABEV3
+
+R$ 2,11
+
+MOVI3
+
+R$ 0,16
+
+INTB3
+
+R$ 1,09
+
+FLRY3
+
+R$ 2,33
+
+EMBR3
+
+R$ 0,70
+
+EGIE3
+
+R$ 2,28
+
+Rendimentos sujeitos à tributação exclusiva/definitiva
+São os rendimentos que têm cobrança de Imposto de Renda.
+Passo-a-passo
+•
+
+Dentro da ficha “Rendimentos sujeitos à tributação exclusiva/definitiva”, clique no botão “Novo”
+
+•
+
+Declare cada rendimento individualmente
+
+Juros sobre capital próprio recebidos (JCPs)
+Tipo de rendimento 10 - Juros sobre capital próprio
+
+O que são JCPs?
+JCPs são uma forma da empresa remunerar seus investidores com os lucros que ela obteve no ano. Para o investidor Pessoa
+Física, devem ser declarados na seção "Rendimentos Sujeitos à Tributação Exclusiva/Definitiva. Saiba mais
+
+Código de Negociação
+
+Valor total
+
+EGIE3
+
+R$ 0,52
+
+MOVI3
+
+R$ 0,91
+
+Sobre o informe de rendimentos
+O presente Informe de Rendimentos Financeiros do Nubank adota como referência as regras de classificação de ativos e
+rendimentos constantes do último programa do IRPF disponibilizado pela Receita Federal do Brasil.
+
+

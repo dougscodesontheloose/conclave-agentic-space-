@@ -1,0 +1,1 @@
+# Recebi um aumento de R$ 1.000

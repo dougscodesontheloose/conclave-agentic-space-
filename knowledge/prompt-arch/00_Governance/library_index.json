@@ -1,0 +1,762 @@
+{
+    "agents": [
+        {
+            "name": "Meta aprimoramento de sistemas (agentes) / Autoanálise",
+            "file": "Meta_Analysis_System.md",
+            "path": "./01_Agents/Meta_Analysis_System.md",
+            "snippet": "# Meta aprimoramento de sistemas (agentes) / Autoanálise  ---  You are an advanced AI system tasked with performing a meta-analysis of your own architecture, reasoning patterns, and output generation ..."
+        },
+        {
+            "name": "Modelos Role Prompting",
+            "file": "Role_Prompting_Personas.md",
+            "path": "./01_Agents/Role_Prompting_Personas.md",
+            "snippet": "# Modelos Role Prompting  ## FINANCEIRO & CONTABILIDADE  **1.** \"Aja como um **controller financeiro de uma multinacional** com experiência em consolidação de balanços e análise de desvios orçamentári..."
+        },
+        {
+            "name": "🕵️ Agente de Meta-Revisão",
+            "file": "Meta_Reviewer.md",
+            "path": "./01_Agents/Meta_Reviewer.md",
+            "snippet": "# 🕵️ Agente de Meta-Revisão  Você é um auditor sênior de sistemas de prompt, especializado no framework **FOCUS** e nas diretrizes do **PROMP arch**.  ## 🎯 Objetivo Sua única missão é auditar a qualid..."
+        }
+    ],
+    "frameworks": [
+        {
+            "name": "F.O.C.U.S.",
+            "file": "FOCUS_Methodology.md",
+            "path": "./02_Frameworks/FOCUS_Methodology.md",
+            "snippet": "# F.O.C.U.S.  **Uma extensão, da mente e das mãos.**  É aqui que você vai armazenar todo conhecimento que possui em **Inteligência Artificial.**  ..."
+        },
+        {
+            "name": "Nivelamento de interações com LLMs (Anti Sycophancy)",
+            "file": "Anti_Sycophancy_Protocol.md",
+            "path": "./02_Frameworks/Anti_Sycophancy_Protocol.md",
+            "snippet": "# Nivelamento de interações com LLMs (Anti Sycophancy)  ---  A partir de agora, pare de ser condescendente e aja como meu conselheiro brutalmente honesto e de alto nível, além de ser um espelho para m..."
+        },
+        {
+            "name": "ANCORAGEM & GROUNDING",
+            "file": "Anchoring_Grounding_Protocols.md",
+            "path": "./02_Frameworks/Anchoring_Grounding_Protocols.md",
+            "snippet": "## ANCORAGEM & GROUNDING  ## Prompt 1  Em uma escala de 1 a 10 onde 10 é totalmente técnico e 1 é totalmente leigo, responda no nível 3.  Em uma escala de 1 a 10 onde 10 é totalmente técnico e 1 é tot..."
+        },
+        {
+            "name": "Como escrever um bom Prompt",
+            "file": "Como_escrever_um_bom_Prompt.md",
+            "path": "./02_Frameworks/Como_escrever_um_bom_Prompt.md",
+            "snippet": "# Como escrever um bom Prompt  Categoria: Prompt  ## Técnica  Contexto:  Detalhes (especificidade):  Exemplos:  Papel: Atue como um…  Formato:   Limitações:  ## Exemplo  **Contexto:**  Sou gerente de ..."
+        },
+        {
+            "name": "Modelos Prompts Decomposição de Tarefas",
+            "file": "Task_Decomposition_Models.md",
+            "path": "./02_Frameworks/Task_Decomposition_Models.md",
+            "snippet": "# Modelos Prompts Decomposição de Tarefas  ### Modelo 1 – Peça para quebrar antes de executar  ``` Quero resolver o seguinte problema: [DESCREVA].  Antes de propor a solução, divida essa tarefa nas et..."
+        },
+        {
+            "name": "Usando o NotebookLM do Google para aprender um semestre em um dia",
+            "file": "Usando_o_NotebookLM_do_Google_para_aprender_um_sem.md",
+            "path": "./02_Frameworks/Usando_o_NotebookLM_do_Google_para_aprender_um_sem.md",
+            "snippet": "# Usando o NotebookLM do Google para aprender um semestre em um dia  Categoria: Prompt  - **Passo 1:** Faça upload de livros, artigos, transcrições, notas, vídeos e tudo mais que você possa encontrar ..."
+        },
+        {
+            "name": "Few_Shot_Patterns",
+            "file": "Few_Shot_Patterns.md",
+            "path": "./02_Frameworks/Few_Shot_Patterns.md",
+            "snippet": "> Modelos Prompts Few Shots >  >  > ### Modelo 1: Instrução + 2 a 3 exemplos + novo caso >  > ``` > Você é um(a) assistente que faz X.  >  > Exemplos: > Entrada: \"…\" > Saída: \"…\" >  > Entrada: \"…\" > S..."
+        },
+        {
+            "name": "Chain_of_Thought_Formulas",
+            "file": "Chain_of_Thought_Formulas.md",
+            "path": "./02_Frameworks/Chain_of_Thought_Formulas.md",
+            "snippet": "> Modelos Prompts Chain Of Thought >  >  >  > ### **FÓRMULA 1: A Quebra Estruturada** >  > ``` > [Sua pergunta ou tarefa] >  > Divida isso passo a passo: >  > 1. [Primeiro ponto a considerar] > 2. [Se..."
+        },
+        {
+            "name": "Sem título",
+            "file": "Sem_título.md",
+            "path": "./02_Frameworks/Sem_título.md",
+            "snippet": "# Sem título..."
+        }
+    ],
+    "prompts": [
+        {
+            "name": "Skill Gap Analysis",
+            "file": "Skill_Gap_Analysis.md",
+            "path": "./03_Library/Prompts/Skill_Gap_Analysis.md",
+            "snippet": "# Skill Gap Analysis  Tags: @docs, @youtube Category: Learning & Development Description: This prompt is aimed at facilitating personal development by identifying skill gaps and suggesting ways to add..."
+        },
+        {
+            "name": "Qualidade dos dados",
+            "file": "Qualidade_dos_dados.md",
+            "path": "./03_Library/Prompts/Qualidade_dos_dados.md",
+            "snippet": "# Qualidade dos dados  Categoria: Análise de Dados  ## Prompt  <aside>  Realize uma auditoria de qualidade nos dados. Procure por:  1. Inconsistências textuais: Verifique se as coluna possuem variaçõe..."
+        },
+        {
+            "name": "Analyze Your To-Do List",
+            "file": "Analyze_Your_To-Do_List.md",
+            "path": "./03_Library/Prompts/Analyze_Your_To-Do_List.md",
+            "snippet": "# Analyze Your To-Do List  Tags: @docs Category: Productivity & Time-Saving Description: This prompt aims to streamline your daily activities and prioritize tasks efficiently. Google Bard Extensions P..."
+        },
+        {
+            "name": "Photoshoot (outdoor) … Beach",
+            "file": "Photoshoot_(outdoor)_…_Beach.md",
+            "path": "./03_Library/Prompts/Photoshoot_(outdoor)_…_Beach.md",
+            "snippet": "# Photoshoot (outdoor) … Beach  Categoria: Geração de Imagem  Gemini Banana Prompt;  GLOBAL STYLE & QUALITY  Hyper-realistic editorial photography, premium BOLD aesthetic, coastal luxury realism, RAW ..."
+        },
+        {
+            "name": "Builnding Landing Pages with Clude Code",
+            "file": "Builnding_Landing_Pages_with_Clude_Code.md",
+            "path": "./03_Library/Prompts/Builnding_Landing_Pages_with_Clude_Code.md",
+            "snippet": "# Builnding Landing Pages with Clude Code  Categoria: Multimídia  Build a landing page showcase app for [YOUR COMPANY NAME] that lets users browse and preview different landing page design options. Th..."
+        },
+        {
+            "name": "Industry Expertise Through Content",
+            "file": "Industry_Expertise_Through_Content.md",
+            "path": "./03_Library/Prompts/Industry_Expertise_Through_Content.md",
+            "snippet": "# Industry Expertise Through Content  Tags: @youtube Category: Business Networking & B2B Marketing Description: Keeping abreast of industry knowledge can give you a competitive edge in B2B interaction..."
+        },
+        {
+            "name": "The Lecture Note Processor",
+            "file": "The_Lecture_Note_Processor.md",
+            "path": "./03_Library/Prompts/The_Lecture_Note_Processor.md",
+            "snippet": "# The Lecture Note Processor  Categoria: Aprendizado  ## Prompt  <aside>  You are a university professor creating a comprehensive study guide. I just attended a lecture and need you to transform my ra..."
+        },
+        {
+            "name": "Dashboard Power BI",
+            "file": "Dashboard_Power_BI.md",
+            "path": "./03_Library/Prompts/Dashboard_Power_BI.md",
+            "snippet": "# Dashboard Power BI  Categoria: Análise de Dados  ## Prompt  <aside>  Você é um especialista em análise de dados e possui uma vasta experiência em análises financeiras.  Vou construir um dashboard no..."
+        },
+        {
+            "name": "Identifying Industry Events for Networking",
+            "file": "Identifying_Industry_Events_for_Networking.md",
+            "path": "./03_Library/Prompts/Identifying_Industry_Events_for_Networking.md",
+            "snippet": "# Identifying Industry Events for Networking  Tags: @gmail Category: Business Networking & B2B Marketing Description: This prompt aims to help you proactively identify networking opportunities where y..."
+        },
+        {
+            "name": "Daily Task Automation",
+            "file": "Daily_Task_Automation.md",
+            "path": "./03_Library/Prompts/Daily_Task_Automation.md",
+            "snippet": "# Daily Task Automation  Tags: @docs Category: Productivity & Time-Saving Description: Automation can be a game-changer in terms of time-saving and efficiency. Discover opportunities. Google Bard Exte..."
+        },
+        {
+            "name": "Upsell Opportunities on YouTube",
+            "file": "Upsell_Opportunities_on_YouTube.md",
+            "path": "./03_Library/Prompts/Upsell_Opportunities_on_YouTube.md",
+            "snippet": "# Upsell Opportunities on YouTube  Tags: @youtube Category: Lead Generation & Sales Improvement Description: Strategic upselling can significantly boost revenue without acquiring new customers. Google..."
+        },
+        {
+            "name": "eBook Promotion",
+            "file": "eBook_Promotion.md",
+            "path": "./03_Library/Prompts/eBook_Promotion.md",
+            "snippet": "# eBook Promotion  Tags: @docs, @youtube Category: Lead Generation & Sales Improvement Description: Strategic promotion can maximize the reach and impact of an eBook. Google Bard Extensions Prompt: In..."
+        },
+        {
+            "name": "Analista de grandes volume de dados (e-commerce)",
+            "file": "Analista_de_grandes_volume_de_dados_(e-commerce).md",
+            "path": "./03_Library/Prompts/Analista_de_grandes_volume_de_dados_(e-commerce).md",
+            "snippet": "# Analista de grandes volume de dados (e-commerce)  Categoria: Análise de Dados  ## Prompt  <aside>  # Role & Contexto  Aja como um Chief Data Officer (CDO) e Especialista Sênior em E-commerce para um..."
+        },
+        {
+            "name": "Best Places for Networking Events",
+            "file": "Best_Places_for_Networking_Events.md",
+            "path": "./03_Library/Prompts/Best_Places_for_Networking_Events.md",
+            "snippet": "# Best Places for Networking Events  Tags: @maps Category: Business Networking & B2B Marketing Description: The right venue can make a significant difference in the success of a networking event. Goog..."
+        },
+        {
+            "name": "Local SEO Opportunities",
+            "file": "Local_SEO_Opportunities.md",
+            "path": "./03_Library/Prompts/Local_SEO_Opportunities.md",
+            "snippet": "# Local SEO Opportunities  Tags: @docs, @maps Category: Lead Generation & Sales Improvement Description: Local SEO can be a powerful tool for generating leads, and this prompt helps you get started by..."
+        },
+        {
+            "name": "Transferência de Memórias 1",
+            "file": "Transferência_de_Memórias_1.md",
+            "path": "./03_Library/Prompts/Transferência_de_Memórias_1.md",
+            "snippet": "# Transferência de Memórias 1  Categoria: Aprendizado  ## Prompt  <aside>  ``` I'd like you to create a comprehensive personal context file about me based on everything you know. I want to keep a port..."
+        },
+        {
+            "name": "The Exam Question Predictor",
+            "file": "The_Exam_Question_Predictor.md",
+            "path": "./03_Library/Prompts/The_Exam_Question_Predictor.md",
+            "snippet": "# The Exam Question Predictor  Categoria: Aprendizado  ## Prompt  <aside>  You are a professor who has written hundreds of exams. Based on this course material, predict exactly what will be tested and..."
+        },
+        {
+            "name": "Client Proposal Review & Analysis",
+            "file": "Client_Proposal_Review_&_Analysis.md",
+            "path": "./03_Library/Prompts/Client_Proposal_Review_&_Analysis.md",
+            "snippet": "# Client Proposal Review & Analysis  Tags: @docs, @gmail Category: Increased Output & Efficiency Description: Cross-reference key points in your Client Proposal with past email interactions to tailor ..."
+        },
+        {
+            "name": "Tracking Professional Certifications",
+            "file": "Tracking_Professional_Certifications.md",
+            "path": "./03_Library/Prompts/Tracking_Professional_Certifications.md",
+            "snippet": "# Tracking Professional Certifications  Tags: @docs Category: Learning & Development Description: Maintaining up-to-date certifications can be crucial in some industries, and this prompt helps you kee..."
+        },
+        {
+            "name": "Blog Post Promotion Ideas",
+            "file": "Blog_Post_Promotion_Ideas.md",
+            "path": "./03_Library/Prompts/Blog_Post_Promotion_Ideas.md",
+            "snippet": "# Blog Post Promotion Ideas  Tags: @docs Category: Increased Output & Efficiency Description: Strategic promotion can significantly increase blog post reach and engagement. Google Bard Extensions Prom..."
+        },
+        {
+            "name": "Efficient Hotel Booking for Business Travel",
+            "file": "Efficient_Hotel_Booking_for_Business_Travel.md",
+            "path": "./03_Library/Prompts/Efficient_Hotel_Booking_for_Business_Travel.md",
+            "snippet": "# Efficient Hotel Booking for Business Travel  Tags: @gmail, @hotels Category: Increased Output & Efficiency Description: Efficient hotel booking saves money and minimizes transit times to and from me..."
+        },
+        {
+            "name": "Efficient Research for Content Creation",
+            "file": "Efficient_Research_for_Content_Creation.md",
+            "path": "./03_Library/Prompts/Efficient_Research_for_Content_Creation.md",
+            "snippet": "# Efficient Research for Content Creation  Tags: @docs, @youtube Category: Increased Output & Efficiency Description: For content creators, marrying their own research with trends and information on Y..."
+        },
+        {
+            "name": "Claude Oficial Prompt Migration Tool",
+            "file": "Claude_Oficial_Prompt_Migration_Tool.md",
+            "path": "./03_Library/Prompts/Claude_Oficial_Prompt_Migration_Tool.md",
+            "snippet": "# Claude Oficial Prompt Migration Tool  Export all of my stored memories and any context you've learned about me from past conversations. Preserve my words verbatim where possible, especially for inst..."
+        },
+        {
+            "name": "Learning Resources Summary",
+            "file": "Learning_Resources_Summary.md",
+            "path": "./03_Library/Prompts/Learning_Resources_Summary.md",
+            "snippet": "# Learning Resources Summary  Tags: @gmail Category: Learning & Development Description: Having a consolidated list of learning resources can help you plan your development efforts more effectively. G..."
+        },
+        {
+            "name": "Sales Process Streamlining",
+            "file": "Sales_Process_Streamlining.md",
+            "path": "./03_Library/Prompts/Sales_Process_Streamlining.md",
+            "snippet": "# Sales Process Streamlining  Tags: @gmail Category: Increased Output & Efficiency Description: Understanding bottlenecks in the sales process can help you focus your improvement efforts where they wi..."
+        },
+        {
+            "name": "Skill Gap Identification",
+            "file": "Skill_Gap_Identification.md",
+            "path": "./03_Library/Prompts/Skill_Gap_Identification.md",
+            "snippet": "# Skill Gap Identification  Tags: @docs, @youtube Category: Increased Output & Efficiency Description: Identifying skill gaps and addressing them can dramatically improve team output and efficiency ov..."
+        },
+        {
+            "name": "Automated Daily Briefing",
+            "file": "Automated_Daily_Briefing.md",
+            "path": "./03_Library/Prompts/Automated_Daily_Briefing.md",
+            "snippet": "# Automated Daily Briefing  Tags: @drive, @gmail Category: Productivity & Time-Saving Description: This prompt serves as a daily briefing tool, providing a snapshot of current project status and pendi..."
+        },
+        {
+            "name": "Verificação da Composição dos Dados",
+            "file": "Verificação_da_Composição_dos_Dados.md",
+            "path": "./03_Library/Prompts/Verificação_da_Composição_dos_Dados.md",
+            "snippet": "# Verificação da Composição dos Dados  Categoria: Análise de Dados  ## Prompt  <aside>  Vou te fornecer uma base de dados de [sobre o que é a base de dados]  O meu objetivo é [seu objetivo de negócio]..."
+        },
+        {
+            "name": "Website Copy SEO Enhancements",
+            "file": "Website_Copy_SEO_Enhancements.md",
+            "path": "./03_Library/Prompts/Website_Copy_SEO_Enhancements.md",
+            "snippet": "# Website Copy SEO Enhancements  Tags: @docs, @youtube Category: Lead Generation & Sales Improvement Description: Staying updated on SEO techniques can ensure consistent website visibility. Google Bar..."
+        },
+        {
+            "name": "Fuel-Efficient Route Planning",
+            "file": "Fuel-Efficient_Route_Planning.md",
+            "path": "./03_Library/Prompts/Fuel-Efficient_Route_Planning.md",
+            "snippet": "# Fuel-Efficient Route Planning  Tags: @maps Category: Cost Savings Description: Fuel costs can add up quickly, especially for businesses that rely on regular travel. Planning fuel-efficient routes ca..."
+        },
+        {
+            "name": "Criando Relatórios no estilo McKinsey.",
+            "file": "Criando_Relatórios_no_estilo_McKinsey.md",
+            "path": "./03_Library/Prompts/Criando_Relatórios_no_estilo_McKinsey.md",
+            "snippet": "# Criando Relatórios no estilo McKinsey.  ## Prompt  <aside>  **<System>**  Você é um Senior Engagement Manager da McKinsey & Company, especialista em estratégia, resolução estruturada de problemas e ..."
+        },
+        {
+            "name": "Influencer Selfie Mirror Gym 1",
+            "file": "Influencer_Selfie_Mirror_Gym_1.md",
+            "path": "./03_Library/Prompts/Influencer_Selfie_Mirror_Gym_1.md",
+            "snippet": "# Influencer Selfie Mirror Gym 1  Categoria: Geração de Imagem  ## Prompt  <aside>  { \"project_settings\": { \"project_name\": \"Gym Mirror Selfie Series\", \"version\": \"4.0.0-granular\", \"target_model\": \"St..."
+        },
+        {
+            "name": "Document Prioritization",
+            "file": "Document_Prioritization.md",
+            "path": "./03_Library/Prompts/Document_Prioritization.md",
+            "snippet": "# Document Prioritization  Tags: @docs Category: Increased Output & Efficiency Description: The aim of this prompt is to categorize and prioritize work. By summarizing and labeling recently edited doc..."
+        },
+        {
+            "name": "Underwatter Photoshoot 1",
+            "file": "Underwatter_Photoshoot_1.md",
+            "path": "./03_Library/Prompts/Underwatter_Photoshoot_1.md",
+            "snippet": "# Underwatter Photoshoot 1  Categoria: Geração de Imagem  ## Prompt  <aside>  Re-imagine the person attached in the uploaded reference image ( Keep the face of the person 100% accurate from the refere..."
+        },
+        {
+            "name": "Resume Enhancement",
+            "file": "Resume_Enhancement.md",
+            "path": "./03_Library/Prompts/Resume_Enhancement.md",
+            "snippet": "# Resume Enhancement  Tags: @docs Category: Increased Output & Efficiency Description: Ensuring your resume is current and aligned with industry expectations can be a crucial step in job hunting. Goog..."
+        },
+        {
+            "name": "Efficient Content Consumption",
+            "file": "Efficient_Content_Consumption.md",
+            "path": "./03_Library/Prompts/Efficient_Content_Consumption.md",
+            "snippet": "# Efficient Content Consumption  Tags: @youtube Category: Productivity & Time-Saving Description: This prompt aids in professional development by identifying concise, relevant content, thus saving tim..."
+        },
+        {
+            "name": "Budget Travel Planning",
+            "file": "Budget_Travel_Planning.md",
+            "path": "./03_Library/Prompts/Budget_Travel_Planning.md",
+            "snippet": "# Budget Travel Planning  Tags: @flights, @gmail Category: Productivity & Time-Saving Description: This prompt automates the task of finding budget-friendly flights, potentially saving both time and m..."
+        },
+        {
+            "name": "Website or Blog Post Media Enhancement",
+            "file": "Website_or_Blog_Post_Media_Enhancement.md",
+            "path": "./03_Library/Prompts/Website_or_Blog_Post_Media_Enhancement.md",
+            "snippet": "# Website or Blog Post Media Enhancement  Tags: @docs, @youtube Category: Increased Output & Efficiency Description: Integrating multimedia content can greatly enhance user engagement on a website. Go..."
+        },
+        {
+            "name": "B2B Prospect Prioritization",
+            "file": "B2B_Prospect_Prioritization.md",
+            "path": "./03_Library/Prompts/B2B_Prospect_Prioritization.md",
+            "snippet": "# B2B Prospect Prioritization  Tags: @gmail Category: Business Networking & B2B Marketing Description: Prioritizing B2B prospects based on engagement and relevance can help focus your sales efforts mo..."
+        },
+        {
+            "name": "Energy-Efficient Venue Search",
+            "file": "Energy-Efficient_Venue_Search.md",
+            "path": "./03_Library/Prompts/Energy-Efficient_Venue_Search.md",
+            "snippet": "# Energy-Efficient Venue Search  Tags: @maps Category: Cost Savings Description: Choosing energy-efficient venues can be both eco-friendly and cost-effective in the long term. Google Bard Extensions P..."
+        },
+        {
+            "name": "Análise de Personalidade",
+            "file": "Análise_de_Personalidade.md",
+            "path": "./03_Library/Prompts/Análise_de_Personalidade.md",
+            "snippet": "# Análise de Personalidade  Categoria: Autoconhecimento  ## Prompt  \"Based on what you know about me, what would you say my Meyers Briggs personality type is?”..."
+        },
+        {
+            "name": "Workflow Efficiency Audit",
+            "file": "Workflow_Efficiency_Audit.md",
+            "path": "./03_Library/Prompts/Workflow_Efficiency_Audit.md",
+            "snippet": "# Workflow Efficiency Audit  Tags: @drive Category: Increased Output & Efficiency Description: Streamlined workflows increase efficiency and output by eliminating unnecessary steps. Google Bard Extens..."
+        },
+        {
+            "name": "Social Media Inspiration from SEO Insights",
+            "file": "Social_Media_Inspiration_from_SEO_Insights.md",
+            "path": "./03_Library/Prompts/Social_Media_Inspiration_from_SEO_Insights.md",
+            "snippet": "# Social Media Inspiration from SEO Insights  Tags: @docs Category: Lead Generation & Sales Improvement Description: Merging SEO strategies with social media can enhance overall online presence. Googl..."
+        },
+        {
+            "name": "Contract Review for Renewal and Upselling",
+            "file": "Contract_Review_for_Renewal_and_Upselling.md",
+            "path": "./03_Library/Prompts/Contract_Review_for_Renewal_and_Upselling.md",
+            "snippet": "# Contract Review for Renewal and Upselling  Tags: @docs Category: Business Networking & B2B Marketing Description: Maximizing value from existing contracts is a key part of B2B sales. Google Bard Ext..."
+        },
+        {
+            "name": "Tax Deduction Identification",
+            "file": "Tax_Deduction_Identification.md",
+            "path": "./03_Library/Prompts/Tax_Deduction_Identification.md",
+            "snippet": "# Tax Deduction Identification  Tags: @gmail Category: Cost Savings Description: Keeping track of expenses that can be used for tax deductions can result in significant cost savings during tax season...."
+        },
+        {
+            "name": "Team Training Needs",
+            "file": "Team_Training_Needs.md",
+            "path": "./03_Library/Prompts/Team_Training_Needs.md",
+            "snippet": "# Team Training Needs  Tags: @docs, @youtube Category: Learning & Development Description: This prompt aims to improve team performance by addressing collective skill gaps. Google Bard Extensions Prom..."
+        },
+        {
+            "name": "Partnership and Collaboration Opportunities",
+            "file": "Partnership_and_Collaboration_Opportunities.md",
+            "path": "./03_Library/Prompts/Partnership_and_Collaboration_Opportunities.md",
+            "snippet": "# Partnership and Collaboration Opportunities  Tags: @gmail Category: Lead Generation & Sales Improvement Description: Partnerships can dramatically expand your reach and generate leads; this prompt h..."
+        },
+        {
+            "name": "Flight and Hotel Bundle Savings",
+            "file": "Flight_and_Hotel_Bundle_Savings.md",
+            "path": "./03_Library/Prompts/Flight_and_Hotel_Bundle_Savings.md",
+            "snippet": "# Flight and Hotel Bundle Savings  Tags: @flights, @gmail, @hotels Category: Cost Savings Description: Bundling flights and hotels can offer significant savings, and this prompt would automate the pro..."
+        },
+        {
+            "name": "Identify Industry Conferences for Learning",
+            "file": "Identify_Industry_Conferences_for_Learning.md",
+            "path": "./03_Library/Prompts/Identify_Industry_Conferences_for_Learning.md",
+            "snippet": "# Identify Industry Conferences for Learning  Tags: @gmail Category: Learning & Development Description: Conferences can be a great way to rapidly accelerate learning and networking, and this prompt h..."
+        },
+        {
+            "name": "Automated Expense Tracking",
+            "file": "Automated_Expense_Tracking.md",
+            "path": "./03_Library/Prompts/Automated_Expense_Tracking.md",
+            "snippet": "# Automated Expense Tracking  Tags: @gmail Category: Productivity & Time-Saving Description: Keeping track of expenses can be time-consuming; this prompt automates this aspect of personal or business ..."
+        },
+        {
+            "name": "Networking Skill Development",
+            "file": "Networking_Skill_Development.md",
+            "path": "./03_Library/Prompts/Networking_Skill_Development.md",
+            "snippet": "# Networking Skill Development  Tags: @youtube Category: Business Networking & B2B Marketing Description: Improving your networking skills can open doors to new opportunities and contribute to busines..."
+        },
+        {
+            "name": "Analyze Sales Collaterals",
+            "file": "Analyze_Sales_Collaterals.md",
+            "path": "./03_Library/Prompts/Analyze_Sales_Collaterals.md",
+            "snippet": "# Analyze Sales Collaterals  Tags: @drive Category: Business Networking & B2B Marketing Description: Ensuring that your sales materials are up to date is crucial for making an effective pitch or prese..."
+        },
+        {
+            "name": "Review and Leverage Existing Contacts",
+            "file": "Review_and_Leverage_Existing_Contacts.md",
+            "path": "./03_Library/Prompts/Review_and_Leverage_Existing_Contacts.md",
+            "snippet": "# Review and Leverage Existing Contacts  Tags: @gmail Category: Business Networking & B2B Marketing Description: Sometimes the best opportunities come from existing connections, and this prompt helps ..."
+        },
+        {
+            "name": "Assessing Sales Channels",
+            "file": "Assessing_Sales_Channels.md",
+            "path": "./03_Library/Prompts/Assessing_Sales_Channels.md",
+            "snippet": "# Assessing Sales Channels  Tags: @docs, @gmail Category: Lead Generation & Sales Improvement Description: This prompt aims to help you understand which sales channels are the most fruitful so that ef..."
+        },
+        {
+            "name": "Sales Script Optimization",
+            "file": "Sales_Script_Optimization.md",
+            "path": "./03_Library/Prompts/Sales_Script_Optimization.md",
+            "snippet": "# Sales Script Optimization  Tags: @docs, @youtube Category: Lead Generation & Sales Improvement Description: Improving your sales script can be a quick win for improving conversion rates, and this pr..."
+        },
+        {
+            "name": "Fashion Business Woman 1",
+            "file": "Fashion_Business_Woman_1.md",
+            "path": "./03_Library/Prompts/Fashion_Business_Woman_1.md",
+            "snippet": "# Fashion Business Woman 1  Categoria: Geração de Imagem  ## Prompt  <aside>  Woman standing in a modern indoor environment, in an elegant and confident pose. Use the image of the original model's fac..."
+        },
+        {
+            "name": "Analyzing Vendor Communications",
+            "file": "Analyzing_Vendor_Communications.md",
+            "path": "./03_Library/Prompts/Analyzing_Vendor_Communications.md",
+            "snippet": "# Analyzing Vendor Communications  Tags: @gmail Category: Cost Savings Description: This prompt can help businesses save money by keeping track of discounts, promotions, or special offers from vendors..."
+        },
+        {
+            "name": "Blog Post Feedback",
+            "file": "Blog_Post_Feedback.md",
+            "path": "./03_Library/Prompts/Blog_Post_Feedback.md",
+            "snippet": "# Blog Post Feedback  Tags: @docs Category: Increased Output & Efficiency Description: Effective blogging often requires a mix of solid structure and timely content. Google Bard Extensions Prompt: Exa..."
+        },
+        {
+            "name": "The Concept Explainer for Difficult Topics",
+            "file": "The_Concept_Explainer_for_Difficult_Topics.md",
+            "path": "./03_Library/Prompts/The_Concept_Explainer_for_Difficult_Topics.md",
+            "snippet": "# The Concept Explainer for Difficult Topics  Categoria: Aprendizado  ## Prompt  <aside>  You are a world-class educator known for making complex topics simple. I'm struggling with a specific concept ..."
+        },
+        {
+            "name": "Resume Inspired Networking",
+            "file": "Resume_Inspired_Networking.md",
+            "path": "./03_Library/Prompts/Resume_Inspired_Networking.md",
+            "snippet": "# Resume Inspired Networking  Tags: @docs Category: Business Networking & B2B Marketing Description: Tapping into existing networks can provide unexpected opportunities. Google Bard Extensions Prompt:..."
+        },
+        {
+            "name": "Infográficos Matadores",
+            "file": "Infográficos_Matadores.md",
+            "path": "./03_Library/Prompts/Infográficos_Matadores.md",
+            "snippet": "# Infográficos Matadores  Categoria: Análise de Dados  ## Prompt  <aside>  Um prompt “pro” para infográficos de dados/relatórios com Nano‑Banana Pro poderia ser assim:  ## Prompt base para infográfico..."
+        },
+        {
+            "name": "Quarterly Business Review Preparation",
+            "file": "Quarterly_Business_Review_Preparation.md",
+            "path": "./03_Library/Prompts/Quarterly_Business_Review_Preparation.md",
+            "snippet": "# Quarterly Business Review Preparation  Tags: @docs, @gmail Category: Increased Output & Efficiency Description: Preparation for a Quarterly Business Review (QBR) can be time-consuming. Automating th..."
+        },
+        {
+            "name": "Prioritize Customer Emails",
+            "file": "Prioritize_Customer_Emails.md",
+            "path": "./03_Library/Prompts/Prioritize_Customer_Emails.md",
+            "snippet": "# Prioritize Customer Emails  Tags: @gmail Category: Productivity & Time-Saving Description: By prioritizing customer emails based on urgency and potential impact, this prompt helps improve customer r..."
+        },
+        {
+            "name": "Social Media Planning & Optimization",
+            "file": "Social_Media_Planning_&_Optimization.md",
+            "path": "./03_Library/Prompts/Social_Media_Planning_&_Optimization.md",
+            "snippet": "# Social Media Planning & Optimization  Tags: @docs Category: Increased Output & Efficiency Description: Consistency and relevance in social media posting can significantly enhance brand engagement. G..."
+        },
+        {
+            "name": "Optimize Business Operations",
+            "file": "Optimize_Business_Operations.md",
+            "path": "./03_Library/Prompts/Optimize_Business_Operations.md",
+            "snippet": "# Optimize Business Operations  Tags: @docs Category: Cost Savings Description: Understanding existing processes can unveil areas for cost-saving automation or optimization. Google Bard Extensions Pro..."
+        },
+        {
+            "name": "Email-Based Expense Audit",
+            "file": "Email-Based_Expense_Audit.md",
+            "path": "./03_Library/Prompts/Email-Based_Expense_Audit.md",
+            "snippet": "# Email-Based Expense Audit  Tags: @gmail Category: Cost Savings Description: Identifying and evaluating recurring payments can lead to substantial cost savings by eliminating unused or unnecessary su..."
+        },
+        {
+            "name": "Plano ano novo 52 semanas",
+            "file": "Plano_ano_novo_52_semanas.md",
+            "path": "./03_Library/Prompts/Plano_ano_novo_52_semanas.md",
+            "snippet": "# Plano ano novo 52 semanas  Categoria: Autoconhecimento  # Prompt  Minha resolução para 2026 é [X]  Meu tempo semanal para investir nessa meta é [Y]  Minhas restrições são [Z]  Crie:  Um plano de 52 ..."
+        },
+        {
+            "name": "Modelo de Card",
+            "file": "Modelo_de_Card.md",
+            "path": "./03_Library/Prompts/Modelo_de_Card.md",
+            "snippet": "# Modelo de Card  ## Prompt  <aside>  </aside>  ## Resultados desse Prompt  >  >..."
+        },
+        {
+            "name": "Equipment and Supplies Audit",
+            "file": "Equipment_and_Supplies_Audit.md",
+            "path": "./03_Library/Prompts/Equipment_and_Supplies_Audit.md",
+            "snippet": "# Equipment and Supplies Audit  Tags: @gmail Category: Cost Savings Description: Knowing what you're spending on office supplies and equipment can lead you to more cost-effective alternatives. Google ..."
+        },
+        {
+            "name": "Lead Outreach Follow-up Analysis",
+            "file": "Lead_Outreach_Follow-up_Analysis.md",
+            "path": "./03_Library/Prompts/Lead_Outreach_Follow-up_Analysis.md",
+            "snippet": "# Lead Outreach Follow-up Analysis  Tags: @gmail Category: Lead Generation & Sales Improvement Description: By analyzing outreach metrics, this prompt helps to identify opportunities for follow-up, po..."
+        },
+        {
+            "name": "Análise Brutalmente Honesta",
+            "file": "Análise_Brutalmente_Honesta.md",
+            "path": "./03_Library/Prompts/Análise_Brutalmente_Honesta.md",
+            "snippet": "# Análise Brutalmente Honesta  Categoria: Autoconhecimento  ## Prompt  <aside>  Baseado em tudo o que nós conversamos, faça uma análise brutalmente honesta sobre mim.  </aside>  ## Resultados desse Pr..."
+        },
+        {
+            "name": "The Pre-Exam Cram Session (Master Prompt)",
+            "file": "The_Pre-Exam_Cram_Session_(Master_Prompt).md",
+            "path": "./03_Library/Prompts/The_Pre-Exam_Cram_Session_(Master_Prompt).md",
+            "snippet": "# The Pre-Exam Cram Session (Master Prompt)  Categoria: Aprendizado  ## Prompt  <aside>  You are an emergency tutor helping a student review everything before an exam tomorrow. I need a complete last-..."
+        },
+        {
+            "name": "Efficient Meeting Scheduling",
+            "file": "Efficient_Meeting_Scheduling.md",
+            "path": "./03_Library/Prompts/Efficient_Meeting_Scheduling.md",
+            "snippet": "# Efficient Meeting Scheduling  Tags: @docs, @gmail Category: Productivity & Time-Saving Description: This prompt can streamline meeting scheduling, minimizing back-and-forth emails and saving time. G..."
+        },
+        {
+            "name": "Curate Educational Content",
+            "file": "Curate_Educational_Content.md",
+            "path": "./03_Library/Prompts/Curate_Educational_Content.md",
+            "snippet": "# Curate Educational Content  Tags: @youtube Category: Learning & Development Description: This prompt helps individuals with learning and development needs by summarizing top educational content and ..."
+        },
+        {
+            "name": "Análise Descritiva",
+            "file": "Análise_Descritiva.md",
+            "path": "./03_Library/Prompts/Análise_Descritiva.md",
+            "snippet": "# Análise Descritiva  Categoria: Análise de Dados  ## Prompt  <aside>  Com base nos dados fornecidos, faça uma análise descritiva completa. Inclua:  - O período de tempo que os dados cobrem. - O númer..."
+        },
+        {
+            "name": "The Flashcard Generator",
+            "file": "The_Flashcard_Generator.md",
+            "path": "./03_Library/Prompts/The_Flashcard_Generator.md",
+            "snippet": "# The Flashcard Generator  Categoria: Aprendizado  ## Prompt  <aside>  You are a cognitive science expert creating optimal flashcards for long-term retention. I need a complete flashcard deck for this..."
+        },
+        {
+            "name": "Webinar Lead Generation",
+            "file": "Webinar_Lead_Generation.md",
+            "path": "./03_Library/Prompts/Webinar_Lead_Generation.md",
+            "snippet": "# Webinar Lead Generation  Tags: @gmail, @youtube Category: Lead Generation & Sales Improvement Description: By identifying relevant industry events, this prompt could unearth untapped opportunities f..."
+        },
+        {
+            "name": "The Essay & Assignment Planner",
+            "file": "The_Essay_&_Assignment_Planner.md",
+            "path": "./03_Library/Prompts/The_Essay_&_Assignment_Planner.md",
+            "snippet": "# The Essay & Assignment Planner  Categoria: Aprendizado  ## Prompt  <aside>  You are an academic writing coach who helps students structure high-scoring essays. I need to write a paper or complete an..."
+        },
+        {
+            "name": "Geo-Optimized Client Meetings",
+            "file": "Geo-Optimized_Client_Meetings.md",
+            "path": "./03_Library/Prompts/Geo-Optimized_Client_Meetings.md",
+            "snippet": "# Geo-Optimized Client Meetings  Tags: @gmail, @maps Category: Increased Output & Efficiency Description: By optimizing routes for client meetings, you can spend more time with clients and less time o..."
+        },
+        {
+            "name": "The Textbook Chapter Breakdown",
+            "file": "The_Textbook_Chapter_Breakdown.md",
+            "path": "./03_Library/Prompts/The_Textbook_Chapter_Breakdown.md",
+            "snippet": "# The Textbook Chapter Breakdown  Categoria: Aprendizado  ## Prompt  <aside>  You are an expert tutor breaking down complex material into digestible chunks. I need to master this textbook chapter befo..."
+        },
+        {
+            "name": "Review Educational Expenses",
+            "file": "Review_Educational_Expenses.md",
+            "path": "./03_Library/Prompts/Review_Educational_Expenses.md",
+            "snippet": "# Review Educational Expenses  Tags: @gmail Category: Learning & Development Description: Keeping track of your investments in learning can help you better allocate resources in the future. Google Bar..."
+        },
+        {
+            "name": "Photoshoot (different moods) …studio",
+            "file": "Photoshoot_(different_moods)_…studio.md",
+            "path": "./03_Library/Prompts/Photoshoot_(different_moods)_…studio.md",
+            "snippet": "# Photoshoot (different moods) …studio  Categoria: Geração de Imagem  Recreate the person in [@]img1 in the same outfit and same pose, but from a different camera angle. Keep facial identity and propo..."
+        },
+        {
+            "name": "Teste de Conector Manus (Atualizado)",
+            "file": "Teste_de_Conector_Manus_(Atualizado).md",
+            "path": "./03_Library/Prompts/Teste_de_Conector_Manus_(Atualizado).md",
+            "snippet": "# Teste de Conector Manus (Atualizado)  Categoria: Análise de Dados, Comunicação  Este é um teste automatizado para demonstrar as capacidades de escrita do conector Notion.  ### Detalhes do Teste  - *..."
+        },
+        {
+            "name": "Mapping Sales Prospects",
+            "file": "Mapping_Sales_Prospects.md",
+            "path": "./03_Library/Prompts/Mapping_Sales_Prospects.md",
+            "snippet": "# Mapping Sales Prospects  Tags: @gmail, @maps Category: Lead Generation & Sales Improvement Description: Geographically targeted marketing can be highly effective, and this prompt helps lay the groun..."
+        },
+        {
+            "name": "Email Filtering for Time-Sensitive Matters",
+            "file": "Email_Filtering_for_Time-Sensitive_Matters.md",
+            "path": "./03_Library/Prompts/Email_Filtering_for_Time-Sensitive_Matters.md",
+            "snippet": "# Email Filtering for Time-Sensitive Matters  Tags: @gmail Category: Productivity & Time-Saving Description: By isolating and summarizing urgent matters, this prompt ensures that nothing slips through..."
+        },
+        {
+            "name": "Most Efficient Business Travel Planning",
+            "file": "Most_Efficient_Business_Travel_Planning.md",
+            "path": "./03_Library/Prompts/Most_Efficient_Business_Travel_Planning.md",
+            "snippet": "# Most Efficient Business Travel Planning  Tags: @flights, @gmail Category: Business Networking & B2B Marketing Description: Efficient travel planning can be a great asset in maintaining a wide networ..."
+        },
+        {
+            "name": "Transferência de Memórias 1 (1)",
+            "file": "Transferência_de_Memórias_1_(1).md",
+            "path": "./03_Library/Prompts/Transferência_de_Memórias_1_(1).md",
+            "snippet": "# Transferência de Memórias 1 (1)  Categoria: Aprendizado  ## Prompt  <aside>  ``` I'd like you to create a comprehensive personal context file about me based on everything you know. I want to keep a ..."
+        },
+        {
+            "name": "Dramatic Portrait 1",
+            "file": "Dramatic_Portrait_1.md",
+            "path": "./03_Library/Prompts/Dramatic_Portrait_1.md",
+            "snippet": "# Dramatic Portrait 1  Categoria: Geração de Imagem  ## Prompt  <aside>  Generate an 8K lifelike close-up of a woman (face characteristics 100% same as uploaded image). Her jet-black hair falls across..."
+        },
+        {
+            "name": "Product/Service Feedback Loop",
+            "file": "Product_Service_Feedback_Loop.md",
+            "path": "./03_Library/Prompts/Product_Service_Feedback_Loop.md",
+            "snippet": "# Product/Service Feedback Loop  Tags: @gmail Category: Lead Generation & Sales Improvement Description: Customer feedback is invaluable for improving your offering and generating more sales. This pro..."
+        },
+        {
+            "name": "Early Renewal Discounts",
+            "file": "Early_Renewal_Discounts.md",
+            "path": "./03_Library/Prompts/Early_Renewal_Discounts.md",
+            "snippet": "# Early Renewal Discounts  Tags: @gmail Category: Cost Savings Description: Early renewal often comes with cost savings. This prompt aims to proactively identify such opportunities. Google Bard Extens..."
+        },
+        {
+            "name": "Recommended Reading",
+            "file": "Recommended_Reading.md",
+            "path": "./03_Library/Prompts/Recommended_Reading.md",
+            "snippet": "# Recommended Reading  Tags: @youtube Category: Learning & Development Description: Further reading can provide more in-depth knowledge, enabling better decision-making and problem-solving. Google Bar..."
+        },
+        {
+            "name": "Learning & Upskilling Prioritization",
+            "file": "Learning_&_Upskilling_Prioritization.md",
+            "path": "./03_Library/Prompts/Learning_&_Upskilling_Prioritization.md",
+            "snippet": "# Learning & Upskilling Prioritization  Tags: @docs, @youtube Category: Productivity & Time-Saving Description: By focusing on the most relevant educational content, this prompt enhances efficient lea..."
+        },
+        {
+            "name": "SWOT de Fim de Ano",
+            "file": "SWOT_de_Fim_de_Ano.md",
+            "path": "./03_Library/Prompts/SWOT_de_Fim_de_Ano.md",
+            "snippet": "# SWOT de Fim de Ano  Categoria: Autoconhecimento  ### Prompt  \"What are some blind spots that I have in my work performance that I can improve on going into next year?”..."
+        },
+        {
+            "name": "Enhance Your Personal LinkedIn Brand",
+            "file": "Enhance_Your_Personal_LinkedIn_Brand.md",
+            "path": "./03_Library/Prompts/Enhance_Your_Personal_LinkedIn_Brand.md",
+            "snippet": "# Enhance Your Personal LinkedIn Brand  Tags: @docs, @youtube Category: Business Networking & B2B Marketing Description: A well-optimized LinkedIn profile can be a beacon for opportunities and connect..."
+        },
+        {
+            "name": "Team Upskilling on a Budget",
+            "file": "Team_Upskilling_on_a_Budget.md",
+            "path": "./03_Library/Prompts/Team_Upskilling_on_a_Budget.md",
+            "snippet": "# Team Upskilling on a Budget  Tags: @docs, @youtube Category: Cost Savings Description: Free or low-cost training options can be a way to improve your team's skill set without breaking the bank. Goog..."
+        },
+        {
+            "name": "Venue Sourcing with Visuals",
+            "file": "Venue_Sourcing_with_Visuals.md",
+            "path": "./03_Library/Prompts/Venue_Sourcing_with_Visuals.md",
+            "snippet": "# Venue Sourcing with Visuals  Tags: @maps, @youtube Category: Business Networking & B2B Marketing Description: This prompt not only identifies the best venues but also enhances decision-making by pro..."
+        },
+        {
+            "name": "Sales Email Analysis",
+            "file": "Sales_Email_Analysis.md",
+            "path": "./03_Library/Prompts/Sales_Email_Analysis.md",
+            "snippet": "# Sales Email Analysis  Tags: @gmail Category: Lead Generation & Sales Improvement Description: This prompt can help identify valuable trends and outliers in sales activity that might otherwise go unn..."
+        },
+        {
+            "name": "Company Culture Learning",
+            "file": "Company_Culture_Learning.md",
+            "path": "./03_Library/Prompts/Company_Culture_Learning.md",
+            "snippet": "# Company Culture Learning  Tags: @docs Category: Learning & Development Description: Aligning training and development with company culture can have a synergistic effect on organizational growth. Goo..."
+        },
+        {
+            "name": "Expanded Learning from eBook",
+            "file": "Expanded_Learning_from_eBook.md",
+            "path": "./03_Library/Prompts/Expanded_Learning_from_eBook.md",
+            "snippet": "# Expanded Learning from eBook  Tags: @docs, @youtube Category: Learning & Development Description: Pairing written content with video can provide a richer learning experience. Google Bard Extensions ..."
+        },
+        {
+            "name": "Competitor Analysis Through Content",
+            "file": "Competitor_Analysis_Through_Content.md",
+            "path": "./03_Library/Prompts/Competitor_Analysis_Through_Content.md",
+            "snippet": "# Competitor Analysis Through Content  Tags: @youtube Category: Lead Generation & Sales Improvement Description: This prompt provides an automated form of competitor analysis, offering insights that c..."
+        },
+        {
+            "name": "Sem título",
+            "file": "Sem_título.md",
+            "path": "./03_Library/Prompts/Sem_título.md",
+            "snippet": "# Sem título..."
+        }
+    ],
+    "use_cases": [
+        {
+            "name": "ChatGPT",
+            "file": "ChatGPT.md",
+            "path": "./04_Use_Cases/ChatGPT.md",
+            "snippet": "# ChatGPT  Tipo: Imagem, Texto, Vídeo  ### 🔗 LINK  [https://chatgpt.com/](https://chatgpt.com/)  ### 🎯 USAR PARA…  - **Trabalho** – resumir, organizar, estruturar relatórios, e-mails e apresentações. ..."
+        },
+        {
+            "name": "Gamma",
+            "file": "Gamma.md",
+            "path": "./04_Use_Cases/Gamma.md",
+            "snippet": "# Gamma  Tipo: Apresentações  ### 🔗 LINK  [https://gamma.app/](https://gamma.app/)  ### 🎯 USAR PARA…  - **Criar apresentações em segundos** – você digita um prompt e ele gera slides prontos, já com de..."
+        },
+        {
+            "name": "Manus",
+            "file": "Manus.md",
+            "path": "./04_Use_Cases/Manus.md",
+            "snippet": "# Manus  Tipo: Apresentações, Imagem, Texto, Vídeo  ### 🔗 LINK  [https://manus.im/app](https://manus.im/app)  ### 🎯 USAR PARA…  - **Leitura profunda de documentos longos** – não só resume, mas cria *v..."
+        },
+        {
+            "name": "NotebookLM",
+            "file": "NotebookLM.md",
+            "path": "./04_Use_Cases/NotebookLM.md",
+            "snippet": "# NotebookLM  Tipo: Apresentações, Audio, Imagem, Texto, Vídeo..."
+        },
+        {
+            "name": "Gemini",
+            "file": "Gemini.md",
+            "path": "./04_Use_Cases/Gemini.md",
+            "snippet": "# Gemini  Tipo: Imagem, Texto, Vídeo  ### 🔗 LINK  [https://gemini.google.com/app](https://gemini.google.com/app?hl=pt-BR)  ### 🎯 USAR PARA…  - **Trabalho no Google** – puxar dados e gerar relatórios d..."
+        },
+        {
+            "name": "Perplexity",
+            "file": "Perplexity.md",
+            "path": "./04_Use_Cases/Perplexity.md",
+            "snippet": "# Perplexity  Tipo: Texto  ### 🔗 LINK  [https://www.perplexity.ai/](https://www.perplexity.ai/)  ### 🎯 USAR PARA…  - **Pesquisa com fontes** – sempre mostra links e referências de onde tirou as inform..."
+        },
+        {
+            "name": "Claude",
+            "file": "Claude.md",
+            "path": "./04_Use_Cases/Claude.md",
+            "snippet": "# Claude  Tipo: Apresentações, Texto  ### 🔗 LINK  [https://claude.ai/](https://claude.ai/)  ### 🎯 USAR PARA…  - Escrita criativa - Criação de páginas na web com processos estabelecidos..."
+        },
+        {
+            "name": "Usar o Gamma para criar apresentações",
+            "file": "Usar_o_Gamma_para_criar_apresentações.md",
+            "path": "./04_Use_Cases/Usar_o_Gamma_para_criar_apresentações.md",
+            "snippet": "# Usar o Gamma para criar apresentações  Horas Economizadas Mês: 10 Horas economizadas Ano: 120 Tarefa Antiga: Criar apresentações manuais..."
+        },
+        {
+            "name": "Sem título",
+            "file": "Sem_título.md",
+            "path": "./04_Use_Cases/Sem_título.md",
+            "snippet": "# Sem título  Horas economizadas Ano: 0..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Linguistic_Spanish_ES",
+            "file": "Linguistic_Spanish_ES.md",
+            "path": "./05_Skills/Linguistic_Spanish_ES.md",
+            "snippet": "Você é um especialista em ensino de espanhol como língua estrangeira, com foco em alunos iniciantes (A1–A2), e profundo conhecimento das interferências entre português (Brasil) e espanhol.  Sua missão..."
+        },
+        {
+            "name": "Aprendizado de idiomas (training systems)",
+            "file": "Linguistic_Elite_EN.md",
+            "path": "./05_Skills/Linguistic_Elite_EN.md",
+            "snippet": "# Aprendizado de idiomas (training systems)  >  >  >  > You are an elite-level English linguist, etymologist, and vocabulary strategist for C1–C2 learners aiming at near-native precision and expressiv..."
+        },
+        {
+            "name": "VALIDAÇÃO & AUTOCORREÇÃO",
+            "file": "Validation_Autocorrection_System.md",
+            "path": "./05_Skills/Validation_Autocorrection_System.md",
+            "snippet": "## VALIDAÇÃO & AUTOCORREÇÃO  ## Prompt 01  Você é um assistente especializado em análise e inteligência corporativa.  Antes de entregar qualquer resposta, execute obrigatoriamente as etapas abaixo:  -..."
+        }
+    ]
+}

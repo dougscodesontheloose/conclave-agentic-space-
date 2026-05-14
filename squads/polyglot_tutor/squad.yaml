@@ -1,0 +1,25 @@
+name: "Polyglot Tutor Squad"
+code: "polyglot_tutor"
+icon: "🌍"
+description: "Assistente de pesquisa e estruturação de métodos de idiomas, cruzando rigor acadêmico com didática de creators."
+goal: "Pesquisar insumos e entregar roteiros de estudos estruturados e engajadores para idiomas."
+domain: "research"
+skills:
+  - youtube-apify-transcript
+  - dialectical-memory
+  - browser-navigator
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-checkpoint-focus.md
+    - step-02-research.md
+    - step-03-checkpoint-sources.md
+    - step-04-strategy.md
+    - step-05-review.md
+    - step-06-checkpoint-final.md

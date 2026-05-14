@@ -1,0 +1,12 @@
+{
+  "slug": "battlecard-generator",
+  "display_name": "Battlecard Generator",
+  "category": "composites",
+  "tags": ["competitive-intelligence", "sales", "positioning", "battlecard"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/battlecard-generator/SKILL.md"
+  }
+}

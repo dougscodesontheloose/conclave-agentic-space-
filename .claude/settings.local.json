@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/douglasdepaulamoura/.claude/**)",
+      "Bash(chmod +x _conclave/core/scripts/tide.sh)",
+      "Bash(bash _conclave/core/scripts/tide.sh)",
+      "Skill(schedule)",
+      "Skill(schedule:*)",
+      "Bash(grep -E \"\\\\.\\(md|sh|yaml|json\\)$\")"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+id,name,title,icon,execution,path
+gibson-writer,Gibson Writer,Redator Estrategista,✍️,inline,./agents/gibson-writer.agent.md
+ash-visuals,Ash Visuals,Designer Visual,🎨,subagent,./agents/ash-visuals.agent.md
+quorra-qa,Quorra QA,Auditor de Qualidade,🕵️,inline,./agents/quorra-qa.agent.md

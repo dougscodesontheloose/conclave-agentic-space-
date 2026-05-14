@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Build a new prompt from scratch for a customer support chatbot",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "Direct BUILD mode trigger — canonical use case"
+  },
+  {
+    "query": "Improve my prompt: You are a helpful assistant that answers questions",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "Direct IMPROVE mode trigger — pasted prompt with 'improve' keyword"
+  },
+  {
+    "query": "Score this prompt and tell me what's wrong with it",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "Direct SCORE mode trigger — explicit 'score' keyword"
+  },
+  {
+    "query": "My AI isn't following the instructions I gave it, can you fix the prompt?",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "Implicit trigger — user doesn't say 'improve' but intent is prompt refinement"
+  },
+  {
+    "query": "Create a system prompt for an AI agent that manages inventory",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "BUILD trigger with 'system prompt' + agentic context"
+  },
+  {
+    "query": "Make this better: Act as an expert. Help me with my data.",
+    "should_trigger": true,
+    "split": "train",
+    "notes": "Implicit IMPROVE trigger — vague prompt pasted with 'make this better'"
+  },
+  {
+    "query": "How do I write good prompts for GPT?",
+    "should_trigger": true,
+    "split": "validation",
+    "notes": "Near-trigger: asking about prompt engineering techniques — should engage skill"
+  },
+  {
+    "query": "Rate this instruction set I'm using for Claude",
+    "should_trigger": true,
+    "split": "validation",
+    "notes": "SCORE trigger with platform-specific mention — still in scope"
+  },
+  {
+    "query": "Convert my OpenAI system prompt to work with Ollama",
+    "should_trigger": true,
+    "split": "validation",
+    "notes": "Cross-platform prompt migration — within skill scope"
+  },
+  {
+    "query": "Build an agentic prompt using the ReAct pattern for a research assistant",
+    "should_trigger": true,
+    "split": "validation",
+    "notes": "BUILD trigger with specific technique request — Agentic Edition"
+  },
+  {
+    "query": "Write me a Python script that scrapes product prices from Amazon",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "Code generation task — not prompt engineering"
+  },
+  {
+    "query": "Summarize this PDF document about climate change",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "Content generation — mentions no prompt engineering intent"
+  },
+  {
+    "query": "What's the best restaurant near me?",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "General question — completely out of domain"
+  },
+  {
+    "query": "Fix the bug in my React component that causes infinite re-renders",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "Debugging code — shares 'fix' keyword but target is code, not prompt"
+  },
+  {
+    "query": "Generate a marketing email for our Black Friday sale",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "Content creation — could use a prompt, but user wants final content"
+  },
+  {
+    "query": "Analyze the sales data from Q3 and create a dashboard",
+    "should_trigger": false,
+    "split": "train",
+    "notes": "Data analysis task — mentions no prompt engineering"
+  },
+  {
+    "query": "The prompt on my terminal says Permission Denied, how do I fix it?",
+    "should_trigger": false,
+    "split": "validation",
+    "notes": "Near-miss: 'prompt' refers to terminal prompt, not AI prompt"
+  },
+  {
+    "query": "Help me write a cover letter for a software engineering position",
+    "should_trigger": false,
+    "split": "validation",
+    "notes": "Content writing — 'write' keyword but target is final output"
+  },
+  {
+    "query": "Create a database schema for an e-commerce application",
+    "should_trigger": false,
+    "split": "validation",
+    "notes": "Near-miss: 'create' + 'schema' but domain is database, not prompt"
+  },
+  {
+    "query": "Review my resume and suggest improvements",
+    "should_trigger": false,
+    "split": "validation",
+    "notes": "Near-miss: 'review' + 'improve' keywords but target is resume content"
+  }
+]

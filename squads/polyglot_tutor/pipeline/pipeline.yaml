@@ -1,0 +1,14 @@
+name: "Polyglot Tutor Pipeline"
+description: "Pipeline principal do Polyglot Tutor"
+steps:
+  - steps/step-00-refinement.md
+  - steps/step-01-checkpoint-focus.md
+  - steps/step-02-research.md
+  - steps/step-03-checkpoint-sources.md
+  - steps/step-04-strategy.md
+  - steps/step-05-review.md
+  - steps/step-06-checkpoint-final.md
+checkpoints:
+  - steps/step-01-checkpoint-focus.md
+  - steps/step-03-checkpoint-sources.md
+  - steps/step-06-checkpoint-final.md

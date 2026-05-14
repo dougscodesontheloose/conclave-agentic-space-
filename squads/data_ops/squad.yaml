@@ -1,0 +1,10 @@
+name: "Data Ops"
+code: "data_ops"
+domain: "data"
+icon: "📊"
+version: "1.0.0"
+description: "Gestão do ciclo de vida completo de dados: criação, limpeza, engenharia e análise."
+
+pipeline:
+  steps:
+    - step-00-refinement.md

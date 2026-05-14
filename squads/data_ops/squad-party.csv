@@ -1,0 +1,3 @@
+id,displayName,icon,path,role
+senior_data_analyst,Senior Data Analyst,📈,./agents/senior-data-analyst.agent.md,Data Analyst
+senior_data_scientist,Senior Data Scientist,🧠,./agents/senior-data-scientist.agent.md,Data Scientist

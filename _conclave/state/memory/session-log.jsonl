@@ -1,0 +1,2 @@
+{"ts":"2026-04-21T00:00:00Z","type":"system","event":"initialized","note":"session-log.jsonl iniciado. Registro de eventos de máquina (runs, decisões, falhas de skill). Paralelo ao session_logs.md (diário humano de sessões)."}
+{"ts":"2026-04-21T17:21:51Z","type":"system","event":"core_navigation_integration","note":"Integração de padrões browser-use (Onda 9) concluída. Skill browser-navigator e best-practice browser-automation funcionais."}

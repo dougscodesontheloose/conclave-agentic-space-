@@ -1,0 +1,9 @@
+﻿Nome,Tipo
+Gemini,"Imagem, Texto, Vídeo"
+Perplexity,Texto
+ChatGPT,"Imagem, Texto, Vídeo"
+Gamma,Apresentações
+Manus,"Apresentações, Imagem, Texto, Vídeo"
+Claude,"Apresentações, Texto"
+,
+NotebookLM,"Apresentações, Audio, Imagem, Texto, Vídeo"

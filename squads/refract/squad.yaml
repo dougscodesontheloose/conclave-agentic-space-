@@ -1,0 +1,19 @@
+name: "Refract"
+code: "refract"
+domain: "engineering"
+icon: "🔷"
+version: "1.0.0"
+description: "Estúdio de engenharia cross-platform sob demanda com foco em paridade visual."
+
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-decompose.md
+    - step-02-build-backend.md
+    - step-03-build-web.md
+    - step-04-checkpoint-web-approval.md
+    - step-05-checkpoint-platform-choice.md
+    - step-06-port-swift.md
+    - step-07-port-dotnet.md
+    - step-08-visual-parity.md
+    - step-09-checkpoint-final.md

@@ -1,0 +1,94 @@
+categoria,chave,valor,confianca,fontes,observacoes
+identidade,nome,Douglas,1.0,file:1_sumario_executivo,
+identidade,localizacao,"Boa Vista, Curitiba, Paraná, Brasil",1.0,file:1_sumario_executivo; file:3_secao_13,Localização detalhada e consistente em múltiplas fontes
+identidade,estado_civil,Sem filhos,0.9,file:3_secao_13,
+identidade,autodefinicao,Polímata,0.8,inferido_perfil_geral,Alinha com perfil em T e múltiplos interesses documentados
+contexto_profissional,posicao_atual,"Analista Jr. de Mídias Sociais bilíngue na Wipro, especializado em growth marketing",0.95,file:2_memoria_24; file:4_memoria_24,Registrado em 02/10/2025
+contexto_profissional,area_experiencia,"Experiência profissional em comunicação, marketing e publicidade",1.0,file:2_memoria_25; file:4_memoria_25; file:3_secao_1,Base sólida consolidada
+contexto_profissional,perfil_profissional,"Perfil em T: base sólida em marketing e comunicação, com profundidade crescente em dados, tecnologia e IA",1.0,file:3_secao_1,Refinamento contínuo da narrativa profissional
+contexto_profissional,objetivo_posicionamento,"Atuar na interseção entre marketing, dados e IA, combinando storytelling com abordagem data-driven",1.0,file:3_secao_1,
+contexto_profissional,funcao_alternativa,Analista de dados em saúde e UX designer focado em dashboards clínicos para acompanhamento nutricional,0.8,file:2_memoria_20,"Registrado em 23/12/2025, pode ser projeto paralelo ou aspiração"
+contexto_profissional,experiencia_gestao,Experiência com grande volume de anunciantes e gestão de receita significativa,0.9,file:3_secao_1,
+preferencias_trabalho,formato_pesquisa,Evitar fontes por paywall e priorizar conhecimentos e insights amplos ao redor dos fatos citados,1.0,file:2_memoria_1; file:4_memoria_1,Registrado em 14/02/2026
+preferencias_trabalho,formato_resumos,"Resumos estruturados e concisos em Português organizados como fichamento de leitura (tese, argumentos, implicações para SEO/marketing/carreira)",1.0,file:2_memoria_2; file:4_memoria_2,Registrado em 14/02/2026
+preferencias_trabalho,formato_formulas,Prefere fórmulas e exemplos em Português-BR usando ponto e vírgula (;) como separador,1.0,file:2_memoria_10,Registrado em 08/12/2025
+preferencias_trabalho,tipo_feedback,"Preferência por feedback honesto, específico e construtivo; rejeição de validação genérica ou elogios vazios",1.0,file:3_secao_2,Padrão comportamental consolidado
+preferencias_trabalho,metodologia_trabalho,"Prioriza evidência, métricas e análise sistemática sobre intuição isolada; valorização de pesquisa profunda e fact-checking rigoroso",1.0,file:3_secao_1; file:3_secao_2,
+preferencias_trabalho,documentacao,Documentação sistemática de descobertas,1.0,file:3_secao_2,
+preferencias_trabalho,criterio_decisao,Qualidade acima de quantidade em decisões e ferramentas,1.0,file:3_secao_2,
+preferencias_trabalho,gestao_incerteza,Preferência por reconhecer incertezas explicitamente,1.0,file:3_secao_2,
+preferencias_trabalho,uso_gpts,Considerou usar GPT personalizado ou espaço de trabalho com arquivos/contexto para tarefas repetitivas e em evolução,0.9,file:2_memoria_9,Registrado em 19/01/2026
+interesses,afrofuturismo,Estudo teórico e crítico de Afrofuturismo,0.95,file:3_secao_5; file:2_memoria_12,Pediu análise de anotações manuscritas sobre o tema em 09/02/2026
+interesses,alquimia_simbolica,"Interesse nas etapas alquímicas (nigredo, albedo, rubedo) e investigação simbólica e filosófica",0.9,file:3_secao_5,
+interesses,ficcao_cientifica,Fascínio por ficção científica como referência estrutural,0.9,file:3_secao_5,
+interesses,integracao_narrativa_tecnologia,"Integração entre tecnologia, narrativa e identidade",1.0,file:3_secao_5,
+interesses,canetas_instrumentos_escrita,"Alto interesse em canetas, lapiseiras e instrumentos de escrita de alta qualidade (Nakaya, Lamy, Rotring, Pentel, Zebra, Pilot, Visconti, Ashera)",1.0,file:2_categoria_4_21_memorias; file:4_categoria_4,"21 memórias registradas sobre este tema, maior categoria individual"
+interesses,papelaria_japonesa,"Interesse por papelaria fina japonesa, planners (Hobonichi Techo, Jibun Techo), papel especial (Tomoe River) e filosofia monozukuri",1.0,file:2_memoria_61_64_73_75; file:3_implícito,Múltiplas pesquisas sobre produtos e filosofia de design japonês
+interesses,aprendizagem,Pesquisa sobre princípios e métodos de aprendizagem eficaz; estudou o Ciclo de Aprendizagem de Kolb,0.95,file:2_memoria_32,Registrado em 22/01/2026
+interesses,journaling_caligrafia,"Interesse em journaling (Haruki Murakami como inspiração), bullet journal, melhoria de caligrafia e assinatura",0.95,file:2_memoria_55_67_68_69,Deseja assinatura com aparência menos infantil
+interesses,culinaria_processos,Interesse técnico em culinária e processos alimentares com abordagem analítica,0.85,file:3_secao_10,Aplica mesma lógica investigativa ao cotidiano
+interesses,maker_impressao_3d,"Exploração maker, incluindo impressão 3D",0.8,file:3_secao_8,
+preferencias_tecnicas,sistema_operacional,Usa macOS versão 26.2,1.0,file:2_memoria_6,Registrado em 02/02/2026
+preferencias_tecnicas,email_provedor,"Usa Proton Mail como provedor principal, às vezes Gmail ou Outlook",0.95,file:2_memoria_5_8,Proton Mail associado à conta em 02/02/2026
+preferencias_tecnicas,uso_ia,"Uso intenso de IA como infraestrutura cognitiva e extensão de memória externa; utiliza Perplexity modo Pro, ChatGPT, Claude",1.0,file:3_secao_3_8; file:2_memoria_3_29,Perguntou sobre limites de pesquisas profundas do modo Pro
+preferencias_tecnicas,engenharia_prompts,Interesse em engenharia de prompts; criação e uso de GPTs especializados,1.0,file:3_secao_8,
+preferencias_tecnicas,plataformas_aprendizagem,"Acessa plataformas Alura, Data Driven, FIAP como principais recursos de aprendizagem",0.95,file:2_memoria_34_38_40,"Planejou roteiro estruturado: 12 meses Data Driven, 12 meses Alura, depois FIAP"
+preferencias_tecnicas,ferramentas_planilhas,"Trabalha com planilhas (Excel/Google Sheets) em operações de tempo (HH:MM:SS), limpeza e transformação de dados",0.9,file:2_memoria_82_83,Registrado em 26/01/2026
+preferencias_tecnicas,automacao_marketing,Pesquisou ferramentas de automação de marketing/campanhas,0.85,file:2_memoria_78_79,Registrado em 09/02/2026
+preferencias_tecnicas,deteccao_ia_texto,Pesquisou ferramentas para detectar rastros de textos gerados por IA,0.85,file:2_memoria_80,Registrado em 02/02/2026
+preferencias_tecnicas,navegadores_ia,Pesquisou navegadores focados em IA com versões para Windows,0.8,file:2_memoria_77,Registrado em 11/02/2026
+preferencias_tecnicas,hardware_interesse,"Comparou Apple Watch SE 3, Series 11 e Ultra 3; interesse em hardware funcional e ergonomia",0.85,file:2_memoria_81; file:3_secao_8,Registrado em 26/01/2026
+preferencias_tecnicas,otimizacao_ambiente,"Otimização constante do ambiente digital: agrupou sites de rotina matinal (LinkedIn, Gmail, X/Twitter, Calendário) em grupo de abas",0.9,file:2_memoria_66; file:3_secao_9,Registrado em 06/02/2026
+preferencias_tecnicas,geracao_imagens_ia,"Explorou gerar fotos profissionais para LinkedIn a partir de foto usando IA, além de personas e ensaios fotográficos",0.9,file:2_memoria_76,Registrado em 12/02/2026
+rotina_habitos,plano_estudos,Planejou plano de estudos diário de 10 meses focado em habilidades técnicas e comportamentais com distribuição semanal de horas por ferramenta e disciplina,0.95,file:2_memoria_33_37,Registrado em 21/01/2026 e 16/11/2025
+rotina_habitos,abordagem_sistematica,Tendência a estruturar conhecimento em sistemas; criação recorrente de frameworks próprios; alternância entre exploração criativa e organização estrutural,1.0,file:3_secao_3,Padrão cognitivo observado
+rotina_habitos,ciclos_ultradianos,Pesquisou ciclos ultradianos e como aplicá-los à atenção e rotina de estudo/trabalho,0.85,file:2_memoria_70,Registrado em 26/01/2026
+rotina_habitos,sistema_organizacao,"Planejou diário/sistema de organização personalizado e estruturado para rastreamento, visualização, gerenciamento de tempo, objetivos e calendários",0.9,file:2_memoria_71,Registrado em 25/01/2026
+rotina_habitos,playlists_foco,Criou ou pediu playlists de música eletrônica para foco e produtividade,0.9,file:2_memoria_65,Registrado em 06/02/2026
+rotina_habitos,escrita_manual,Usa Planner e bullet journal; escreve com tinta preta intensa; tolera pequenas manchas; usa caneta-tinteiro ocasionalmente,0.95,file:2_memoria_55,Registrado em 28/01/2026
+rotina_habitos,preferencia_papel,Prefere papel amigável para caneta-tinteiro; usa papel mais pesado (85+ g/m²) com pontas finas (EF/F) e tintas de baixo fluxo,0.9,file:2_memoria_62_63,"Notou ghosting, sangramento e show-through em papéis abaixo de ~70 g/m²"
+objetivos_metas,transicao_carreira,Planeja migrar da comunicação para área de tecnologia com foco em IA e dados; transição iniciada em 2026 com meta de estar pronto profissionalmente em 10 meses,1.0,file:2_memoria_22_35_39; file:3_secao_7,Mantém trabalho atual como 'sala de espera' durante transição
+objetivos_metas,roadmap_emprego_2026,Solicitou roadmap detalhado e acionável de busca de emprego para 2026 com orientação focada no LinkedIn,0.95,file:2_memoria_15,Registrado em 30/01/2026
+objetivos_metas,busca_vagas,Busca vagas de BI/Marketing Data Analyst usando prompts em português com buscas booleanas e por palavra-chave,0.9,file:2_memoria_16,Registrado em 30/01/2026; perguntou sobre usar buscas em linguagem natural com nuance
+objetivos_metas,aprendizado_python,Pesquisou recursos e pediu para aprender Python,0.95,file:2_memoria_30,Registrado em 30/01/2026
+objetivos_metas,priorizacao_habilidades,Perguntou quais habilidades e ferramentas priorizar para aprender,0.9,file:2_memoria_31,Registrado em 30/01/2026
+objetivos_metas,cursos_certificacoes,"Concluiu diversos cursos e certificações online em IA, marketing e proficiência em inglês (TOEFL ITP, EFSET); histórico extenso 2016-2026",0.95,file:2_memoria_26; file:3_secao_6,Registrado em 12/02/2026; perguntou sobre OpenAI Academy e Claude AI
+objetivos_metas,espanhol,"Quer progredir da fluência elementar em espanhol usando plataformas, YouTube, professores e locais de imersão",0.85,file:2_memoria_42,Registrado em 01/10/2025
+objetivos_metas,carreiras_seguras,Perguntou quais carreiras são seguras e como se preparar para elas,0.8,file:2_memoria_14,Registrado em 31/01/2026
+objetivos_metas,papel_assistente_desejado,"Deseja que assistente atue como desenvolvedora de software sênior especializada em ciência de dados na área de saúde e nutrição, com foco em front-end e comunicação para diminuir gap na literacia científica",0.85,file:2_memoria_21,Registrado em 29/11/2025
+restricoes_limites,localizacao_busca,"Resultados restritos à cidade de Curitiba; excluiu municípios próximos (Pinhais, CIC, São José dos Pinhais, Araucária, Campo Magro, Campo Largo)",1.0,file:2_memoria_7,Registrado em 02/02/2026
+restricoes_limites,candidaturas_simplificadas,Prefere fluxo 'Candidatura Simplificada' e evita vagas que peçam dados extras (ex.: carta de apresentação); pede etapa de triagem para verificar se vaga faz sentido,0.95,file:2_memoria_23,Registrado em 30/10/2025
+restricoes_limites,preferencia_marcas_canetas,"Exige que canetas sejam das marcas Pentel, Uniball, Zebra ou Pilot; prefere tinta gel quando possível",0.95,file:2_memoria_52_53,Registrado em 28/01/2026; restrição específica para multipens
+restricoes_limites,memoria_sistema_cheia,Memória do Perplexity atingiu 100% da capacidade; novas memórias não estão sendo salvas; personalização futura pode estar limitada,1.0,file:3_secao_15,Estado crítico identificado no documento
+restricoes_limites,paywall_aversao,Evitar fontes por paywall nas pesquisas,1.0,file:2_memoria_1,Restrição explícita registrada em 14/02/2026
+estilo_comunicacao,tom_direto,Tom direto e não institucional; evitar linguagem genérica ou 'corporativa',1.0,file:3_secao_11,
+estilo_comunicacao,estrutura_clara,Preferência por estrutura clara sem dramatização excessiva,1.0,file:3_secao_11,
+estilo_comunicacao,evitar_travessoes,Evitar uso excessivo de travessões,1.0,file:3_secao_11,Preferência estilística específica
+estilo_comunicacao,anti_ai_pass,Revisão final com 'anti-AI pass' para remover clichês,1.0,file:3_secao_11,Técnica específica de revisão
+estilo_comunicacao,genero_assistente,Prefere tratar assistente no feminino,1.0,file:3_secao_12,
+estilo_comunicacao,tipo_relacao,"Espera parceria intelectual, não validação automática; valoriza nuance e contrapontos honestos",1.0,file:3_secao_12,Definição clara do tipo de interação desejada
+estilo_comunicacao,idioma_primario,Português-BR como idioma primário para respostas,1.0,file:2_memoria_2_10,Especificou formato de separadores e estrutura em PT-BR
+estilo_comunicacao,interface_preferencia,Deseja botão de modo claro/escuro para interfaces,0.9,file:2_memoria_11,Registrado em 23/11/2025
+historico,entrevista_recente,Tinha entrevista marcada e pediu ajuda para preparação,0.9,file:2_memoria_18,Registrado em 28/01/2026
+historico,carta_enliv,Preparou carta de apresentação genérica enfatizando habilidades para vaga na Enliv Energia,0.95,file:2_memoria_13,Registrado em 01/02/2026
+historico,curriculos_ats,Adaptação frequente de currículo para ATS; monitoramento de vagas e reposicionamento ativo; ajustes narrativos de posicionamento,1.0,file:3_secao_7,Fase atual de transição profissional
+historico,pesquisa_puc_parana,Pesquisou PUC Paraná como opção de formação por residir em Curitiba; descartou a opção posteriormente,0.9,file:2_memoria_40_41,Registrado em 03/10/2025; comparou com outras instituições
+historico,pesquisa_salario_negociacao,Buscou orientação sobre como informar salário justo e negociar diplomaticamente,0.9,file:2_memoria_17,Registrado em 28/01/2026
+historico,aplicacao_analise_perfil,Perguntou como aplicar aprendizados de análise de perfil à carreira e presença no LinkedIn,0.85,file:2_memoria_19,Registrado em 23/01/2026
+historico,cursos_extensao_linkedin,Perguntou se cursos de extensão universitária podem ser colocados no LinkedIn e como se relacionam com outras qualificações acadêmicas,0.9,file:2_memoria_27,Registrado em 11/02/2026
+historico,verificacao_quero_passagem,Verificou confiabilidade do site de passagens 'quero passagem',0.9,file:2_memoria_4,Registrado em 09/02/2026
+outros,projetos_conceituais,"Criou ecossistema pessoal modular: Alexandria, Corner Office, Permanence/Permanence Code, Master Control, Celeiro de Ideias, The Grid, Cliff Palace, Dream Catcher (consistência narrativa), Adaptador de Currículos por Vaga",1.0,file:3_secao_4,Sistema baseado em funções cognitivas distintas
+outros,presenca_online,"Blog pessoal no Medium, perfil no Hugging Face, repositório GitHub ativo, perfil profissional no LinkedIn",1.0,file:3_secao_6,Presença online estruturada
+outros,segundo_cerebro,Uso da IA como sistema operacional pessoal; construção deliberada de um 'segundo cérebro' digital,0.95,file:3_secao_16,Lacuna identificada; padrão não formalizado mas evidente
+outros,transicao_psicologica,Transição psicológica de executor para arquiteto de sistemas,0.9,file:3_secao_16,Lacuna identificada; transformação comportamental recente
+outros,integracao_simbolica_tecnica,Integração entre criação simbólica e engenharia técnica; síntese entre técnica e significado simbólico,0.95,file:3_secao_3; file:3_secao_16,Padrão mental observado
+outros,nomeacao_projetos,Nomeação recorrente de projetos e espaços conceituais,1.0,file:3_secao_3,Padrão cognitivo consistente
+outros,frameworks_proprios,Criação recorrente de frameworks próprios; deseja frameworks e prompts estruturados por semanas e meses para planejar desenvolvimento de habilidades,1.0,file:3_secao_3; file:2_memoria_43,Registrado em 01/10/2025
+outros,periodo_uso_perplexity,Período de uso do Perplexity: 25 de setembro de 2025 a 14 de fevereiro de 2026 (aproximadamente 4 meses e 20 dias); 147 memórias registradas,1.0,file:1_sumario_executivo; file:2_titulo,Contexto temporal do histórico
+outros,modo_perplexity,Usa modo Pro do Perplexity; perguntou sobre limites de pesquisas profundas e quando resetam,1.0,file:2_memoria_3,Registrado em 09/02/2026
+outros,papelarias_brasil,"Pesquisou papelarias online no Brasil para materiais de estudo, escritório e artísticos",0.9,file:2_memoria_72,Registrado em 24/01/2026
+outros,compra_canetas_premium,"Procurou comprar Nakaya Dorsal Fin 2, Lamy 2000, canetas Ashera Aeon/Ashera no Brasil, multipen",0.95,file:2_memoria_44_50_54_60,Múltiplas pesquisas de produtos premium entre janeiro e fevereiro 2026
+outros,vazamento_visconti,Pediu dicas para evitar vazamentos de canetas Visconti em viagens aéreas,0.9,file:2_memoria_51,Registrado em 30/01/2026; indica posse ou intenção de adquirir Visconti
+outros,investigacao_aquisicoes,"Pesquisou como aquisições corporativas afetam operações, local de produção, gestão e integração cultural (contexto: aquisição da Lamy pela Mitsubishi)",0.85,file:2_memoria_58_59,Registrado em 19/01/2026; interesse analítico em dinâmica corporativa
+outros,etimologia_branding,"Pesquisou etimologia de termos de branding, especificamente origem do termo 'zento'",0.85,file:2_memoria_74,Registrado em 22/01/2026
+outros,universidades_ia_educacao,Perguntou como universidades adotam ferramentas de IA (Claude) na educação,0.85,file:2_memoria_36,Registrado em 19/01/2026

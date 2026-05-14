@@ -1,0 +1,12 @@
+{
+  "slug": "competitor-intel",
+  "display_name": "Competitor Intel",
+  "category": "composites",
+  "tags": ["competitive-intelligence", "research", "analysis", "positioning"],
+  "type": "hybrid",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/competitor-intel/SKILL.md"
+  }
+}

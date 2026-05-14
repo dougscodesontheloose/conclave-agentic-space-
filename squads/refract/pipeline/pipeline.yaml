@@ -1,0 +1,18 @@
+# Pipeline Definition
+squad: "refract"
+
+checkpoints:
+  - step-04-checkpoint-web-approval.md
+  - step-05-checkpoint-platform-choice.md
+  - step-09-checkpoint-final.md
+
+steps:
+  - step-01-decompose.md
+  - step-02-build-backend.md
+  - step-03-build-web.md
+  - step-04-checkpoint-web-approval.md
+  - step-05-checkpoint-platform-choice.md
+  - step-06-port-swift.md
+  - step-07-port-dotnet.md
+  - step-08-visual-parity.md
+  - step-09-checkpoint-final.md

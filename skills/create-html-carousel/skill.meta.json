@@ -1,0 +1,12 @@
+{
+  "slug": "create-html-carousel",
+  "display_name": "HTML Carousel Generator",
+  "category": "capabilities",
+  "tags": ["design", "carousel", "linkedin", "html", "content", "poética-racional"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/create-html-carousel/SKILL.md"
+  }
+}

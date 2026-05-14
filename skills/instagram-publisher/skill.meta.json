@@ -1,0 +1,12 @@
+{
+  "slug": "instagram-publisher",
+  "display_name": "Instagram Publisher",
+  "category": "capabilities",
+  "tags": ["publishing", "instagram", "social-media", "automation"],
+  "type": "script",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/instagram-publisher/SKILL.md"
+  }
+}
