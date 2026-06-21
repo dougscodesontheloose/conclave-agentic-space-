@@ -1,0 +1,24 @@
+{
+  "squad": "family_ties_ancestral_radar",
+  "status": "completed",
+  "step": {
+    "current": 5,
+    "total": 5,
+    "label": "completed"
+  },
+  "agents": [
+    {
+      "id": "linhagem-scout",
+      "name": "Linhagem Scout",
+      "icon": "🧬",
+      "status": "idle",
+      "desk": {
+        "col": 1,
+        "row": 1
+      }
+    }
+  ],
+  "handoff": null,
+  "startedAt": "2026-05-19T21:13:20Z",
+  "updatedAt": "2026-05-19T23:02:16Z"
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "image-creator",
+  "display_name": "Image Creator",
+  "category": "capabilities",
+  "tags": ["design", "images", "generation", "mcp"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use the image-creator MCP tools"
+  }
+}

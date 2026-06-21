@@ -1,0 +1,46 @@
+squad_code: refract
+purpose: "Estúdio de engenharia cross-platform sob demanda. Recebe qualquer tarefa de dev, implementa em stack web (PWA), e traduz com fidelidade visual para macOS e Windows quando aprovado."
+domain: mixed
+
+company:
+  name: "<user_name> de Paula Moura (<user_name>)"
+  tone: "Técnico e narrativo. Direto, sem jargão desnecessário."
+
+language: "pt-BR"
+
+operating_mode: "time-pool-por-demanda + pipeline-portabilidade + laboratorio-3d"
+
+stack:
+  web:
+    - JavaScript
+    - TypeScript
+    - Python
+    - Three.js / WebGL
+    - PWA (service workers, manifest, offline-first)
+  macos:
+    framework: "SwiftUI + SceneKit/RealityKit"
+  windows:
+    framework: "WinUI 3 + Win2D/SharpDX"
+
+autonomy_level: "maxima"
+execution_permissions:
+  - bash_npm_node
+  - bash_python_pip
+  - bash_xcodebuild_swift
+  - bash_dotnet
+  - playwright_screenshot
+  - xcode_preview
+  - write_read_edit_output
+
+portability_rule: "GATED — ports nativos NUNCA são escritos sem aprovação explícita do usuário em checkpoint dedicado"
+
+checkpoint_tone: "consultivo — Arquiteto recomenda com justificativa antes de perguntar"
+
+tools_needed:
+  - web_search
+  - web_fetch
+
+investigation:
+  enabled: false
+
+target_formats: []

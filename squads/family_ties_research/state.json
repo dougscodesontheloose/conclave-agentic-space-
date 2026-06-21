@@ -1,0 +1,31 @@
+{
+  "squad": "family_ties_research",
+  "status": "completed",
+  "step": { "current": 6, "total": 6, "label": "completed" },
+  "agents": [
+    {
+      "id": "selene-mapper",
+      "name": "Selene Mapper",
+      "icon": "🗺️",
+      "status": "idle",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "orion-finder",
+      "name": "Orion Finder",
+      "icon": "🔎",
+      "status": "idle",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "minerva-audit",
+      "name": "Minerva Audit",
+      "icon": "⚖️",
+      "status": "idle",
+      "desk": { "col": 3, "row": 1 }
+    }
+  ],
+  "handoff": null,
+  "startedAt": "2026-05-18T15:51:50Z",
+  "updatedAt": "2026-05-18T16:15:00Z"
+}

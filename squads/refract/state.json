@@ -1,0 +1,59 @@
+{
+  "squad": "refract",
+  "status": "running",
+  "step": { "current": 1, "total": 9, "label": "step-01-decompose.md" },
+  "agents": [
+    {
+      "id": "pietro-prompt",
+      "name": "Pietro Prompt",
+      "icon": "🎯",
+      "status": "idle",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "arquiteto",
+      "name": "Arquiteto",
+      "icon": "🏛️",
+      "status": "working",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "wade-web",
+      "name": "Wade Web",
+      "icon": "🌐",
+      "status": "idle",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "pris-python",
+      "name": "Pris Python",
+      "icon": "🐍",
+      "status": "idle",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "sulu-swift",
+      "name": "Sulu Swift",
+      "icon": "🍎",
+      "status": "idle",
+      "desk": { "col": 2, "row": 2 }
+    },
+    {
+      "id": "dex-dotnet",
+      "name": "Dex Dotnet",
+      "icon": "🪟",
+      "status": "idle",
+      "desk": { "col": 3, "row": 2 }
+    },
+    {
+      "id": "phasma-parity",
+      "name": "Phasma Parity",
+      "icon": "🔬",
+      "status": "idle",
+      "desk": { "col": 1, "row": 3 }
+    }
+  ],
+  "handoff": null,
+  "startedAt": "2026-06-02T14:45:09Z",
+  "updatedAt": "2026-06-02T14:45:30Z"
+}

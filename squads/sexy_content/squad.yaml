@@ -1,0 +1,21 @@
+name: "Sexy Content Engine"
+code: "sexy_content"
+domain: "linkedin"
+icon: "💠"
+version: "2.0.0"
+description: "Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis Visuais premium e Artigos na voz do <user_name>."
+
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-triage.md
+    - step-02-pesquisa-ou-referencia.md
+    - step-03-checkpoint-conteudo.md
+    - step-04-selecao-formato.md
+    - step-05-gerar-angulos.md
+    - step-06-checkpoint-angulo.md
+    - step-07-produzir-conteudo.md
+    - step-08-design-carousel.md
+    - step-09-revisao-qualidade.md
+    - step-10-checkpoint-aprovacao.md
+    - step-11-publicar-conteudo.md

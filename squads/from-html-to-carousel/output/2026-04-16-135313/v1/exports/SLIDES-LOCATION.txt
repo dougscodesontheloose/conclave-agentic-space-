@@ -1,0 +1,10 @@
+Os 7 slides PNG estão disponíveis em:
+/Users/douglasdepaulamoura/.gemini/antigravity/brain/3a3fcc24-0236-42da-9086-cf0703565b5a/
+
+- carousel_slide_01_*.png (Capa)
+- carousel_slide_02_*.png (O Falso Positivo)
+- carousel_slide_03_*.png (A Contaminação Invisível)
+- carousel_slide_04_*.png (O Abismo dos Sub-Agents)
+- carousel_slide_05_*.png (Quebre a Cadeia)
+- carousel_slide_06_*.png (Cultura Baseada em Dados)
+- carousel_slide_07_*.png (Austeridade Técnica — CTA)

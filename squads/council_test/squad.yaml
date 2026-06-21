@@ -1,0 +1,10 @@
+# Squad: Council Test
+code: council_test
+name: "Conselho de Teste"
+description: "Squad para validar o protocolo de Resumo Estruturado do Conselho."
+domain: "test"
+icon: "⚖️"
+
+pipeline:
+  steps:
+    - step-00-review.md

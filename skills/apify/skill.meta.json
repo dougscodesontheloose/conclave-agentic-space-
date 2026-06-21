@@ -1,0 +1,12 @@
+{
+  "slug": "apify",
+  "display_name": "Apify Web Scraper",
+  "category": "capabilities",
+  "tags": ["research", "scraping", "web", "data-extraction", "automation"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use the apify MCP tools"
+  }
+}

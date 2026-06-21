@@ -1,0 +1,10 @@
+{
+  "system_health": "nominal",
+  "last_deep_scan": "2026-06-21T21:49:58Z",
+  "anomalies": [],
+  "metrics": {
+    "total_squads": 16,
+    "total_skills": 179,
+    "agents_active": 0
+  }
+}

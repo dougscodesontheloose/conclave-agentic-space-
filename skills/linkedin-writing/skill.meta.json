@@ -1,0 +1,12 @@
+{
+  "slug": "linkedin-writing",
+  "display_name": "LinkedIn Writing Framework",
+  "category": "capabilities",
+  "tags": ["content", "linkedin", "writing", "copywriting", "voice"],
+  "type": "prompt",
+  "version": "2.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/linkedin-writing/SKILL.md"
+  }
+}

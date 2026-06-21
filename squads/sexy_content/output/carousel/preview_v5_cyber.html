@@ -1,0 +1,439 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Preview: Brutalismo Transparente v5</title>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Inter:wght@400;600;800&family=Lora:ital,wght@1,500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --bg: #fafafa;
+    --grid: #f4f4f5;
+    --surface: rgba(255, 255, 255, 0.7);
+    --accent: #8b5cf6;
+    --text: #2e1065;
+    --text-dim: #a78bfa;
+    --border: #2e1065;
+}
+
+body {
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 60px;
+    justify-content: center;
+}
+
+.slide {
+    width: 1080px;
+    height: 1080px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--bg);
+    overflow: hidden;
+    /* Scale for preview */
+    transform: scale(0.6);
+    transform-origin: top left;
+    margin-bottom: -432px;
+    margin-right: -432px;
+    box-shadow: 20px 20px 0px rgba(0,0,0,0.1);
+    border: 2px solid var(--border);
+}
+
+/* -- Engineering Grid Pattern -- */
+.slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: 
+        linear-gradient(to right, var(--grid) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 1;
+}
+
+/* -- Blueprint Corner Marks -- */
+.slide::after {
+    content: "+";
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    color: var(--border);
+    z-index: 5;
+}
+
+.content-layer {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -- Header & Labels (Engineering Metadados) -- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.metadata-box {
+    border: 2px solid var(--border);
+    background: var(--surface);
+    backdrop-filter: blur(12px);
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.metadata-box span.val {
+    color: var(--border);
+    font-size: 20px;
+}
+
+.accent-tag {
+    background: var(--accent);
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+
+/* -- Content Card -- */
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 40px; /* Assimetria brutalista */
+    padding-right: 40px;
+}
+
+/* O famoso "gear" / Forma preta forte do lado esquerdo (como no poster SWE) */
+.brutalist-block {
+    position: absolute;
+    left: -40px;
+    top: 30%;
+    width: 60px;
+    height: 300px;
+    background: var(--border);
+    z-index: 5;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 85px;
+    line-height: 1.05;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.03em;
+    max-width: 900px;
+}
+
+.title italic, .title em {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--text);
+}
+
+.body-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--text);
+    max-width: 800px;
+    background: var(--surface);
+    padding: 30px;
+    border-left: 6px solid var(--accent);
+    backdrop-filter: blur(5px);
+}
+
+.body-text ul {
+    list-style: none;
+}
+
+.body-text li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.body-text li::before {
+    content: ">> ";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 800;
+}
+
+/* -- Footer -- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    color: var(--border);
+    font-weight: 600;
+}
+
+.barcode {
+    font-family: 'Libre Barcode 39', monospace; /* Fonte fake p/ barcode ou simulação com pipes */
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+/* -- Variants -- */
+.slide.capa {
+    background: var(--border); /* Preto Total */
+    color: #fff;
+    border-color: var(--bg);
+}
+
+.slide.capa::before {
+    background-image: 
+        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+}
+
+.slide.capa .brutalist-block {
+    display: none;
+}
+
+.slide.capa .title {
+    color: #fff;
+    font-size: 110px;
+    margin-left: 0;
+    margin-bottom: 60px;
+}
+
+.slide.capa .body-text {
+    background: transparent;
+    border-left: none;
+    color: var(--accent);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0;
+    max-width: 750px;
+    line-height: 1.3;
+}
+
+.slide.capa .metadata-box {
+    background: transparent;
+    border-color: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+.slide.capa .metadata-box span.val {
+    color: #fff;
+}
+
+.slide.capa .footer {
+    color: rgba(255,255,255,0.5);
+}
+
+.slide.capa .handle {
+    display: none;
+}
+</style>
+    </head>
+    <body>
+    
+<div class="slide  capa" id="slide-1">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">ADS & SEARCH</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">01 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">Como proteger suas campanhas B2B na transição agressiva do Google Ads.</h1>
+            <div class="body-text">
+                A compra cega pela palavra-chave parou de funcionar.
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">@dougpmoura</div>
+        </div>
+    </div>
+</div>
+
+<div class="slide " id="slide-2">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">UPGRADE DA MÍDIA</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">02 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">O Upgrade da Fita K7</h1>
+            <div class="body-text">
+                A música de conversão não mudou, mas o aparelho leitor virou CD. Deixar o antigo rodar sem atualizar o formato é garantir ruído estático na entrega.
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">@dougpmoura</div>
+        </div>
+    </div>
+</div>
+
+<div class="slide " id="slide-3">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">NOVO BID</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">03 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">O dado feed-first assume o controle.</h1>
+            <div class="body-text">
+                O novo "AI Search Mode" do Google ignora contas que apostam apenas em bid, mas estão desconectadas dos dados raiz e inventários ricos.
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">@dougpmoura</div>
+        </div>
+    </div>
+</div>
+
+<div class="slide " id="slide-4">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">ROTEIRO</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">04 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">01. Higiene Estrutural</h1>
+            <div class="body-text">
+                <ul><li>Atualizar inteiramente a tagologia com foco na ingestão da API.</li><li>Puxar colunas analíticas antes cegas dentro do seu Data Lake/CRM.</li></ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">@dougpmoura</div>
+        </div>
+    </div>
+</div>
+
+<div class="slide " id="slide-5">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">ROTEIRO</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">05 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">02. Readequação</h1>
+            <div class="body-text">
+                <ul><li>Lidar com o inventário não como "palavras de busca", mas como ativos crus, ricos.</li><li>A base precisa ser hiper categorizada para o algoritmo interpretar intenção sem você pedir.</li></ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">@dougpmoura</div>
+        </div>
+    </div>
+</div>
+
+<div class="slide " id="slide-6">
+    <div class="content-layer">
+        <div class="header">
+            <div class="metadata-box">
+                <span>SECT.</span>
+                <span class="val">REFLECTION</span>
+            </div>
+            <div class="metadata-box">
+                <span>PAGE</span>
+                <span class="val">06 / 06</span>
+            </div>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="brutalist-block"></div>
+            <h1 class="title">O dado cru escondido vai afundar seu lead antes da jornada iniciar.</h1>
+            <div class="body-text">
+                A melhor copy do mundo não salva um banco de dados cego.
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="brand">SYS.DOUGLAS</div>
+            <div class="barcode">|| | | | || | | || | | </div>
+            <div class="handle">Dicas do Doug</div>
+        </div>
+    </div>
+</div>
+</body></html>

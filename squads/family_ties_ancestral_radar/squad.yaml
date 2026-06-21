@@ -1,0 +1,37 @@
+name: "Ancestral Radar"
+code: "family_ties_ancestral_radar"
+domain: "genealogy"
+icon: "🧬"
+version: "2.0.0"
+description: "Squad de pesquisa genealógica orientado por evidência focado em expandir a árvore documental com parâmetros de pesquisa, fontes oficiais e documentação de internet."
+goal: "Transformar os dados já registrados em Family Ties em uma fila priorizada de buscas externas, achados verificáveis e expandir a árvore documental."
+skills:
+  - web_search
+  - web_fetch
+  - genealogy-evidence-validation
+discovery:
+  keywords: ["genealogia", "árvore genealógica", "ancestrais", "family ties", "sobrenome", "antepassados", "certidão", "registro civil", "pesquisa genealógica"]
+  aliases: ["family_ties", "ancestral_radar", "family_ties_research"]
+data:
+  - ambientes/Family Ties/README.md
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/confirmed-ancestor-targets.md
+  - ambientes/Family Ties/05_saidas/contexto-continuacao-genealogia.md
+  - ambientes/Family Ties/05_saidas/evidence-ledger.csv
+  - ambientes/Family Ties/05_saidas/arquitetura-operacional-family-ties-2026-05-19.md
+
+pipeline:
+  steps:
+    - step-00-mapear-alvos.md
+    - step-01-checkpoint-escopo.md
+    - step-02-mapear-lacunas.md
+    - step-03-pesquisar-fontes.md
+    - step-04-pesquisa-web.md
+    - step-05-checkpoint-achados.md
+    - step-06-consolidar-dossie.md
+    - step-07-plano-de-expansao.md
+    - step-08-checkpoint-final.md

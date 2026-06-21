@@ -1,0 +1,22 @@
+# Pipeline Definition
+squad: "linkedin-content"
+
+checkpoints:
+  - step-01-checkpoint-pesquisa.md
+  - step-03-checkpoint-noticia.md
+  - step-05-checkpoint-angulo.md
+  - step-08-checkpoint-aprovacao.md
+
+steps:
+  - step-00-refinement.md
+  - step-01-triage.md
+  - step-02-pesquisa-ou-referencia.md
+  - step-03-checkpoint-conteudo.md
+  - step-04-selecao-formato.md
+  - step-05-gerar-angulos.md
+  - step-06-checkpoint-angulo.md
+  - step-07-produzir-conteudo.md
+  - step-08-design-carousel.md
+  - step-09-revisao-qualidade.md
+  - step-10-checkpoint-aprovacao.md
+  - step-11-publicar-conteudo.md

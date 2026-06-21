@@ -1,0 +1,6 @@
+name: "Family Ties"
+code: "family_ties"
+domain: "genealogy"
+description: "Redirect para o master."
+icon: "🧬"
+redirect_to: "family_ties_ancestral_radar"

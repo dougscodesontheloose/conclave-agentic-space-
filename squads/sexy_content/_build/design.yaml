@@ -1,0 +1,153 @@
+squad:
+  code: "linkedin-content"
+  name: "LinkedIn Content & Publishing"
+  description: "Pesquisa notícias e tendências (Marketing Analytics, BI e Martech), cria conteúdo original com a voz do <user_name> e publica."
+
+agents:
+  - id: "hari-searcher"
+    name: "Hari Searcher"
+    title: "Pesquisador de Tendências"
+    icon: "🔎"
+    execution: "subagent"
+    role_summary: "Busca notícias e tendências sobre Análise de Dados voltada a marketing de performance, Ciência de Dados aplicabilidade em negócios, Martech, Growth Marketing, Inteligência Artificial e BI, cruzando temas quando possível."
+    skills:
+      - "web_search"
+      - "web_fetch"
+    tasks:
+      - name: "encontrar-e-ranquear-noticias"
+        file: "tasks/encontrar-e-ranquear-noticias.md"
+        description: "Encontra as notícias mais relevantes da semana nos temas definidos e gera uma lista rankeada."
+    artifacts:
+      anti_patterns:
+        never_do:
+          - "Recolher informações irrelevantes para o negócio principal de Growth ou Marketing Data"
+        always_do:
+          - "Extrair contextos da aplicabilidade de BI e IA"
+      quality_criteria:
+        - "Fontes primárias identificadas"
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      output_examples: []
+  - id: "trinity-copy"
+    name: "Trinity Copy"
+    title: "Copywriter Especialista"
+    icon: "📝"
+    execution: "inline"
+    role_summary: "Aplica o framework linkedin-writing-v2 e creative-writing-v2 para gerar ângulos e escrever o conteúdo final (Post ou Carrossel)."
+    skills:
+      - "linkedin-writing-v2"
+      - "creative-long-form"
+    tasks:
+      - name: "gerar-angulos"
+        file: "tasks/gerar-angulos.md"
+        description: "Gera 5 opções distintas e criativas de ângulos baseadas na notícia selecionada."
+      - name: "escrever-conteudo"
+        file: "tasks/escrever-conteudo.md"
+        description: "Desenvolve o conteúdo 100% focado no angle aprovado para o feed."
+    artifacts:
+      anti_patterns:
+        never_do:
+          - "Soar arrogante, professoral ou dogmático ao explicar estratégias."
+        always_do:
+          - "Manter uma postura de quem explica a um colega de trabalho — acessível, didático e amigável."
+      quality_criteria: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules:
+          - "Incorporar referências e analogias sutis de cultura pop (games, filmes, séries, livros, podcasts) para ancorar conceitos complexos de Martech/Dados com bom humor e didatismo."
+      output_examples: []
+  - id: "demerzel-audit"
+    name: "Demerzel Audit"
+    title: "Revisora de Qualidade"
+    icon: "✅"
+    execution: "inline"
+    role_summary: "Garante alinhamento ao tom de voz do <user_name>, clareza executiva, exclusão de palavras clichês e eficácia do hook."
+    tasks:
+      - name: "revisao-de-qualidade"
+        file: "tasks/revisao-de-qualidade.md"
+        description: "Critica, faz peer-review de gramática e valida os ensinamentos práticos."
+    artifacts:
+      anti_patterns:
+        never_do: []
+        always_do: []
+      quality_criteria: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      output_examples: []
+  - id: "deckard-publisher"
+    name: "Deckard Publisher"
+    title: "Analista de Distribuição"
+    icon: "🚀"
+    execution: "inline"
+    role_summary: "Aciona o processo final de distribuição utilizando o Blotato para a publicar a copy aprovada."
+    skills:
+      - "blotato"
+    tasks: []
+    artifacts:
+      anti_patterns:
+        never_do: []
+        always_do: []
+      quality_criteria: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      output_examples: []
+
+pipeline:
+  - step: 1
+    name: "checkpoint-pesquisa"
+    type: "checkpoint"
+    output_file: "squads/linkedin-content/output/research-focus.md"
+  - step: 2
+    name: "pesquisa-tendencias"
+    type: "agent"
+    agent: "hari-searcher"
+    execution: "subagent"
+    model_tier: "powerful"
+    input_file: "squads/linkedin-content/output/research-focus.md"
+    output_file: "squads/linkedin-content/output/noticias-rankeadas.md"
+  - step: 3
+    name: "checkpoint-selecao-noticia"
+    type: "checkpoint"
+  - step: 4
+    name: "gerar-angulos"
+    type: "agent"
+    agent: "trinity-copy"
+    execution: "inline"
+    input_file: "squads/linkedin-content/output/noticias-rankeadas.md"
+    output_file: "squads/linkedin-content/output/angulos-gerados.md"
+  - step: 5
+    name: "checkpoint-selecao-angulo"
+    type: "checkpoint"
+  - step: 6
+    name: "produzir-conteudo"
+    type: "agent"
+    agent: "trinity-copy"
+    execution: "inline"
+    format: "linkedin-post"
+    input_file: "squads/linkedin-content/output/angulos-gerados.md"
+    output_file: "squads/linkedin-content/output/draft-conteudo.md"
+  - step: 7
+    name: "revisao-qualidade"
+    type: "agent"
+    agent: "demerzel-audit"
+    execution: "inline"
+    input_file: "squads/linkedin-content/output/draft-conteudo.md"
+    output_file: "squads/linkedin-content/output/conteudo-revisado.md"
+    on_reject: 6
+  - step: 8
+    name: "checkpoint-aprovacao-conteudo"
+    type: "checkpoint"
+  - step: 9
+    name: "publicar-conteudo"
+    type: "agent"
+    agent: "deckard-publisher"
+    execution: "inline"
+    input_file: "squads/linkedin-content/output/conteudo-revisado.md"
+    output_file: "squads/linkedin-content/output/status-publicacao.md"

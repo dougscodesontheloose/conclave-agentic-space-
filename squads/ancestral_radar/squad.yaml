@@ -1,0 +1,14 @@
+name: "Ancestral Radar"
+code: "ancestral_radar"
+domain: "genealogy"
+icon: "AR"
+version: "1.0.0"
+description: "Alias legado para o squad canonico `family_ties_ancestral_radar`."
+goal: "Manter compatibilidade com referencias antigas e encaminhar execucoes para `squads/family_ties_ancestral_radar/`."
+data:
+  - squads/family_ties_ancestral_radar/squad.yaml
+  - ambientes/Family Ties/05_saidas/contexto-continuacao-genealogia.md
+
+pipeline:
+  steps:
+    - step-00-router.md

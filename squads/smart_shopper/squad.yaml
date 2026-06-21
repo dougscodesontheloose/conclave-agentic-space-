@@ -1,0 +1,18 @@
+name: "Smart Shopper"
+code: "smart_shopper"
+domain: "commerce"
+icon: "🛒"
+version: "1.0.0"
+description: "Squad de pesquisa inteligente de compras. Varre a web em busca das melhores condições de preço, frete, cupons, cashback e reputação antes de qualquer compra."
+
+pipeline:
+  steps:
+    - step-00-refinamento.md
+    - step-01-checkpoint-briefing.md
+    - step-02-pesquisa-precos.md
+    - step-03-pesquisa-cupons.md
+    - step-04-pesquisa-reputacao.md
+    - step-05-checkpoint-dados.md
+    - step-06-consolidacao-veredito.md
+    - step-07-checkpoint-aprovacao.md
+    - step-08-salvar-relatorio.md

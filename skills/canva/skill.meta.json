@@ -1,0 +1,12 @@
+{
+  "slug": "canva",
+  "display_name": "Canva Design",
+  "category": "capabilities",
+  "tags": ["design", "visual", "graphics", "templates", "brand"],
+  "type": "mcp",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Use the canva MCP tools"
+  }
+}

@@ -1,0 +1,15 @@
+# Pipeline Definition
+squad: "family_ties_ancestral_radar"
+spec_approval: true
+plan_validation: true
+
+checkpoints:
+  - step-00-checkpoint-escopo.md
+  - step-03-checkpoint-achados.md
+
+steps:
+  - step-00-checkpoint-escopo.md
+  - step-01-mapear-lacunas.md
+  - step-02-pesquisar-fontes.md
+  - step-03-checkpoint-achados.md
+  - step-04-plano-de-expansao.md

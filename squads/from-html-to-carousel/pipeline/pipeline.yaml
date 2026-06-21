@@ -1,0 +1,32 @@
+id: from-html-to-carousel-pipeline
+name: From HTML to Carousel Pipeline
+squad: from-html-to-carousel
+entrypoint: pipeline/steps/step-00-checkpoint-input.md
+
+steps:
+  - step: 0
+    file: pipeline/steps/step-00-checkpoint-input.md
+  - step: 1
+    file: pipeline/steps/step-01-cria-estrutura.md
+  - step: 2
+    file: pipeline/steps/step-02-escreve-legenda.md
+  - step: 3
+    file: pipeline/steps/step-03-checkpoint-copy.md
+  - step: 4
+    file: pipeline/steps/step-04-geracao-visual.md
+  - step: 5
+    file: pipeline/steps/step-05-revisao.md
+  - step: 6
+    file: pipeline/steps/step-06-checkpoint-final.md
+  - step: 7
+    file: pipeline/steps/step-07-legenda-publicacao.md
+
+checkpoints:
+  - step: 0
+  - step: 3
+  - step: 6
+
+notes: |
+  Step 07 é executado automaticamente após aprovação do design no Step 06.
+  Gera a legenda de publicação final em tom de feed (rápida, divertida, CTA empolgante).
+  Output salvo em output/legenda-publicacao.md — pronto para copiar e colar no LinkedIn.

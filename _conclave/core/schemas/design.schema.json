@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "conclave/design.schema.json",
+  "title": "Design Phase Output",
+  "description": "Schema for squads/{code}/_build/design.yaml — validated by Gate -1 before Build starts.",
+  "type": "object",
+  "required": ["squad", "agents", "pipeline"],
+  "properties": {
+    "squad": {
+      "type": "object",
+      "required": ["code", "name", "description"],
+      "properties": {
+        "code":        { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+        "name":        { "type": "string" },
+        "description": { "type": "string", "minLength": 10 }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "title", "icon", "execution", "profile"],
+        "properties": {
+          "id":           { "type": "string" },
+          "name":         { "type": "string", "description": "Two words: FirstName LastName (sci-fi + function)" },
+          "title":        { "type": "string" },
+          "icon":         { "type": "string" },
+          "execution":    { "type": "string", "enum": ["inline", "subagent"] },
+          "profile":      { "type": "string", "enum": ["thin", "standard", "deep"] },
+          "role_summary": { "type": "string" },
+          "skills":       { "type": "array", "items": { "type": "string" } },
+          "tasks":        { "type": "array" },
+          "artifacts":    { "type": "object" }
+        }
+      }
+    },
+    "pipeline": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["step", "name", "type"],
+        "properties": {
+          "step":        { "type": "integer", "minimum": 1 },
+          "name":        { "type": "string" },
+          "type":        { "type": "string", "enum": ["agent", "checkpoint"] },
+          "agent":       { "type": "string" },
+          "execution":   { "type": "string", "enum": ["inline", "subagent"] },
+          "format":      { "type": "string" },
+          "model_tier":  { "type": "string", "enum": ["fast", "powerful"] },
+          "on_reject":   { "type": ["string", "integer"] },
+          "input_file":  { "type": "string" },
+          "output_file": { "type": "string" }
+        }
+      }
+    },
+    "investigation": {
+      "type": "object",
+      "properties": {
+        "enriched":          { "type": "boolean" },
+        "profiles_analyzed": { "type": "integer" },
+        "date":              { "type": "string" },
+        "dir":               { "type": "string" }
+      }
+    },
+    "research_brief":           { "type": "string" },
+    "skills_installed":         { "type": "array", "items": { "type": "string" } },
+    "formats_selected":         { "type": "array", "items": { "type": "string" } },
+    "best_practices_consulted": { "type": "array", "items": { "type": "string" } },
+    "research_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "snippet", "used_for"],
+        "properties": {
+          "url":        { "type": "string" },
+          "snippet":    { "type": "string" },
+          "used_for":   { "type": "string" },
+          "confidence": { "type": "string", "enum": ["extracted", "inferred", "ambiguous"] }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,1916 @@
+[
+  {
+    "skill": "ad-angle-miner",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "ad-campaign-analyzer",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "ad-to-landing-page-auditor",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "adversarial-ux",
+    "tags": [
+      "ux",
+      "quality-assurance",
+      "testing"
+    ],
+    "type": "general",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "aeo",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "apollo-lead-finder",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "apple-notes",
+    "tags": [
+      "system",
+      "integration",
+      "notes"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "battlecard-generator",
+    "tags": [
+      "competitive-intel"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)"
+    ]
+  },
+  {
+    "skill": "blog-feed-monitor",
+    "tags": [
+      "monitoring",
+      "scraping",
+      "content"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "brand-voice-extractor",
+    "tags": [
+      "brand"
+    ],
+    "type": "general",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "browser-navigator",
+    "tags": [
+      "system",
+      "automation",
+      "scraping"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "buyer-persona-generator",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "campaign-brief-generator",
+    "tags": [
+      "content"
+    ],
+    "type": "content",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)"
+    ]
+  },
+  {
+    "skill": "champion-move-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "champion-tracker",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "churn-risk-detector",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "claude-collaboration",
+    "tags": [
+      "system",
+      "orchestration",
+      "collaboration"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "code-review",
+    "tags": [
+      "development",
+      "quality-assurance",
+      "code"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "cold-email-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "company-contact-finder",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "company-current-gtm-analysis",
+    "tags": [
+      "research",
+      "competitive-intel",
+      "strategy"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "competitive-pricing-intel",
+    "tags": [
+      "competitive-intel"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "competitor-ad-intelligence",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "competitor-intel",
+    "tags": [
+      "competitive-intel",
+      "research",
+      "monitoring"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "competitor-monitoring-system",
+    "tags": [
+      "competitive-intel",
+      "monitoring",
+      "orchestration"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "competitor-post-engagers",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "conclave",
+    "tags": [
+      "system",
+      "orchestration",
+      "core"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "conference-speaker-scraper",
+    "tags": [
+      "scraping",
+      "lead-generation",
+      "events"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "contact-cache",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "content-asset-creator",
+    "tags": [
+      "content",
+      "brand",
+      "design"
+    ],
+    "type": "content",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "content-brief-factory",
+    "tags": [
+      "content"
+    ],
+    "type": "content",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "create-html-carousel",
+    "tags": [
+      "content",
+      "linkedin",
+      "design"
+    ],
+    "type": "content",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "create-html-slides",
+    "tags": [
+      "content",
+      "design",
+      "presentations"
+    ],
+    "type": "content",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "create-workflow-diagram",
+    "tags": [
+      "content",
+      "design",
+      "visualization"
+    ],
+    "type": "content",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "customer-discovery",
+    "tags": [
+      "competitive-intel",
+      "research",
+      "scraping"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "customer-win-back-sequencer",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "data-toolkit",
+    "tags": [
+      "system",
+      "data",
+      "analytics"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "dialectical-memory",
+    "tags": [
+      "system",
+      "memory",
+      "quality-assurance"
+    ],
+    "type": "system",
+    "added": [
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)",
+      "memory_hooks (already exists)"
+    ]
+  },
+  {
+    "skill": "disk-guardian",
+    "tags": [
+      "system",
+      "maintenance",
+      "quality-assurance"
+    ],
+    "type": "system",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "disqualification-handling",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "email-drafting",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "event-prospecting-pipeline",
+    "tags": [
+      "lead-generation",
+      "outreach",
+      "events"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "expansion-signal-spotter",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "feature-launch-playbook",
+    "tags": [
+      "content"
+    ],
+    "type": "content",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)"
+    ]
+  },
+  {
+    "skill": "funding-signal-monitor",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "funding-signal-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "composability (already exists)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "get-qualified-leads-from-luma",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "google-ad-scraper",
+    "tags": [
+      "ads",
+      "scraping",
+      "competitive-intel"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "google-search-ads-builder",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "hacker-news-scraper",
+    "tags": [
+      "scraping",
+      "monitoring",
+      "research"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "help-center-article-generator",
+    "tags": [
+      "content"
+    ],
+    "type": "content",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "hiring-signal-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "icp-identification",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "icp-website-audit",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "inbound-lead-enrichment",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "inbound-lead-qualification",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "inbound-lead-triage",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "industry-scanner",
+    "tags": [
+      "monitoring",
+      "research",
+      "strategy"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "job-posting-intent",
+    "tags": [
+      "lead-generation",
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "job-scraper",
+    "tags": [
+      "lead-generation",
+      "research"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "kol-content-monitor",
+    "tags": [
+      "monitoring"
+    ],
+    "type": "monitoring",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "kol-discovery",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "kol-engager-icp",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "landing-page-intel",
+    "tags": [
+      "competitive-intel",
+      "scraping",
+      "research"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "launch-positioning-builder",
+    "tags": [
+      "brand"
+    ],
+    "type": "general",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "lead-gen-devtools/community-signals",
+    "tags": [
+      "lead-generation",
+      "signals",
+      "scraping"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "lead-gen-devtools/competitor-signals",
+    "tags": [
+      "competitive-intel",
+      "signals",
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "lead-gen-devtools/demo-builder",
+    "tags": [
+      "outreach",
+      "content",
+      "development"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "lead-gen-devtools/event-signals",
+    "tags": [
+      "lead-generation",
+      "events",
+      "signals"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "lead-gen-devtools/github-repo-signals",
+    "tags": [
+      "lead-generation",
+      "signals",
+      "scraping"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "lead-gen-devtools/lead-discovery",
+    "tags": [
+      "lead-generation",
+      "orchestration",
+      "research"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "lead-qualification",
+    "tags": [
+      "lead-generation",
+      "qualification",
+      "enrichment"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "leadership-change-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "linkedin-commenter-extractor",
+    "tags": [
+      "scraping",
+      "linkedin",
+      "lead-generation"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "linkedin-influencer-discovery",
+    "tags": [
+      "linkedin",
+      "research",
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "linkedin-job-scraper",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "linkedin-message-writer",
+    "tags": [
+      "outreach",
+      "linkedin"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "linkedin-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "linkedin-post-research",
+    "tags": [
+      "research",
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "linkedin-profile-post-scraper",
+    "tags": [
+      "scraping",
+      "linkedin",
+      "monitoring"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "luma-event-attendees",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "meeting-brief",
+    "tags": [
+      "research",
+      "automation",
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "composability",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)",
+      "memory_hooks (already exists)"
+    ]
+  },
+  {
+    "skill": "messaging-ab-tester",
+    "tags": [
+      "brand"
+    ],
+    "type": "general",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "meta-ads-campaign-builder",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)",
+      "memory_hooks (already exists)"
+    ]
+  },
+  {
+    "skill": "news-signal-outreach",
+    "tags": [
+      "outreach"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "newsletter-monitor",
+    "tags": [
+      "monitoring",
+      "signals",
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "newsletter-signal-scanner",
+    "tags": [
+      "monitoring"
+    ],
+    "type": "monitoring",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "one-three-one-rule",
+    "tags": [
+      "system",
+      "strategy",
+      "decision-making"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "outbound-prospecting-engine",
+    "tags": [
+      "outreach",
+      "lead-generation",
+      "orchestration"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "paid-channel-prioritizer",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "pain-language-engagers",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "pipeline-review",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "product-hunt-scraper",
+    "tags": [
+      "scraping",
+      "monitoring",
+      "competitive-intel"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "programmatic-seo-planner",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "programmatic-seo-spy",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "python-environment-management",
+    "tags": [
+      "system",
+      "development",
+      "automation"
+    ],
+    "type": "system",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "react-best-practices",
+    "tags": [
+      "development",
+      "quality-assurance",
+      "code"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "reddit-post-finder",
+    "tags": [
+      "scraping",
+      "monitoring",
+      "research"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "review-intelligence-digest",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "review-site-scraper",
+    "tags": [
+      "scraping",
+      "competitive-intel",
+      "monitoring"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "sales-call-prep",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)"
+    ]
+  },
+  {
+    "skill": "sales-coaching",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (already exists)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "seo-content-audit",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "seo-content-engine",
+    "tags": [
+      "seo",
+      "content",
+      "strategy"
+    ],
+    "type": "content",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "seo-domain-analyzer",
+    "tags": [
+      "competitive-intel",
+      "seo"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "seo-opportunity-finder",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "seo-traffic-analyzer",
+    "tags": [
+      "competitive-intel",
+      "seo"
+    ],
+    "type": "research",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (already exists)"
+    ]
+  },
+  {
+    "skill": "sequence-performance",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "signal-detection-pipeline",
+    "tags": [
+      "signals",
+      "lead-generation",
+      "orchestration"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks"
+    ],
+    "skipped": [
+      "quality_gate (already exists)"
+    ]
+  },
+  {
+    "skill": "signal-scanner",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "site-content-catalog",
+    "tags": [
+      "content",
+      "seo"
+    ],
+    "type": "content",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "sponsored-newsletter-finder",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "systematic-debugging",
+    "tags": [
+      "development",
+      "quality-assurance",
+      "debugging"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "tam-builder",
+    "tags": [
+      "lead-generation"
+    ],
+    "type": "outreach",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "tech-stack-teardown",
+    "tags": [
+      "competitive-intel"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  },
+  {
+    "skill": "tiktok-influencer-finder",
+    "tags": [
+      "scraping",
+      "lead-generation",
+      "social-media"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "token-efficiency",
+    "tags": [
+      "system",
+      "optimization",
+      "core"
+    ],
+    "type": "system",
+    "added": [
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (no external tools)",
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "topical-authority-mapper",
+    "tags": [
+      "seo"
+    ],
+    "type": "seo",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "trending-ad-hook-spotter",
+    "tags": [
+      "ads"
+    ],
+    "type": "ads",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "twitter-mention-tracker",
+    "tags": [
+      "scraping",
+      "monitoring",
+      "social-media"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "visual-brand-extractor",
+    "tags": [
+      "brand"
+    ],
+    "type": "general",
+    "added": [
+      "error_handling",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "composability (no chain mappings)"
+    ]
+  },
+  {
+    "skill": "voice-of-customer-synthesizer",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "web-archive-scraper",
+    "tags": [
+      "scraping",
+      "research",
+      "competitive-intel"
+    ],
+    "type": "scraping",
+    "added": [
+      "error_handling",
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": []
+  },
+  {
+    "skill": "youtube-apify-transcript",
+    "tags": [
+      "research"
+    ],
+    "type": "research",
+    "added": [
+      "composability",
+      "memory_hooks",
+      "quality_gate"
+    ],
+    "skipped": [
+      "error_handling (already exists)"
+    ]
+  }
+]

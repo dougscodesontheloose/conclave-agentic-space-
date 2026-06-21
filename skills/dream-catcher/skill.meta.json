@@ -1,0 +1,12 @@
+{
+  "slug": "dream-catcher",
+  "display_name": "Dream Catcher",
+  "category": "visual",
+  "tags": ["dream-catcher", "visual-analysis", "character-consistency", "prompt-engineering"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/dream-catcher/SKILL.md"
+  }
+}

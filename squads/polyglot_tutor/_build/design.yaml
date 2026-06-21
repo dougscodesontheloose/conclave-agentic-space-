@@ -1,0 +1,121 @@
+squad:
+  code: "polyglot_tutor"
+  name: "Polyglot Tutor Squad"
+  description: "Assistente coringa para pesquisa e estruturação de métodos de idiomas, cruzando rigor acadêmico com didática de creators."
+
+agents:
+  - id: "deckard-search"
+    name: "Deckard Search"
+    title: "Pesquisador de Idiomas"
+    icon: "💽"
+    execution: "subagent"
+    profile: "standard"
+    role_summary: "Busca materiais brutos, ferramentas e transcrições de vídeos do YouTube em fontes nativas."
+    skills: ["youtube-apify-transcript", "browser-navigator"]
+    tasks:
+      - name: "find-learning-materials"
+        file: "tasks/find-learning-materials.md"
+        description: "Varre a web e o YouTube por insumos e ferramentas que combinem com o foco do estudo."
+    artifacts:
+      operational_framework: "1. Identifica o foco\n2. Executa a busca profunda\n3. Extrai links e sumários"
+      output_examples: []
+      anti_patterns:
+        never_do: []
+        always_do: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      quality_criteria: []
+
+  - id: "athena-strategy"
+    name: "Athena Strategy"
+    title: "Estrategista Educacional"
+    icon: "🏛️"
+    execution: "inline"
+    profile: "standard"
+    role_summary: "Consome a pesquisa bruta e a converte em roteiros e planos de ensino usando a dinâmica mesclada."
+    skills: ["dialectical-memory"]
+    tasks:
+      - name: "build-study-plan"
+        file: "tasks/build-study-plan.md"
+        description: "Cria o relatório Markdown com métodos, ferramentas e rotina de estudo adaptada."
+    artifacts:
+      operational_framework: "1. Lê as fontes\n2. Aplica frameworks de aquisição\n3. Escreve roteiro"
+      output_examples: []
+      anti_patterns:
+        never_do: []
+        always_do: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      quality_criteria: []
+
+  - id: "demerzel-council"
+    name: "Demerzel Council"
+    title: "Revisora de Qualidade"
+    icon: "⚖️"
+    execution: "inline"
+    profile: "standard"
+    role_summary: "Garante o equilíbrio exato entre o formal e o social, avaliando a precisão do método."
+    skills: []
+    tasks:
+      - name: "review"
+        file: "tasks/review.md"
+        description: "Aprova ou rejeita o roteiro com base no rigor e no engajamento."
+    artifacts:
+      operational_framework: "1. Valida precisão\n2. Valida engajamento\n3. Checa formatação"
+      output_examples: []
+      anti_patterns:
+        never_do: []
+        always_do: []
+      voice_guidance:
+        always_use: []
+        never_use: []
+        tone_rules: []
+      quality_criteria: []
+
+pipeline:
+  - step: 1
+    name: "Definir Foco"
+    type: "checkpoint"
+    output_file: "squads/polyglot_tutor/output/research-focus.md"
+  - step: 2
+    name: "Pesquisar Insumos"
+    type: "agent"
+    agent: "deckard-search"
+    execution: "subagent"
+    model_tier: "fast"
+    input_file: "squads/polyglot_tutor/output/research-focus.md"
+  - step: 3
+    name: "Aprovar Fontes"
+    type: "checkpoint"
+  - step: 4
+    name: "Criar Roteiro de Estudos"
+    type: "agent"
+    agent: "athena-strategy"
+    execution: "inline"
+  - step: 5
+    name: "Revisar Qualidade"
+    type: "agent"
+    agent: "demerzel-council"
+    execution: "inline"
+    on_reject: 4
+  - step: 6
+    name: "Aprovação Final"
+    type: "checkpoint"
+
+investigation:
+  enriched: false
+
+research_brief: "Integrada a fusão de didática digital com aquisição estruturada de segunda língua."
+
+skills_installed:
+  - "youtube-apify-transcript"
+  - "dialectical-memory"
+  - "browser-navigator"
+
+formats_selected: []
+best_practices_consulted: ["researching.md", "strategist.md", "technical-writing.md"]
+research_citations: []

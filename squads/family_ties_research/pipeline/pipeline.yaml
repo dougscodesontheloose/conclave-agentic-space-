@@ -1,0 +1,15 @@
+name: "Family Ties Research Pipeline"
+description: "Pipeline de preparação, busca web controlada e consolidação genealógica para o ambiente Family Ties."
+spec_approval: true
+plan_validation: true
+steps:
+  - steps/step-00-mapear-alvos.md
+  - steps/step-01-checkpoint-escopo.md
+  - steps/step-02-pesquisa-web.md
+  - steps/step-03-checkpoint-achados.md
+  - steps/step-04-consolidar-dossie.md
+  - steps/step-05-checkpoint-final.md
+checkpoints:
+  - steps/step-01-checkpoint-escopo.md
+  - steps/step-03-checkpoint-achados.md
+  - steps/step-05-checkpoint-final.md

@@ -1,0 +1,26 @@
+squad_code: "polyglot_tutor"
+purpose: "Atuar como assistente coringa nos projetos de idiomas (Italiano, Japonês, Espanhol, Inglês), buscando insumos, ferramentas e estruturando métodos de aprendizado adaptados ao nível de proficiência. Mesclar didática de YouTubers, fluidez de lifestyle e rigor acadêmico."
+domain: "mixed"
+
+company:
+  name: "<user_name> de Paula Moura (<user_name>)"
+  tone: "Técnico e narrativo. Analítico com visão de negócio. Traduz complexidade em clareza estratégica."
+  products: "Marketing Analytics, BI, Data-Driven Growth"
+
+language: "Português (Brasil)"
+
+context:
+  sources: "Sites e portais públicos de idiomas, plataformas de vídeo (YouTube) e áudio."
+  output_format: "Relatório ou roteiro de estudos estruturado (Markdown)."
+  frequency: "Plano mestre (uma vez), ciclos semanais e atuação sob demanda."
+  style: "Equilíbrio entre estrutura acadêmica, fluidez de canais de lifestyle e didática de youtubers de educação."
+
+tools_needed:
+  - "firecrawl"
+  - "apify"
+  - "youtube-apify-transcript"
+
+investigation:
+  enabled: false
+
+target_formats: []

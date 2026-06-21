@@ -1,0 +1,5 @@
+id,displayName,icon,path,role
+linhagem_scout,Linhagem Scout,🧬,./agents/linhagem-scout.agent.md,Pesquisador de linhagens e fontes documentais
+selene_mapper,Selene Mapper,🗺️,./agents/selene-mapper.agent.md,Mapeadora de Evidências
+orion_finder,Orion Finder,🔎,./agents/orion-finder.agent.md,Pesquisador de Acervos
+minerva_audit,Minerva Audit,⚖️,./agents/minerva-audit.agent.md,Auditora de Linhas e Próximos Passos

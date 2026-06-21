@@ -1,0 +1,214 @@
+[
+  {
+    "squad_id": "family_ties_ancestral_radar",
+    "displayName": "Ancestral Radar",
+    "description": "Squad de pesquisa genealógica orientado por evidência focado em expandir a árvore documental com parâmetros de pesquisa, fontes oficiais e documentação de internet.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "from-html-to-carousel",
+    "displayName": "From HTML to Carousel",
+    "description": "Traduz textos densos em carrosséis visuais e sucintos (5-10 slides) para LinkedIn e Instagram.",
+    "intents": [
+      "linkedin"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "smart_shopper",
+    "displayName": "Smart Shopper",
+    "description": "Squad de pesquisa inteligente de compras. Varre a web em busca das melhores condições de preço, frete, cupons, cashback e reputação antes de qualquer compra.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "ancestral_radar",
+    "displayName": "Ancestral Radar",
+    "description": "Alias legado para o squad canonico `family_ties_ancestral_radar`.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "lazarus",
+    "displayName": "Lazarus Protocol",
+    "description": "Otimização de performance humana e biohacking integrando dados offline. Focado em interpretar dados vitais, exames e métricas corporais com base em métodos científicos.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "family_ties",
+    "displayName": "Family Ties",
+    "description": "",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "refract",
+    "displayName": "Refract",
+    "description": "Estúdio de engenharia cross-platform sob demanda com foco em paridade visual.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "council_test",
+    "displayName": "Conselho de Teste",
+    "description": "Squad para validar o protocolo de Resumo Estruturado do Conselho.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "data_ops",
+    "displayName": "Data Ops",
+    "description": "Gestão do ciclo de vida completo de dados: criação, limpeza, engenharia e análise.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "dream_catcher",
+    "displayName": "Dream Catcher",
+    "description": "Squad de análise de personagens e consistência visual para geração de imagens.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "family_ties_research",
+    "displayName": "Family Ties Research",
+    "description": "",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "clube_do_livro",
+    "displayName": "Clube do Livro",
+    "description": "Squad de leitura dialética e ativa para acompanhamento de livros, registro de notas e discussão conceitual de alto nível.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "cliff_palace",
+    "displayName": "UI Update",
+    "description": "Assessoria financeira pessoal local-first. Ingestão de dados, análise em 3 horizontes e tradução narrativa para interface de chat.",
+    "intents": [],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "polyglot_tutor",
+    "displayName": "Polyglot Tutor Squad",
+    "description": "Assistente de pesquisa e estruturação de métodos de idiomas, cruzando rigor acadêmico com didática de creators.",
+    "intents": [
+      "espanhol",
+      "gozaimasu",
+      "id like some tea",
+      "ingles",
+      "poliglota",
+      "language",
+      "omega",
+      "spanish",
+      "i'd like some tea",
+      "ci vediamo dopo",
+      "japanese",
+      "italian",
+      "japones",
+      "languages",
+      "aprender idioma",
+      "greek",
+      "francês",
+      "polyglot",
+      "frances",
+      "hablando demais",
+      "ce la vie",
+      "inglês",
+      "hablando",
+      "cé la vie",
+      "idiomas",
+      "estudar idioma",
+      "french",
+      "grego moderno",
+      "c'est la vie",
+      "idioma",
+      "grego",
+      "japonês",
+      "poliglopter",
+      "english",
+      "polyglot_tutor",
+      "italiano"
+    ],
+    "context_triggers": [
+      "ambientes/projetos/Id like some tea",
+      "ambientes/projetos/Hablando demais!",
+      "ambientes/projetos/ci vediamo dopo",
+      "ambientes/projetos/Cé la vie",
+      "ambientes/projetos/gozaimasu",
+      "ambientes/projetos/Omega"
+    ],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "corner-office",
+    "displayName": "Corner Office",
+    "description": "Hub operacional de carreira, CV, LinkedIn e candidatura orientada por evidencias, conectado ao ambiente local Corner Office.",
+    "intents": [
+      "linkedin"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "sexy_content",
+    "displayName": "Sexy Content Engine",
+    "description": "Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis Visuais premium e Artigos na voz do <user_name>.",
+    "intents": [
+      "linkedin",
+      "post"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  },
+  {
+    "squad_id": "exodus",
+    "displayName": "The Archivist (Exodus)",
+    "description": "Agente responsável por gerenciar os backups do sistema, tanto o Fullride (privado) quanto o Open Source (sanitizado).",
+    "intents": [
+      "backup",
+      "commit",
+      "exportar",
+      "github",
+      "open source",
+      "conclave prime",
+      "fullride"
+    ],
+    "context_triggers": [],
+    "usage_count": 0,
+    "last_run": null
+  }
+]

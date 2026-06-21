@@ -1,0 +1,12 @@
+{
+  "slug": "template-designer",
+  "display_name": "Template Designer",
+  "category": "composites",
+  "tags": ["design", "templates", "visual-identity", "carousel", "brand"],
+  "type": "prompt",
+  "version": "2.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/template-designer/SKILL.md"
+  }
+}

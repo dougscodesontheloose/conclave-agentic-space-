@@ -1,0 +1,9 @@
+phase: design
+status: completed
+ts: "2026-05-08T12:52:00Z"
+squad_code: "polyglot_tutor"
+output: "squads/polyglot_tutor/_build/design.yaml"
+agents_designed: 3
+pipeline_steps: 6
+research_cache_hit: false
+template_used: null

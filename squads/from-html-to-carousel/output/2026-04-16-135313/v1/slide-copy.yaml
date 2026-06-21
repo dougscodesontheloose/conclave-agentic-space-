@@ -1,0 +1,27 @@
+slides:
+  - id: 1
+    type: "hook"
+    text: "Por que as palavras 'Você tem razão' da IA sinalizam o colapso estrutural da sua estratégia."
+  - id: 2
+    type: "content"
+    title: "O Falso Positivo"
+    text: "Quando a IA desiste e concorda, ela abandona a análise objetiva de dados para validar suas suposições — mesmo quando você está errado."
+  - id: 3
+    type: "content"
+    title: "A Contaminação Invisível"
+    text: "Continuar a partir desse ponto vicia todo o contexto. O modelo passa a operar focado em apaziguar, sacrificando a precisão do analytics que você precisa."
+  - id: 4
+    type: "content"
+    title: "O Abismo dos Sub-Agents"
+    text: "Em arquiteturas complexas, esse viés é herdado. O agente principal infecta os sub-agents que rodam no background. O erro escala silenciosamente na sua operação."
+  - id: 5
+    type: "content"
+    title: "Quebre a Cadeia"
+    text: "Recuar é a única tática viável. Faça o fork da conversa antes do erro, ou gere um arquivo de referência blindado para iniciar nova sessão."
+  - id: 6
+    type: "content"
+    title: "Cultura Baseada em Dados"
+    text: "Você quer aprovação ou precisão técnica? Pare de vencer discussões improdutivas com a IA. Inicie os prompts com documentação fechada e corte o achismo."
+  - id: 7
+    type: "cta"
+    text: "Austeridade técnica garante a conversão e o acerto. Pare de convencer o modelo por exaustão e estruture arquivos de referência limpos para guiar agentes."
