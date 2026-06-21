@@ -10,7 +10,7 @@
 | Critério | Peso | Como avaliar | Pass | Fail |
 |---|---|---|---|---|
 | Hook para o scroll | 25% | Ler a 1ª linha sem contexto. Para você? | Sim | Não |
-| Voz do Doug | 20% | Tem a ponte tech+emoção? Tem metáfora? | Ambos presentes | Qualquer ausente |
+| Voz do <user_name> | 20% | Tem a ponte tech+emoção? Tem metáfora? | Ambos presentes | Qualquer ausente |
 | Dado contextualizado | 20% | Número com fonte e interpretação | Presente e integrado | Ausente ou jogado |
 | Sem clichês | 15% | Buscar as palavras proibidas | Zero ocorrências | Qualquer ocorrência |
 | CTA reflexivo | 10% | Gera comentário real? | Sim | Genérico ou ausente |
@@ -29,7 +29,7 @@
 | Slide de capa para o scroll | 30% | Funciona sem contexto dos outros slides |
 | ≤ 40 palavras por slide | 20% | Tolerância zero — cada slide acima = -1 ponto |
 | Progressão narrativa | 20% | Início → tensão → desenvolvimento → CTA |
-| Voz do Doug | 15% | Mesmo critério do post |
+| Voz do <user_name> | 15% | Mesmo critério do post |
 | CTA final específico | 15% | Pergunta ou ação concreta, não genérica |
 
 ### Design visual
@@ -55,7 +55,7 @@
 | Estrutura com subtítulos | 15% | 3–5 seções com subtítulos que funcionam como microhooks |
 | Dado em cada seção | 20% | Mínimo 1 dado por seção principal |
 | Conclusão com implicação prática | 15% | Não resume — avança a conversa |
-| Voz do Doug | 10% | Mesmos critérios do post |
+| Voz do <user_name> | 10% | Mesmos critérios do post |
 
 **Nota mínima para aprovação: 7,5/10**
 

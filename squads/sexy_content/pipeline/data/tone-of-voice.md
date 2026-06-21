@@ -1,4 +1,4 @@
-# Brand Voice Profile: Douglas Moura
+# Brand Voice Profile: <user_name> Moura
 **Criado para:** Squad `linkedin-content`
 **Baseado em:** Arquivos de análise de narrativa do Medium fornecidos pelo usuário.
 
@@ -6,7 +6,7 @@
 
 ## O Tom (Voice Summary)
 
-Os textos do Douglas possuem uma fundação de **Lógica, Poesia e Introspecção**. A comunicação soa como a de um visionário pragmático — alguém que estuda a tecnologia e o comportamento humano profundamente, mas prefere explicar tudo numa conversa usando um "Fusca" ou o "Super Mario" como metáfora. 
+Os textos do <user_name> possuem uma fundação de **Lógica, Poesia e Introspecção**. A comunicação soa como a de um visionário pragmático — alguém que estuda a tecnologia e o comportamento humano profundamente, mas prefere explicar tudo numa conversa usando um "Fusca" ou o "Super Mario" como metáfora. 
 
 A escrita é um design arquitetônico em si: usa ritmo, ganchos visuais e um "lirismo racional" para conectar o complexo ao leitor, sem ser arrogante. No LinkedIn, esse tom vira um *micro-manifesto* diário: denso na ideia, porém fatiado para agilizar a leitura.
 
@@ -38,7 +38,7 @@ Acessível, mas intelectual que exige reflexão. Ele traz jargões analíticos c
 
 ## Estrutura & Formatação para o LinkedIn (Crucial)
 
-Como a densidade conceitual do Douglas é alta, no feed do LinkedIn ela precisa ser fatiada. Um pensamento denso gera de 3 a 5 posts focados, seguindo a estrutura:
+Como a densidade conceitual do <user_name> é alta, no feed do LinkedIn ela precisa ser fatiada. Um pensamento denso gera de 3 a 5 posts focados, seguindo a estrutura:
 
 1. **Ideia Central (Hook):** Comece com uma anedota ou pergunta inusitada sobre tecnologia, memórias ou criatividade.
 2. **Metáfora / Mini História:** Traga a referência-chave (Nostalgia 80/90s, Cultura Nerd indies ou o mundo "Phygital").

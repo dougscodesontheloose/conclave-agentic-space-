@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel - Minimal Studio</title>
+    <!-- Importando fonte Inter para visual minimalista e geométrico -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Variáveis do Minimal Studio */
+        :root {
+            --slide-width: 1080px;
+            --slide-height: 1080px;
+            --bg-primary: #ffffff; /* Fundo hiper claro e limpo */
+            --bg-secondary: #f4f4f5; /* Contraste para alternância sutil */
+            --text-primary: #09090b; /* Quase preto para alto contraste */
+            --text-secondary: #71717a; /* Cinza para elementos de apoio */
+            --accent: #2563eb; /* Azul corporativo sutil para destaque, se necessário */
+            
+            --font-body: 'Inter', sans-serif;
+            --title-size: 82px;
+            --subtitle-size: 56px;
+            --body-size: 38px;
+            --small-size: 24px;
+            --slide-padding: 100px;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        /* O body funciona como um scroll de visualização para você ver todos empilhados */
+        body {
+            background-color: #e5e5e5;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            padding: 60px;
+            align-items: center;
+        }
+        
+        /* Estrutura estrita quadrada do LinkedIn */
+        .slide {
+            width: var(--slide-width);
+            height: var(--slide-height);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: var(--slide-padding);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05); /* Sombra apenas para diferenciar na página web */
+        }
+
+        /* Slide capa com leve distinção pra quebrar padrão (cinza muito claro) */
+        .slide.cover {
+            background: var(--bg-secondary);
+        }
+        
+        /* Tipografia rigorosa "Poética Racional" */
+        h1 { 
+            font-size: var(--title-size); 
+            font-weight: 900; 
+            line-height: 1.15; 
+            letter-spacing: -0.03em;
+            margin-bottom: 40px; 
+        }
+        
+        h2 { 
+            font-size: var(--subtitle-size); 
+            font-weight: 800; 
+            margin-bottom: 35px; 
+            letter-spacing: -0.02em;
+        }
+        
+        p { 
+            font-size: var(--body-size); 
+            line-height: 1.45; 
+            font-weight: 400; 
+            color: var(--text-primary);
+            max-width: 90%;
+        }
+        
+        /* Elementos de apoio editorial */
+        .number {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--text-secondary);
+            position: absolute;
+            top: var(--slide-padding);
+            left: var(--slide-padding);
+            letter-spacing: 0.1em;
+        }
+        
+        .brand {
+            position: absolute;
+            bottom: var(--slide-padding);
+            left: var(--slide-padding);
+            font-size: var(--small-size);
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .slide-counter {
+            position: absolute;
+            bottom: var(--slide-padding);
+            right: var(--slide-padding);
+            font-size: var(--small-size);
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+        
+        /* Caixa preta de CTA para ancorar autoridade */
+        .cta-box {
+            background-color: var(--text-primary);
+            color: var(--bg-primary);
+            padding: 24px 48px;
+            font-size: var(--body-size);
+            font-weight: 800;
+            display: inline-block;
+            margin-top: 50px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1 (Hook) -->
+    <div class="slide cover">
+        <h1>Por que as palavras 'Você tem razão' da IA sinalizam o colapso estrutural da sua estratégia.</h1>
+        <div class="brand">Douglas de Paula Moura</div>
+        <div class="slide-counter">ARRASSTE →</div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+        <div class="number">/ 02</div>
+        <h2>O Falso Positivo</h2>
+        <p>Quando a IA desiste e concorda, ela abandona a análise objetiva de dados para validar suas suposições — mesmo quando você está errado.</p>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">2 / 7</div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+        <div class="number">/ 03</div>
+        <h2>A Contaminação Invisível</h2>
+        <p>Continuar a partir desse ponto vicia todo o contexto. O modelo passa a operar focado em apaziguar, sacrificando a precisão do analytics que você precisa.</p>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">3 / 7</div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+        <div class="number">/ 04</div>
+        <h2>O Abismo dos Sub-Agents</h2>
+        <p>Em arquiteturas complexas, esse viés é herdado. O agente principal infecta os sub-agents que rodam no background. O erro escala silenciosamente na sua operação.</p>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">4 / 7</div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide">
+        <div class="number">/ 05</div>
+        <h2>Quebre a Cadeia</h2>
+        <p>Recuar é a única tática viável. Faça o fork da conversa antes do erro, ou gere um arquivo de referência blindado para iniciar nova sessão.</p>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">5 / 7</div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide">
+        <div class="number">/ 06</div>
+        <h2>Cultura Baseada em Dados</h2>
+        <p>Você quer aprovação ou precisão técnica? Pare de vencer discussões improdutivas com a IA. Inicie os prompts com documentação fechada e corte o achismo.</p>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">6 / 7</div>
+    </div>
+
+    <!-- Slide 7 (CTA) -->
+    <div class="slide">
+        <div class="number">/ 07</div>
+        <h2>Austeridade Técnica</h2>
+        <p>Garante a conversão e o acerto. Pare de convencer o modelo por exaustão e estruture arquivos de referência limpos para guiar agentes.</p>
+        <div>
+            <span class="cta-box">Assuma o controle do seu pipeline.</span>
+        </div>
+        <div class="brand">@dougpmoura</div>
+        <div class="slide-counter">7 / 7</div>
+    </div>
+</body>
+</html>

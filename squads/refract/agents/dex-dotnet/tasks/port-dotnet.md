@@ -19,7 +19,7 @@ Traduz a build web em app Windows nativo usando WinUI 3 + Win2D (2D) e SharpDX (
 ## Process
 
 1. Ler `platform-choice.md`. Se não contém "windows"/"win" (case-insensitive), escrever `windows/.skipped` e sair.
-2. Scaffold da solution: `dotnet new sln -n Project` em `windows/`, projeto WinUI 3 via template `Microsoft.WinUI` (requer Windows App SDK 1.5+) ou template equivalente para macOS via `cross-platform` fallback. Se compilação WinUI não é viável no Mac do Doug, usar **Avalonia UI** como fallback declarado e avisar.
+2. Scaffold da solution: `dotnet new sln -n Project` em `windows/`, projeto WinUI 3 via template `Microsoft.WinUI` (requer Windows App SDK 1.5+) ou template equivalente para macOS via `cross-platform` fallback. Se compilação WinUI não é viável no Mac do <user_name>, usar **Avalonia UI** como fallback declarado e avisar.
 3. Configurar `.csproj` com `<Nullable>enable</Nullable>`, `<TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>` (ou `net8.0` para Avalonia).
 4. `ResourceDictionary` em `Resources.xaml` com cores do contrato visual como `SolidColorBrush` nomeados.
 5. UI em XAML declarativo com `MainWindow.xaml` + page(s); code-behind mínimo, lógica em ViewModels usando `CommunityToolkit.Mvvm`.

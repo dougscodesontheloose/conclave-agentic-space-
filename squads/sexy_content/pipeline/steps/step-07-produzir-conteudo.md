@@ -10,10 +10,10 @@ outputFile: squads/sexy_content/output/draft-conteudo.md
 ## Context Loading
 
 Load these files before executing:
-- `squads/sexy_content/output/angulo-aprovado.md` — ângulo selecionado pelo Doug no checkpoint anterior
+- `squads/sexy_content/output/angulo-aprovado.md` — ângulo selecionado pelo <user_name> no checkpoint anterior
 - `squads/sexy_content/output/formato-selecionado.md` — formato escolhido (post / carousel / article)
-- `pipeline/data/tone-of-voice.md` — voz, ritmo e estilo do Doug
-- `squads/sexy_content/_memory/douglas-brand-voice.md` — perfil de marca detalhado
+- `pipeline/data/tone-of-voice.md` — voz, ritmo e estilo do <user_name>
+- `squads/sexy_content/_memory/<user_name>-brand-voice.md` — perfil de marca detalhado
 - `pipeline/data/anti-patterns.md` — padrões de escrita a evitar
 
 ## Instructions
@@ -23,7 +23,7 @@ Load these files before executing:
 1. Ler o ângulo aprovado e o formato selecionado.
 2. Executar a seção correspondente ao formato abaixo.
 3. Antes de escrever: identificar a ponte entre a Tecnologia Fria e a Emoção Humana Real no conteúdo.
-4. Aplicar os verbos de ação cognitiva do perfil do Doug: decifrar, mapear, arquitetar, transmutar.
+4. Aplicar os verbos de ação cognitiva do perfil do <user_name>: decifrar, mapear, arquitetar, transmutar.
 5. Inserir uma (e apenas uma) metáfora inusitada ligada a videogames, cultura pop clássica ou literatura.
 6. Verificar Veto Conditions antes de entregar.
 
@@ -137,12 +137,12 @@ O que você está fazendo para desenvolver essa habilidade?
 Reject and redo if ANY are true:
 1. O hook começa com "Você sabia", "Todo mundo sabe", "É importante salientar" ou similar genérico.
 2. Qualquer slide de carrossel passa de 40 palavras.
-3. O tom ficou corporativo-genérico — ausência da voz do Doug (técnico + narrativo + metáfora inusitada).
+3. O tom ficou corporativo-genérico — ausência da voz do <user_name> (técnico + narrativo + metáfora inusitada).
 
 ## Quality Criteria
 
 - [ ] Hook para o scroll sem contexto prévio
-- [ ] Voz do Doug presente: técnico, narrativo, com uma metáfora inusitada
+- [ ] Voz do <user_name> presente: técnico, narrativo, com uma metáfora inusitada
 - [ ] Dado ou evidência integrado organicamente (não jogado como trivia)
 - [ ] CTA gera reflexão ou comentário, nunca engajamento vazio
 - [ ] Formato correto (post: ≤3000 chars / carousel: ≤40 palavras/slide / article: 800–1500 palavras)

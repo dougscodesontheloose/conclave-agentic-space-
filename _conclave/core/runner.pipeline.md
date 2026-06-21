@@ -17,6 +17,14 @@ Before starting execution:
 - Squad memory from `squads/{name}/_memory/memories.md`
 - Global preferences from `_conclave/state/memory/global-preferences.md` (if exists)
 
+1a. **Sentinel Pre-Flight** — Run the automated watchdog to validate squad structural integrity:
+
+   ```bash
+   python3 _conclave/tools/scripts/sentinel_preflight.py {name}
+   ```
+   
+   - If the script fails (returns non-zero exit code), **ERROR**: stop pipeline immediately. The script will auto-repair critical issues like broken stubs and output an alert.
+
 1b. **Memory format migration** — After loading `memories.md`, check whether it uses the new format by scanning for the `## Estilo de Escrita` section header:
 
    ```bash
@@ -302,8 +310,8 @@ Before constructing the agent context for any step, apply tiered prioritization 
   This is the **PreloadMemory** pattern: inject what is relevant to *this step*, not everything always.
   - **Temporal Decay**: Instruct the LLM that any rule in `memories.md` marked with `[Last Reinforced: YYYY-MM-DD]` older than 90 days carries a lower heuristic weight and can be overridden by more recent context.
   - **Boundary Walls**: When reading `memories.md` for cross-squad context injection (e.g. Gossip Brief), ONLY extract content between `<!-- SHARED CONTEXT START -->` and `<!-- SHARED CONTEXT END -->`. Content outside this block is strictly private to the squad.
-- Global references (`global-preferences.md`, `douglas-visual-voice-v3-unified.md`):
-  - **Dynamic TL;DR Injection**: For `douglas-visual-voice-v3-unified.md`, if the current step does NOT explicitly involve design/visual tasks, inject ONLY the `## Core Axioms` section. If it involves design, inject the full file.
+- Global references (`global-preferences.md`, `<user_name>-visual-voice-v3-unified.md`):
+  - **Dynamic TL;DR Injection**: For `<user_name>-visual-voice-v3-unified.md`, if the current step does NOT explicitly involve design/visual tasks, inject ONLY the `## Core Axioms` section. If it involves design, inject the full file.
   - **Meta-Data Check**: Respect `urgency_weight` in the YAML frontmatter. High urgency means it must be included; low urgency can be dropped if context is tight.
 - Skill instructions — full SKILL.md body for each declared skill
 - **ARTEMIS Gossip Brief** — cross-squad signals from same domain (see [artemis.agent.md](artemis.agent.md) Protocol 2). Capped at 8 lines / 800 chars. Inject only if `squad.yaml` declares a `domain:` field AND `_conclave/state/memory/gossip.jsonl` has matching entries from other squads. If context budget tight → demote to Tier 3 (skip).
@@ -893,7 +901,7 @@ After Veto Condition Enforcement and before Reasoning Trace, the runner MUST per
 
 2. **Scan for sensitive patterns**:
 - If the output is meant for a "Public" destination (e.g., `squads/` folder or GitHub-bound dir):
-     - Scan for regex patterns of Douglas's PII (CPF, Address, Phone, private emails) as defined in `security.policy.md`.
+     - Scan for regex patterns of <user_name>'s PII (CPF, Address, Phone, private emails) as defined in `security.policy.md`.
      - Check if the output contains verbatim blocks from files tagged as `privacy: secret`.
 
 3. **Enforce Hard Veto**:
@@ -991,7 +999,7 @@ When a step has `on_reject: {step-id}`:
   3. If the user accepts:
      - Use the MCP protocol to fetch reviews from alternative models.
      - Present the structured summary of these external views to the user.
-     - **Doug's Last Word:** Ask the user to weigh the Council's findings and make the final decision (Approve, Manual Edit, or Abort).
+     - **<user_name>'s Last Word:** Ask the user to weigh the Council's findings and make the final decision (Approve, Manual Edit, or Abort).
   4. If the user declines: Proceed to manual decision per standard protocol.
 
 ### Dashboard Handoff (between steps)
@@ -1488,6 +1496,12 @@ After implicit signal extraction and before D4, check whether any non-native ski
 
 - This script updates the ChromaDB in `_conclave/state/memory/.chroma` with all latest changes from global and squad memories.
 - If the script fails (e.g., missing dependencies), skip silently and log a warning in the internal audit log. Do NOT block the pipeline completion.
+
+8b. **Sentinel Post-Flight** — After all pipeline and RAG operations have successfully concluded, run the post-flight watchdog to track usage and emit health breadcrumbs:
+
+   ```bash
+   python3 _conclave/tools/scripts/sentinel_postflight.py {name} {run_id} true
+   ```
 
 9. Present completion summary:
 

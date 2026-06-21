@@ -55,6 +55,7 @@
 | `/conclave reset` | Reseta configuração local (com backup automático) |
 | `/conclave recall <busca>` | Busca em todos os arquivos de memória (logs, runs, user model) |
 | `/conclave model` | Exibe ou atualiza o user model inferido |
+| `/conclave exodus` | 📦 Executa backup seguro (Fullride) ou exportação open-source |
 
 ### Documentação
 
@@ -98,7 +99,7 @@ Cada squad tem: `squad.yaml` (pipeline), `squad-party.csv` (agentes), `agents/` 
 
 | Squad | Código | Domínio | Descrição |
 |---|---|---|---|
-| 💠 Sexy Content Engine | `sexy_content` | linkedin | Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis e Artigos na voz do Doug. |
+| 💠 Sexy Content Engine | `sexy_content` | linkedin | Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis e Artigos na voz do <user_name>. |
 | 🎠 From HTML to Carousel | `from-html-to-carousel` | carousel | Traduz textos densos em carrosséis visuais (5-10 slides) para LinkedIn e Instagram. |
 | 🔷 Refract | `refract` | engineering | Estúdio de engenharia cross-platform. Web-first (PWA/TS/Three.js/Python) com portabilidade gated para macOS e Windows. |
 | 🧪 Lazarus Protocol | `lazarus` | research | Performance humana, biomecânica e biohacking. Integra dados de saúde offline (.csv). |
@@ -122,7 +123,7 @@ Skills são módulos que agentes invocam por nome. Tipos: MCP (integração exte
 | `conclave-agent-creator` | Guia criação e manutenção de arquivos de agentes seguindo boas práticas do Conclave. |
 | `conclave-skill-creator` | Cria novas skills do Conclave, melhora skills existentes, roda evals e benchmarks. |
 | `create-html-carousel` | Gera carrosséis HTML prontos para LinkedIn (1080×1080px por slide). |
-| `creative-long-form` | Framework de escrita criativa e narrativa longa derivado da voz autoral do Doug. |
+| `creative-long-form` | Framework de escrita criativa e narrativa longa derivado da voz autoral do <user_name>. |
 | `firecrawl` | Fallback de scraping para páginas JS-renderizadas e sites com anti-bot. |
 | `icp-profiler` | Define o Ideal Customer Profile (ICP) de um produto ou serviço. |
 | `image-ai-generator` | Gera imagens via Openrouter API usando modelos de IA de imagem. |
@@ -131,7 +132,7 @@ Skills são módulos que agentes invocam por nome. Tipos: MCP (integração exte
 | `industry-scanner` | Análise de paisagem industrial em 5+ dimensões: players, tendências, lacunas. |
 | `instagram-publisher` | Publica carrosséis de imagens no Instagram a partir de arquivos locais. |
 | `landing-page-intel` | Analisa qualquer landing page: posicionamento, copy, estratégia de conversão. |
-| `linkedin-writing` | Framework operacional de escrita para LinkedIn — voz autoral do Douglas Moura. |
+| `linkedin-writing` | Framework operacional de escrita para LinkedIn — voz autoral do <user_name> Moura. |
 | `resend` | Envia emails via Resend MCP server oficial. |
 | `template-designer` | Seleção de templates visuais para agentes de design de imagens. |
 

@@ -11,12 +11,12 @@ Todo trabalho começa em stack web (PWA). Ports nativos para macOS (SwiftUI+Scen
 1. **Decompose** — Arquiteto transforma demanda em task-brief com contrato visual quantificado, flag `python_needed` e entidades 3D mapeadas.
 2. **Backend (opcional)** — Pris Python roda só se `python_needed: true`. FastAPI, pipeline ou conversor.
 3. **Web** — Wade Web implementa PWA completa em TypeScript, roda, valida com Lighthouse.
-4. **Checkpoint A (Web Approval)** — Doug escolhe: finalizar, iterar ou portar.
-5. **Checkpoint B (Platform Choice)** — Se portar, Arquiteto recomenda, Doug escolhe plataformas.
+4. **Checkpoint A (Web Approval)** — <user_name> escolhe: finalizar, iterar ou portar.
+5. **Checkpoint B (Platform Choice)** — Se portar, Arquiteto recomenda, <user_name> escolhe plataformas.
 6. **Port Mac (condicional)** — Sulu Swift.
 7. **Port Windows (condicional)** — Dex Dotnet.
 8. **Visual Parity** — Phasma Parity audita (só se ≥2 plataformas).
-9. **Checkpoint Final** — Doug aceita ou pede correção.
+9. **Checkpoint Final** — <user_name> aceita ou pede correção.
 
 ## Decisões Arquiteturais Centrais
 

@@ -132,6 +132,7 @@ Parse user input and route to the appropriate action:
 | `/conclave curate` | ☀️ Run **APOLLO Memory Curator** — detect duplications, staleness, conflicts in `_memory/` ([apollo.agent.md](../apollo.agent.md)) |
 | `/conclave forge` | 🔨 Run **HEPHAESTUS Manufacturing Watch** — review pending skill/template/agent manufacturing candidates ([hephaestus.agent.md](../hephaestus.agent.md)) |
 | `/conclave docs` | 📘 Run **DOCS Regenerator** — rebuild `$CWD/TUTORIAL.md` from live squad/skill/agent data ([docs.agent.md](../docs.agent.md)) |
+| `/conclave harvest` | 🌾 Run **COP Harvest** — process session breadcrumbs into memory streams (also runs automatically on session end via heartbeat). Execute: `python3 _conclave/tools/scripts/breadcrumb.py harvest` |
 | Natural language about squads | 🦉 Load **MINERVA Intent Listener** ([minerva.agent.md](../minerva.agent.md)) → Contextual inference. Fallback: `router.agent.md` static lookup. |
 
 ## Help Text
@@ -180,6 +181,7 @@ GAIA SUBROUTINES (system observers — easter egg names from Horizon Zero Dawn)
   /conclave tide             🌊 POSEIDON — observe data streams, detect currents
   /conclave curate           ☀️  APOLLO — curate memory (dedupe, archive, resolve)
   /conclave forge            🔨 HEPHAESTUS — review manufacturing candidates
+  /conclave harvest          🌾 COP — harvest session breadcrumbs into memory streams
   (passive)                  🦉 MINERVA — contextual intent routing on natural language
   (passive)                  🌱 ELEUTHIA — profile refresh cradle (60-day check)
   (passive)                  🏹 ARTEMIS — squad gossip bus (cross-squad signals)

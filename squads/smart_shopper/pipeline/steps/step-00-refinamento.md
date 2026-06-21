@@ -9,7 +9,7 @@ outputFile: squads/smart_shopper/output/refined-briefing.md
 ## Context Loading
 
 Load these files before executing:
-- `_conclave/state/memory/company.md` — Perfil do Doug.
+- `_conclave/state/memory/company.md` — Perfil do <user_name>.
 - `ambientes/Bazaar/_data/retailer-registry.md` — Para sugerir categorias.
 - `ambientes/Bazaar/_data/purchase-history.md` — Para referência de compras anteriores.
 
@@ -68,3 +68,28 @@ Reject and redo if ANY of these are true:
 - [ ] Faixa de preço estabelecida.
 - [ ] CEP de entrega informado.
 - [ ] Categoria do retailer-registry identificada.
+
+## Output Example
+
+```markdown
+# Briefing de Compra Refinado
+
+## Produto
+- **Descrição:** Smartphone Android com 256GB, boa câmera e bateria forte.
+- **Categoria:** smartphones
+
+## Critérios
+- **Faixa de preço:** R$ 1.800 - R$ 2.600
+- **CEP de entrega:** informado no briefing interno
+- **Prazo máximo:** 7 dias úteis
+- **Cartão preferido:** nenhum
+- **Pagamento preferido:** PIX se desconto for relevante
+- **Priorizar ESG:** Indiferente
+
+## Preferências
+- **Lojas preferidas:** Amazon BR, Magazine Luiza, Mercado Livre oficial
+- **Lojas a evitar:** lojas sem reputação verificável
+
+## Contexto
+- **Compras anteriores relacionadas:** nenhuma relevante
+```

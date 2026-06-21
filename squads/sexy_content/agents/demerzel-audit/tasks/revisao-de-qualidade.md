@@ -4,7 +4,7 @@ order: 1
 input: |
   - Draft gerado pela Trinity Copy.
 output: |
-  - Feedbacks explícitos onde quebra os princípios do Doug.
+  - Feedbacks explícitos onde quebra os princípios do <user_name>.
   - A cópia aprovada ou correções aplicadas se autorizado.
 ---
 

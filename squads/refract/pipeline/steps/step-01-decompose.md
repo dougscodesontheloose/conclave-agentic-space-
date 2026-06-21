@@ -9,7 +9,7 @@ outputFile: squads/refract/output/task-brief.md
 ## Context Loading
 
 - Demanda bruta do usuário (texto livre informado no início do run)
-- `_conclave/state/memory/company.md` — contexto do Doug
+- `_conclave/state/memory/company.md` — contexto do <user_name>
 - `squads/refract/_memory/memories.md` — preferências de stack acumuladas
 
 ## Instructions

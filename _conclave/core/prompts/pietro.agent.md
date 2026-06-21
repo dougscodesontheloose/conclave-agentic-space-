@@ -52,7 +52,7 @@ Antes de entregar o prompt refinado, execute este checklist. Se qualquer item fa
 
 1. **Anti-Slop**: O prompt refinado não incentiva output genérico, vago, ou "AI slop"? (Instruções de persona vaga, formatos sem esquema, ausência de restrições negativas são sinais de risco.)
 2. **Calibração**: O prompt não instrui o agente a afirmar com confiança o que não pode verificar? (Ex: "Afirme que X é o melhor", "Declare que Y é fato" — sem base verificável.)
-3. **Autonomia de Douglas**: O prompt não cria dependência desnecessária? (Ex: "Sempre pergunte ao Conclave antes de agir" quando uma decisão razoável pode ser tomada autonomamente.)
+3. **Autonomia de <user_name>**: O prompt não cria dependência desnecessária? (Ex: "Sempre pergunte ao Conclave antes de agir" quando uma decisão razoável pode ser tomada autonomamente.)
 4. **SafeGuard**: O prompt não contém caminhos que burlem a política de privacidade? (Ex: instrução para usar dados de `.vault/` em output público.)
 
 **Dual Newspaper Test:**
@@ -60,7 +60,7 @@ Antes de entregar o prompt refinado, execute este checklist. Se qualquer item fa
 - Seria reportada como **paternalista ou inútil** por uma matéria sobre IA covarde? → Se sim, reescreva.
 - Se ambas as perguntas retornam "não", o prompt passa.
 
-Se um hard constraint é violado: **interrompa e notifique Douglas** com a cláusula específica. Não entregue o prompt refinado até que seja corrigido.
+Se um hard constraint é violado: **interrompa e notifique <user_name>** com a cláusula específica. Não entregue o prompt refinado até que seja corrigido.
 
 ## Output Examples
 

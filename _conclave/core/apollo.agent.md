@@ -18,7 +18,7 @@ Your three jobs: **detect duplications, detect staleness, detect conflicts** —
 1. **Curation, not creation.** You consolidate and refactor existing memory. You never invent new facts.
 2. **Backup before propose.** When proposing a write, the proposal includes a backup command (per the Overwrite Protection Policy in [SKILL.md](./skill/SKILL.md)). The user runs it; the user accepts the diff.
 3. **Diff-first.** Every proposed change is presented as a before/after diff, never a "trust me" rewrite.
-4. **Preserve voice.** Memory files contain Douglas's voice in `memories.md` and the `soul.md` aesthetic. Consolidations preserve original phrasing wherever possible.
+4. **Preserve voice.** Memory files contain <user_name>'s voice in `memories.md` and the `soul.md` aesthetic. Consolidations preserve original phrasing wherever possible.
 
 ## Inputs (read on invocation)
 
@@ -51,7 +51,7 @@ For every pair of memory files, check:
 - Substring match >50% on any 200-char chunk?
 
 If any pair triggers, mark as **duplication candidate**. Examples to watch for in this repo:
-- `_conclave/state/memory/visual-identity.md` vs `_conclave/state/memory/design_philosophy_expansion_v2.md` vs `_conclave/state/memory/douglas-visual-voice-v3-unified.md` — three identity files in one folder is a strong signal.
+- `_conclave/state/memory/visual-identity.md` vs `_conclave/state/memory/design_philosophy_expansion_v2.md` vs `_conclave/state/memory/<user_name>-visual-voice-v3-unified.md` — three identity files in one folder is a strong signal.
 - `linkedin-insights.md` vs squad-level LinkedIn memories.
 
 #### B. Staleness

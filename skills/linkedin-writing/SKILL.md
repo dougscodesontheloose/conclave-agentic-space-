@@ -1,6 +1,6 @@
 ---
 name: linkedin-writing-v2
-description: "Framework operacional de escrita para LinkedIn derivado da voz autoral de Douglas Moura. Define a anatomia do post ideal, uma taxonomia de 7 hooks com padrões e exemplos, 4 arquétipos de conteúdo (Insight, Story→Lição, Opinião Contrária, Framework), sistema de autoridade sem arrogância, 4 níveis de CTA calibrados para esta voz, e checklist completo de validação. Otimizado para clareza, leitura rápida e influência genuína dentro da dinâmica do feed — sem sacrificar autenticidade por performance algorítmica."
+description: "Framework operacional de escrita para LinkedIn derivado da voz autoral de <user_name> Moura. Define a anatomia do post ideal, uma taxonomia de 7 hooks com padrões e exemplos, 4 arquétipos de conteúdo (Insight, Story→Lição, Opinião Contrária, Framework), sistema de autoridade sem arrogância, 4 níveis de CTA calibrados para esta voz, e checklist completo de validação. Otimizado para clareza, leitura rápida e influência genuína dentro da dinâmica do feed — sem sacrificar autenticidade por performance algorítmica."
 contract:
   inputs:
     - name: brand_voice
@@ -15,7 +15,7 @@ contract:
   outputs:
     - name: linkedin_content
       format: markdown
-      description: "Post ou estrutura de carrossel finalizado na voz do Doug, pronto para checkpoint de aprovação"
+      description: "Post ou estrutura de carrossel finalizado na voz do <user_name>, pronto para checkpoint de aprovação"
   quality_criteria:
     - "Começa com um hook nas primeiras 2 linhas — não uma pergunta genérica, não 'No mundo de hoje', não dump de estatística"
     - "Escrito em prosa fluida — sem listas com bullet, sem seções numeradas"
@@ -26,7 +26,7 @@ contract:
   on_failure: retry_previous
 ---
  
-# DOUGLAS MOURA — LINKEDIN WRITING SKILL
+# <user_name> MOURA — LINKEDIN WRITING SKILL
 
 **Core principle:** A precisão da resposta é diretamente proporcional à clareza da intenção.
 
@@ -427,7 +427,7 @@ siga uma ordem — mas recompensa quem segue.
  
 ---
  
-*Este skill é especialização do Douglas Moura Base Writing Skill.
+*Este skill é especialização do <user_name> Moura Base Writing Skill.
 Não requer o arquivo base para funcionar, mas assume o mesmo DNA de voz.*
 
 

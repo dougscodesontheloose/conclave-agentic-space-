@@ -1,0 +1,19 @@
+{
+  "slug": "genealogy-evidence-validation",
+  "category": "research",
+  "tags": [
+    "genealogy",
+    "evidence",
+    "validation",
+    "research"
+  ],
+  "installation": {
+    "base_command": "local",
+    "supports": [
+      "claude",
+      "cursor",
+      "codex"
+    ]
+  },
+  "requires_skills": []
+}

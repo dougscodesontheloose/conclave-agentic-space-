@@ -53,4 +53,4 @@ Reject and redo if ANY of these are true:
 ## Quality Criteria
 
 - [ ] Tom de voz garantido (Dica de Amigo / Colega Experiente).
-- [ ] O Markdown entregue é puro, para o Blotato e Doug.
+- [ ] O Markdown entregue é puro, para o Blotato e <user_name>.

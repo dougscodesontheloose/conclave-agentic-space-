@@ -7,7 +7,7 @@ outputFile: squads/sexy_content/output/angulo-aprovado.md
 
 ## Instruções
 
-Apresentar os 3 ângulos ao Doug de forma limpa:
+Apresentar os 3 ângulos ao <user_name> de forma limpa:
 
 ---
 

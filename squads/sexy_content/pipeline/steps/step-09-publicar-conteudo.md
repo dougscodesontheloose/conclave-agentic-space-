@@ -47,7 +47,7 @@ Nota Adicional: Deploy realizado com sucesso e ID da transação ABC1234
 
 Reject and redo if ANY of these are true:
 1. Apresentar dados faltantes na checagem final (como credencial inválida e marcar que publicou).
-2. Alterou o texto do Doug para fugir da validação ao invés de barrar e notificar erro na submissão.
+2. Alterou o texto do <user_name> para fugir da validação ao invés de barrar e notificar erro na submissão.
 
 ## Quality Criteria
 

@@ -63,7 +63,7 @@ Nenhuma. Pure reasoning skill.
 ## When to Use
 
 - Galileu precisa do status das metas no `monthly-plan.json`.
-- Doug pergunta "tô cumprindo o que combinei comigo?".
+- <user_name> pergunta "tô cumprindo o que combinei comigo?".
 
 
 **Auto-trigger:** Ative este skill autonomamente quando o usuário buscar resolver o problema central descrito acima.
@@ -139,4 +139,4 @@ Arquivo `squads/cliff_palace/_memory/goals.md`:
 
 - Cravar `missed` sem checar se o mês ainda tem dias suficientes para reverter.
 - Tratar ausência do arquivo `goals.md` como falha — deve retornar `[]` graciosamente.
-- Inventar metas que o Doug não declarou.
+- Inventar metas que o <user_name> não declarou.

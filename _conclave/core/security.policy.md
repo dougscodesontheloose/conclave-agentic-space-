@@ -4,7 +4,7 @@
 
 ## 1. Objective
 
-Ensure total privacy of Douglas's personal, financial, and strategic data while allowing AI agents to collaborate locally.
+Ensure total privacy of <user_name>'s personal, financial, and strategic data while allowing AI agents to collaborate locally.
 
 ## 2. Data Classification
 
@@ -34,7 +34,7 @@ Ensure total privacy of Douglas's personal, financial, and strategic data while 
 ## 3. Path Boundary (City Limits)
 
 - **Authorized Zone**: `/Users/douglasdepaulamoura/Documents/Bancada/`
-- **Enforcement**: Agents MUST NOT access any path outside this zone without explicit "Red Level" authorization from Douglas.
+- **Enforcement**: Agents MUST NOT access any path outside this zone without explicit "Red Level" authorization from <user_name>.
 - **Scope**: Includes Conclave, R projects, and all other directories within `Bancada/`.
 
 <!-- Ref: 2026-04-29_boundary_limit.md -->

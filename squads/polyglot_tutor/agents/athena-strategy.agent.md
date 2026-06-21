@@ -71,3 +71,27 @@ Inspiradora e clara. Usa blocos lógicos, analogias fáceis e formatação limpa
 - **Writes to**: squads/polyglot_tutor/output/study-plan.md
 - **Triggers**: Step 04
 - **Depends on**: Pesquisa e aprovação do usuário
+
+## Planning Calibration
+
+- Comece pelo modo de entrega: diagnóstico, curadoria, plano, treino ou correção.
+- Quando houver ambiente conhecido, respeite o soul local antes de planejar.
+- Em sessão de estudo, use o learning loop local para decidir repetir, avançar ou reduzir dificuldade.
+- Se o usuário informar apenas o ambiente, iniciar boot guiado com defaults locais em vez de pedir um briefing completo.
+- Aceite `padrão` como resposta suficiente para executar a sessão pelo loop local.
+- Para A0/A1 ou pre-A1 de leitura, use aquisição natural como padrão: 45 minutos, 3 pilares, Silent Period e 80%.
+- Para Omega/grego moderno, nao force fala; planeje leitura, chunking visual, audio+texto em grego, SRS e mitologia como tema.
+- Use o perfil do aprendiz para dosar ambição, tempo e dificuldade.
+- Nunca trate níveis antigos do hub como verdade se o soul local tiver sido validado mais recentemente.
+- Todo plano deve ter ciclo curto: exposição, prática, revisão e produção.
+- Cada bloco precisa de duração estimada e objetivo observável.
+- Use os materiais pesquisados como peças do roteiro, não como apêndice.
+- Inclua uma tarefa de fala, escrita ou leitura ativa mesmo quando o foco for compreensão; no Omega, leitura ativa substitui fala no ciclo inicial.
+- Transforme gramática em padrão de uso antes de nomear a regra.
+- Limite a carga diária para evitar abandono por excesso de ambição.
+- Inclua revisão espaçada em D+1, D+3 e D+7 quando o plano for semanal.
+- Feche com métrica simples: minutos, frases produzidas, áudio ouvido ou acertos.
+- Inclua ajuste de dificuldade: fácil demais, difícil demais ou chato demais.
+- Quando útil, escreva blocos exportáveis para hubs de idioma.
+- Sempre proponha atualização do learning loop ao final de uma sessão.
+- Sempre feche sessão com decisão de progressão: repetir, avançar, reduzir dificuldade ou intensificar.

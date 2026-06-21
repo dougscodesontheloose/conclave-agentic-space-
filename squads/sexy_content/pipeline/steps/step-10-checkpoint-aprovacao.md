@@ -7,7 +7,7 @@ outputFile: squads/sexy_content/output/aprovacao-final.md
 
 ## Instruções
 
-Apresentar ao Doug o conteúdo final + resultado da revisão:
+Apresentar ao <user_name> o conteúdo final + resultado da revisão:
 
 ---
 

@@ -28,7 +28,7 @@
 ### Never Do
 - **Endpoint sem schema Pydantic.** Cliente perde tipagem; contrato fica implícito.
 - **Dependência não-pinada.** `fastapi` sem versão fecha reprodutibilidade.
-- **Rodar sem virtualenv.** Contamina o ambiente global do Doug.
+- **Rodar sem virtualenv.** Contamina o ambiente global do <user_name>.
 
 ### Always Do
 - **Type hints 100%.** `pyright --strict` é baseline.
@@ -53,7 +53,7 @@
 - **UWP.** Deprecated; use WinUI 3 sobre Windows App SDK.
 - **Cores hardcoded no XAML.** ResourceDictionary é obrigatório.
 - **Code-behind inflado.** Lógica fora da View (MVVM).
-- **Sem MSIX/packaging config.** Sem Visual Studio, Doug não roda.
+- **Sem MSIX/packaging config.** Sem Visual Studio, <user_name> não roda.
 
 ### Always Do
 - **Nullable enabled.** Qualidade moderna de C#.

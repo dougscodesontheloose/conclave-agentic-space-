@@ -1,7 +1,7 @@
 # 🟢 Registro: Fundação e Estrutura Base (2026-04-26)
 
 ## 🎯 Objetivo do Período
-Estabelecer o core do Conclave como um orquestrador multi-agente resiliente para a carreira e projetos do Doug.
+Estabelecer o core do Conclave como um orquestrador multi-agente resiliente para a carreira e projetos do <user_name>.
 
 ## 🚀 Avanços e Capacidades
 1. **Heartbeat System:** Implementação de integridade básica e verificação de saúde do sistema.

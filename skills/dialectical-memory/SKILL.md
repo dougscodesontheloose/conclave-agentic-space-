@@ -16,7 +16,7 @@ Esta skill injeta um "filtro de consciência" no agente antes de ele escrever no
 
 Sempre que você for salvar um aprendizado ou fato novo, aplique estas 3 perguntas:
 
-1.  **Isso é Reutilizável?** Este fato será útil para um novo squad no futuro ou para o Doug tomar uma decisão daqui a um mês? (Se for apenas um log técnico de execução, não salve).
+1.  **Isso é Reutilizável?** Este fato será útil para um novo squad no futuro ou para o <user_name> tomar uma decisão daqui a um mês? (Se for apenas um log técnico de execução, não salve).
 2.  **Qual o Impacto?** Isso altera a estratégia (Estratégico), o fluxo de trabalho (Operacional) ou os gostos/valores do usuário (Pessoal)?
 3.  **Posso Sintetizar?** Existe uma forma de dizer isso em uma frase curta que capture a essência sem precisar de 3 parágrafos?
 
@@ -26,7 +26,7 @@ Ao escrever no `memories.md`, use estes prefixos para facilitar a recuperação 
 
 *   **[ESTRATÉGICO]:** Insights sobre posicionamento, mercado ou carreira.
 *   **[OPERACIONAL]:** Descobertas sobre ferramentas, bugs fixados ou fluxos otimizados.
-*   **[PESSOAL]:** Preferências do Doug, tom de voz, rotinas de saúde ou valores.
+*   **[PESSOAL]:** Preferências do <user_name>, tom de voz, rotinas de saúde ou valores.
 
 ## Exemplo de Transformação
 *   **Antes:** "Tentei rodar o comando X mas deu erro Y porque a permissão do diretório Z estava errada. Aí dei o comando chmod e funcionou."

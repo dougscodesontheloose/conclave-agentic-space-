@@ -7,7 +7,7 @@ outputFile: squads/sexy_content/output/formato-escolhido.md
 
 ## Instruções
 
-Apresentar ao Doug as opções de formato de saída:
+Apresentar ao <user_name> as opções de formato de saída:
 
 ---
 

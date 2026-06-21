@@ -10,6 +10,6 @@ type: checkpoint
 
 ## Instructions
 
-Apresente os ângulos ao Doug.
+Apresente os ângulos ao <user_name>.
 Peça a escolha.
 Pergunte também se: "Gostaria de um Post de Texto ou um Roteiro de Carrossel para este ângulo?"

@@ -2,17 +2,17 @@
 privacy: internal
 domain: global
 urgency_weight: high
-last_validated: 2026-04-30
+last_validated: 2026-05-19
 ---
 
-# Perfil do Projeto — Douglas de Paula Moura
+# Perfil do Projeto — <user_name> de Paula Moura
 
 ## Identidade
 
-- **Nome:** Douglas de Paula Moura (Doug)
-- **Tipo:** Projeto Pessoal — Personal Branding & Posicionamento Estratégico de Carreira
-- **Localização:** Curitiba, PR — Brasil
-- **Contato:** doug.pmoura@gmail.com | +55 (41) 99659-2732
+- **Nome:** <user_name> de Paula Moura (<user_name> / <user_name> Moura)
+- **Tipo:** Projeto Pessoal — Personal Branding, Posicionamento Estratégico de Carreira & Polímata
+- **Localização:** Curitiba, PR — Brasil (Bairro Boa Vista)
+- **Contato:** <user_name>.pmoura@gmail.com | +55 (41) 99659-2732
 
 ## Presença Online
 
@@ -21,9 +21,9 @@ last_validated: 2026-04-30
 
 ## Posicionamento Atual
 
-> Marketing Analytics | Business Intelligence | Data-Driven Growth
+> Marketing Analytics | Business Intelligence | Data-Driven Growth | Polímata
 
-Profissional em **transição estratégica**: saindo de um perfil operacional de mídia paga (Meta Ads, Google Ads) em direção a papéis com maior profundidade técnica em **dados, BI e análise de performance**. A base em marketing de performance não é abandonada — ela é o piso e diferencial que sustenta a narrativa de crescimento.
+Profissional em **transição estratégica**: saindo de um perfil operacional de mídia paga (Meta Ads, Google Ads) em direção a papéis com maior profundidade técnica em **dados, BI e análise de performance**. A base em marketing de performance não é abandonada — ela é o piso e diferencial que sustenta a narrativa de crescimento. O ecossistema também se expande sob a ótica da polimatia: desenvolvimento cross-platform, experimentação ativa de APIs, IA (RAG e deploy local) e sistemas personalizados de produtividade (PAC).
 
 ## Trajetória de Carreira
 
@@ -36,7 +36,7 @@ Profissional em **transição estratégica**: saindo de um perfil operacional de
 
 ## Experiências-Chave
 
-- **Wipro alocado Meta — Global Accelerate** (Out 2024 – Out 2025): Marketing Analytics Strategist. Governança analítica de 200+ anunciantes globais, budget US$5M+. Power BI, GA4, modelos de atribuição, A/B testing. Crescimento +30% QoQ na performance consolidada.
+- **Wipro alocado Meta — Global Accelerate** (Out 2024 – Out 2025): Analista de Mídias Sociais Bilíngue e Estrategista de Mídia Paga (Marketing Analytics Strategist). Governança analítica de 200+ anunciantes globais, budget US$5M+. Power BI, GA4, modelos de atribuição, A/B testing. Crescimento +30% QoQ na performance consolidada.
 - **Florença Veículos S.A.** (Ago 2022 – Set 2023): Inteligência de Mercado & Performance. Análise de marketplaces, modelagem de funil no Power BI, auditoria de investimento por canal.
 - **Propagatur** (Jan 2020 – Abr 2021): Estrategista de Conteúdo & Search Intelligence. SEO, arquitetura de dados de UX, gestão de crise.
 
@@ -48,23 +48,31 @@ Profissional em **transição estratégica**: saindo de um perfil operacional de
 
 - Português: Nativo
 - Inglês: Fluente / Profissional
-- Espanhol: Intermediário
+- Espanhol: Intermediário (Em preparação ativa: plano de estudos de 52 semanas / roadmap de 18 meses para atingir nível B2/C1, iniciado em abril de 2026).
 
 ## Competências Técnicas
 
-- **BI & Dados:** Power BI (modelagem), SQL (em curso), Python para Dados (em curso), ETL básico
-- **Analytics:** GA4, Web Analytics, Modelos de Atribuição, ROI/CAC, ROAS
-- **Tech & IA:** Prompt Engineering, Context Engineering, LLMs, Automação de Workflows
-- **Mídia Paga:** Meta Ads Blueprint, Google Ads Search/Display, Google Tag Manager
+- **BI & Dados:** Power BI (modelagem), SQL (em curso), Python para Dados (em curso), ETL básico, Google Apps Script.
+- **Analytics:** GA4, Web Analytics, Modelos de Atribuição, ROI/CAC, ROAS.
+- **Tech & IA:** Prompt Engineering, RAG (Retrieval-Augmented Generation), deploy de modelos locais, LLMs, design e otimização de sistemas de IA.
+- **Mídia Paga:** Meta Ads Blueprint, Google Ads Search/Display, Google Tag Manager.
 
 ## Certificações
 
 - Power BI Avançado, SQL para Análise de Dados, Python (Alura / Data Driven)
 - Google Prompting Essentials, Google AI Essentials
 
-Transformar o perfil do LinkedIn em um **ativo de alta conversão** para vagas na interseção de **Marketing Analytics × Dados × Tecnologia**. Construir um funil de carreira tratando cada candidatura como experimento (product-market fit entre competências e demandas de growth).
+## Projetos Ativos & Recentes
 
-> **Atualização de Estratégia (Abr/2026):** Foco em estratégia bilíngue (PT-BR prioritário + Resumo EN) para nutrir a base atual brasileira enquanto cultiva o nicho Tech/Data em EUA/UK. Ver [linkedin-insights.md](file:///Users/douglasdepaulamoura/Documents/Conclave/_conclave/state/memory/linkedin-insights.md).
+- **Medidor de Saúde (Março de 2026):** Painel físico de monitoramento de métricas físicas desenvolvido usando Google Apps Script e HTML Service.
+- **Estudos Avançados de Espanhol (Abril de 2026):** Preparação direcionada de 18 meses para proficiência avançada.
+
+## Estrutura de Relacionamentos Familiares
+
+- **Angela:** Mãe (viagens e reuniões de longo prazo).
+- **Claudio:** Pai (interações de longo prazo e aniversários).
+- **Bruna:** Irmã (marcos familiares e graduação).
+- **Patrícia Tomiak:** Irmã (amiga próxima de consideração familiar, tratada com proximidade de irmã).
 
 ## Posicionamento Central (The Hook)
 

@@ -65,7 +65,7 @@ Nenhuma. Pure reasoning skill.
 ## When to Use
 
 - Marie e Galileu precisam do ranking para o `biweekly-trends.json` e `monthly-plan.json`.
-- Doug pergunta "onde devo cortar primeiro?".
+- <user_name> pergunta "onde devo cortar primeiro?".
 
 
 **Auto-trigger:** Ative este skill autonomamente quando o usuário buscar resolver o problema central descrito acima.

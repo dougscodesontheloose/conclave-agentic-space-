@@ -1,7 +1,7 @@
 # Visual Identity — Sexy Content Engine
 
 Guia de referência rápida para Flynn Design. Para a versão completa e detalhada, ler
-`pipeline/data/douglas-visual-voice.md` e `_memory/douglas-color-palettes.md`.
+`pipeline/data/<user_name>-visual-voice.md` e `_memory/<user_name>-color-palettes.md`.
 
 ---
 

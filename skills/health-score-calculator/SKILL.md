@@ -22,7 +22,7 @@ contract:
       description: "Bloco JSON com score 0-10, breakdown dos 4 componentes e interpretation"
   quality_criteria:
     - "final_score é a média ponderada exata: 0.30·fluxo + 0.30·poupanca + 0.20·concentracao + 0.20·emergencia"
-    - "Output inclui SEMPRE os 4 componentes individuais — Doug precisa saber por que está nesse número"
+    - "Output inclui SEMPRE os 4 componentes individuais — <user_name> precisa saber por que está nesse número"
     - "Score arredondado para 1 casa decimal"
     - "interpretation segue thresholds: ≥8 good, 6-8 ok, 4-6 warning, <4 critical"
     - "Cobertura de emergência calculada com despesa MENSAL MÉDIA, não despesa de mês atípico"
@@ -121,4 +121,4 @@ Interpretation thresholds: ≥ 8 good, 6–8 ok, 4–6 warning, < 4 critical.
 
 - Mudar pesos sem versionar (compromete comparabilidade temporal).
 - Calcular cobertura de emergência com despesa de um único mês atípico.
-- Reportar score sem componentes — Doug precisa saber *por que* tá nesse número.
+- Reportar score sem componentes — <user_name> precisa saber *por que* tá nesse número.

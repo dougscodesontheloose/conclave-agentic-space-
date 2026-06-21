@@ -1,5 +1,0 @@
-# Adaptador de Currículos por Vaga
-
-URL: https://gemini.google.com/gem/a3f362054455?google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3Dd01bfc3cc9b8db6f:TM%3D1771341686:C%3Dr:IP%3D179.68.124.239-:S%3DSHHQr3v9KnVS3dC7TGCo2VI;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2017-Feb-2026%2018:21:26%20GMT
-
-Este agente de IA adapta currículos completos para vagas específicas, analisando detalhadamente a descrição da oportunidade e reorganizando as informações reais do candidato para criar uma versão mais enxuta, estratégica e direcionada. Ele prioriza palavras-chave, experiências relevantes, resultados e fit cultural, seguindo um template fixo e otimizado para ATS, sem jamais inventar ou inferir dados. O resultado é um currículo personalizado, com até duas páginas, alinhado exatamente aos requisitos da vaga.

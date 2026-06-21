@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Carousel Renderer v4 — "Poética Racional" Edition
-Design premium focado na identidade do Douglas Moura:
+Design premium focado na identidade do <user_name> Moura:
 - Contraste entre Engenharia (Mono) e Poesia (Serif).
 - Efeito Glassmorphism e texturas de ruído.
 - Layouts assimétricos e tipografia refinada.

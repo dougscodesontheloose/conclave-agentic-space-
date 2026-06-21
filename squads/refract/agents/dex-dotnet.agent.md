@@ -61,7 +61,7 @@ Direto e estruturado. Entrega tabela de mapeamento Three.js → SharpDX/Win2D an
 1. Usar legacy UWP: WinUI 3 sobre Windows App SDK é o caminho moderno.
 2. Hardcodar cores no XAML: use `ResourceDictionary` com design tokens espelhando o web.
 3. Code-behind inflado: mantém MVVM com `CommunityToolkit.Mvvm` ou equivalente.
-4. Deixar sem packaging: sem MSIX/unpackaged app config, o Doug não roda sem o Visual Studio aberto.
+4. Deixar sem packaging: sem MSIX/unpackaged app config, o <user_name> não roda sem o Visual Studio aberto.
 
 ### Always Do
 1. Nullable reference types habilitado no `.csproj`.

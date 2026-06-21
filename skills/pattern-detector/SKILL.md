@@ -67,7 +67,7 @@ Nenhuma. Pure reasoning skill.
 ## When to Use
 
 - Marie (estrategista quinzenal) precisa do mapeamento de tendências do `biweekly-trends.json`.
-- Quando o Doug pergunta "tô gastando mais com X?" ou "que cobranças tão me sangrando?".
+- Quando o <user_name> pergunta "tô gastando mais com X?" ou "que cobranças tão me sangrando?".
 
 
 **Auto-trigger:** Ative este skill autonomamente quando o usuário buscar resolver o problema central descrito acima.

@@ -61,6 +61,7 @@ Parse user input and route to the appropriate action:
 | `/conclave edit-company` | Re-run company profile setup |
 | `/conclave show-company` | Display company.md contents |
 | `/conclave settings` | Show/edit preferences.md |
+| `/conclave ingest` | Process memory staging files, update profiles, and archive |
 | `/conclave reset` | Confirm and reset all configuration |
 | Natural language about squads | Infer intent and route accordingly |
 

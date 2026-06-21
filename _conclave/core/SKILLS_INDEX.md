@@ -5,7 +5,7 @@
 Catálogo unificado descobrível por qualquer agente em qualquer ambiente.
 
 **Localização canônica:** [`skills/`](../../skills/)  
-**Total:** 178 skills (catálogo unificado em 2026-05-07 absorveu `.agents/skills/`)
+**Total:** 179 skills (catálogo unificado em 2026-05-07 absorveu `.agents/skills/`)
 
 ## Catálogo completo
 
@@ -70,6 +70,7 @@ Catálogo unificado descobrível por qualquer agente em qualquer ambiente.
 | `contact-cache` | > | [skills/contact-cache](../../skills/contact-cache/) |
 | `content-asset-creator` | > | [skills/content-asset-creator](../../skills/content-asset-creator/) |
 | `content-brief-factory` | > | [skills/content-brief-factory](../../skills/content-brief-factory/) |
+| `corner-office` | Reposicionamento de carreira estratégico para dados e IA, otimização de perfil LinkedIn e CV. | [skills/corner-office](../../skills/corner-office/) |
 | `create-html-carousel-alt` | Create LinkedIn carousel posts as high-quality PNG images. Design informational multi-slide posts li | [skills/create-html-carousel-alt](../../skills/create-html-carousel-alt/) |
 | `create-html-carousel` | > | [skills/create-html-carousel](../../skills/create-html-carousel/) |
 | `create-html-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. U | [skills/create-html-slides](../../skills/create-html-slides/) |
@@ -135,7 +136,7 @@ Catálogo unificado descobrível por qualquer agente em qualquer ambiente.
 | `linkedin-outreach` | > | [skills/linkedin-outreach](../../skills/linkedin-outreach/) |
 | `linkedin-post-research` | > | [skills/linkedin-post-research](../../skills/linkedin-post-research/) |
 | `linkedin-profile-post-scraper` | > | [skills/linkedin-profile-post-scraper](../../skills/linkedin-profile-post-scraper/) |
-| `linkedin-writing` | Framework operacional de escrita para LinkedIn derivado da voz autoral de Douglas Moura. Define a an | [skills/linkedin-writing](../../skills/linkedin-writing/) |
+| `linkedin-writing` | Framework operacional de escrita para LinkedIn derivado da voz autoral de <user_name> Moura. Define a an | [skills/linkedin-writing](../../skills/linkedin-writing/) |
 | `llm-knowledge-base` | > | [skills/llm-knowledge-base](../../skills/llm-knowledge-base/) |
 | `luma-event-attendees` | Find speakers, hosts, and guest profiles at conferences and events on Luma. Two modes - free direct  | [skills/luma-event-attendees](../../skills/luma-event-attendees/) |
 | `manim-video-creator` | > | [skills/manim-video-creator](../../skills/manim-video-creator/) |
@@ -152,6 +153,7 @@ Catálogo unificado descobrível por qualquer agente em qualquer ambiente.
 | `paid-channel-prioritizer` | > | [skills/paid-channel-prioritizer](../../skills/paid-channel-prioritizer/) |
 | `pain-language-engagers` | > | [skills/pain-language-engagers](../../skills/pain-language-engagers/) |
 | `pattern-detector` | > | [skills/pattern-detector](../../skills/pattern-detector/) |
+| `permanence-medical-interpreter` | Interpreta exames e laudos médicos de forma acessível e ética, atuando como analista de saúde preventiva para otimização de estilo de vida. | [skills/permanence-medical-interpreter](../../skills/permanence-medical-interpreter/) |
 | `pipeline-review` | > | [skills/pipeline-review](../../skills/pipeline-review/) |
 | `prediction-markets` | > | [skills/prediction-markets](../../skills/prediction-markets/) |
 | `product-hunt-scraper` | > | [skills/product-hunt-scraper](../../skills/product-hunt-scraper/) |

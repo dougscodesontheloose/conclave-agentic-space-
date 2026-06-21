@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Carousel Renderer v2 — Doug's Custom Design
-Aplica 'Dicas do Doug' em todos os slides e assinatura vertical no canto direito.
+Carousel Renderer v2 — <user_name>'s Custom Design
+Aplica 'Dicas do <user_name>' em todos os slides e assinatura vertical no canto direito.
 """
 
 import re
@@ -164,7 +164,7 @@ SLIDE_TEMPLATE = """
         <div class="context">{context_html}</div>
     </div>
     <div class="detail-row">
-        <span>DICAS DO DOUG</span>
+        <span>DICAS DO <user_name></span>
         <span style="opacity: 0.5;">{detail}</span>
     </div>
 </div>

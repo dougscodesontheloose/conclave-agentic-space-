@@ -15,7 +15,7 @@ Transfere a estratégia do ângulo para as palavras finais (o manifesto).
 ## Process
 
 1. Pergunte ao usuário (ou deduza via input se já decidido) se ele quer Post de Texto Simples ou Roteiro de Carrossel.
-2. Puxe a voz do Doug (Tom de Voz: Dica de colega experiente, Retro-futurismo Funcional aplicado à precisão vocabular, analogia inteligente).
+2. Puxe a voz do <user_name> (Tom de Voz: Dica de colega experiente, Retro-futurismo Funcional aplicado à precisão vocabular, analogia inteligente).
 3. Produza o artefato respeitando as amarras de cadência do LinkedIn.
 
 ## Output Format

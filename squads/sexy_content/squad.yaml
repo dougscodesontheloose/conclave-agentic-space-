@@ -3,7 +3,7 @@ code: "sexy_content"
 domain: "linkedin"
 icon: "💠"
 version: "2.0.0"
-description: "Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis Visuais premium e Artigos na voz do Doug."
+description: "Motor de conteúdo de alto impacto para LinkedIn. Produz Posts, Carrosséis Visuais premium e Artigos na voz do <user_name>."
 
 pipeline:
   steps:

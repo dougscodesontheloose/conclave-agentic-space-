@@ -16,7 +16,7 @@ outputFile: squads/sexy_content/output/draft-conteudo.md
 ## Instructions
 
 ### Process
-1. Recupere todas as referências do Doug. Dica de colega + Zero clichê.
+1. Recupere todas as referências do <user_name>. Dica de colega + Zero clichê.
 2. Escreva o conteúdo Markdown no layout aprovado no arquivo da tarefa principal.
 3. Garanta que se for carrossel não fira as restrições arquiteturais ("Máx 40 palavras pro painel", "1 Âmbar signal").
 

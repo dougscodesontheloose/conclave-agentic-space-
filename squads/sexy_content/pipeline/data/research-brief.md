@@ -15,7 +15,7 @@
 - Primeiras 90 minutos após publicação determinam 60% do alcance final (janela de boost inicial).
 - Comentários com mais de 5 palavras valem 3× mais que curtidas no sinal de engajamento.
 
-**Melhores horários para o perfil de Doug:**
+**Melhores horários para o perfil de <user_name>:**
 - Terça a quinta: 7h–9h e 17h–19h (horário de Brasília)
 - Segunda e sexta: engajamento 30% menor — evitar conteúdo de alto esforço
 
@@ -45,7 +45,7 @@
 
 ---
 
-## 3. A Voz que Funciona para o Perfil do Doug
+## 3. A Voz que Funciona para o Perfil do <user_name>
 
 Com base no histórico de conteúdo e análise de narrativa do Medium:
 

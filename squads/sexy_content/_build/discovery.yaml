@@ -1,0 +1,29 @@
+squad_code: "linkedin-content"
+purpose: "Pesquisar tendências automaticamente (IA, Data, Marketing Analytics) e produzir conteúdo (Posts e Carrosséis) na voz de <user_name> Moura para postar no LinkedIn via Blotato."
+domain: "mixed"
+
+company:
+  name: "<user_name> de Paula Moura"
+  tone: "Técnico e narrativo. Analítico com visão de negócio. Direto, sem jargão desnecessário."
+  products: "Personal Branding & Posicionamento de Carreira"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Recrutadores técnicos, líderes de BI/Analytics, Diretores de Marketing, comunidade de dados brasileira."
+  platforms: "LinkedIn"
+  tone: "Técnico, narrativo. Coloquial sofisticado, didático e sem soberba (dica de colega experiente). Humor sutil via analogias à cultura pop (games, filmes, séries)."
+  sources: "Notícias e tendências sobre Análise de Dados voltada a marketing de performance, Ciência de Dados aplicabilidade em negócios, Martech, Growth Marketing, Inteligência Artificial e BI, cruzando temas quando possível."
+  output_format: "Post de texto ou Carrossel"
+  frequency: "weekly"
+
+tools_needed:
+  - "linkedin-writing"
+  - "creative-long-form"
+  - "blotato"
+
+investigation:
+  enabled: false
+
+target_formats:
+  - "linkedin-post"

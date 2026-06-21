@@ -64,7 +64,7 @@ Nenhuma. Pure reasoning skill.
 
 - Albert (analista diário) precisa flaggar transações suspeitas no `daily-briefing.json`.
 - Quando o pipeline do Cliff Palace processa novos extratos.
-- Sob demanda quando o Doug pergunta "tem alguma cobrança estranha?".
+- Sob demanda quando o <user_name> pergunta "tem alguma cobrança estranha?".
 
 
 **Auto-trigger:** Ative este skill autonomamente quando o usuário buscar resolver o problema central descrito acima.

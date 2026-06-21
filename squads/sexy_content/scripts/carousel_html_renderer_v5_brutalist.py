@@ -327,7 +327,7 @@ SLIDE_TEMPLATE = """
         </div>
         
         <div class="footer">
-            <div class="brand">SYS.DOUGLAS</div>
+            <div class="brand">SYS.<user_name></div>
             <div class="barcode">|| | | | || | | || | | </div>
             <div class="handle">{detail}</div>
         </div>

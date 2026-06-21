@@ -25,6 +25,7 @@ Este documento contém os principais comandos, gatilhos e atalhos para operar o 
 | `/conclave curate` | ☀️ Roda o APOLLO (deduplica, arquiva e resolve memórias). |
 | `/conclave forge` | 🔨 Roda o HEPHAESTUS (revisa candidatos a novas skills). |
 | `/conclave where` | Exibe os caminhos resolvidos do sistema (debug). |
+| `/conclave exodus` | 📦 Exporta o Conclave de forma segura (Fullride ou Open Source). |
 
 ---
 
@@ -50,6 +51,7 @@ Você não precisa apenas de comandos. Pode dizer coisas como:
 | **Router** | Intenção e Triagem | Decidir qual squad ou skill resolve um problema. |
 | **Apollo** | Research & Leads | Prospecção, busca de empresas e contatos. |
 | **Artemis** | Inteligência GTM | Estratégia de marketing, growth e análise. |
+| **Exodus** | Segurança | O Arquivista de exportação e backup do sistema. |
 | **Minerva** | Qualidade e Ética | Revisão de código e conformidade com SafeGuard. |
 | **Poseidon** | Memória e Evolução | Recuperar contextos históricos e aprendizados. |
 

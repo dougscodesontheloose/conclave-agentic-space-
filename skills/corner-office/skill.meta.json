@@ -1,0 +1,12 @@
+{
+  "slug": "corner-office",
+  "display_name": "Corner Office Career Strategist",
+  "category": "branding",
+  "tags": ["career", "resume", "linkedin", "branding", "growth"],
+  "type": "prompt",
+  "version": "1.0.0",
+  "installation": {
+    "supports": ["claude-code"],
+    "base_command": "Read and follow skills/corner-office/SKILL.md"
+  }
+}

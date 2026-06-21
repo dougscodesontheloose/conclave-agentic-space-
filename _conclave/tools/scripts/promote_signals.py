@@ -43,7 +43,7 @@ def main():
                     data = json.loads(line)
                     # Extract a meaningful string to track
                     # Adjust based on the actual schema used by the runner
-                    signal_text = data.get("signal") or data.get("content") or data.get("pattern") or ""
+                    signal_text = data.get("value") or data.get("signal") or data.get("content") or data.get("pattern") or ""
                     signal_type = data.get("signal_type", "unknown")
                     
                     if signal_text:

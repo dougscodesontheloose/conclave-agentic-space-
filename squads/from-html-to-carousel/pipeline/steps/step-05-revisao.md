@@ -57,6 +57,6 @@ Reject and redo if ANY of these are true:
 
 - [ ] A análise engloba slides (copy + tamanhos) e legenda em uníssono.
 - [ ] O Status gerado é perfeitamente "APROVADO" ou "REJEITADO", sem ambiguidades como "PARCIAL".
-- [ ] O tom audível condizente com a Persona do Doug ("Dica de amigo", "Didático").
+- [ ] O tom audível condizente com a Persona do <user_name> ("Dica de amigo", "Didático").
 - [ ] O "Gancho" principal é magnético e direto.
 - [ ] CTAs não são sobrepostos; apenas uma ação por publicação.

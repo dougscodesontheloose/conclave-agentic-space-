@@ -1,0 +1,7 @@
+phase: discovery
+status: completed
+ts: "2026-05-08T12:49:00Z"
+squad_code: "polyglot_tutor"
+output: "squads/polyglot_tutor/_build/discovery.yaml"
+template_used: null
+investigation_enabled: false

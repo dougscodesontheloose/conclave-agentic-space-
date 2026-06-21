@@ -7,7 +7,7 @@ outputFile: squads/sexy_content/output/conteudo-aprovado.md
 
 ## Instruções
 
-Apresentar ao Doug um resumo do material obtido:
+Apresentar ao <user_name> um resumo do material obtido:
 
 ---
 
@@ -30,4 +30,4 @@ Esse é o material certo para trabalhar?
 
 ## Output
 
-Salvar confirmação em `conteudo-aprovado.md`. Se o Doug pedir material adicional, voltar ao step-02.
+Salvar confirmação em `conteudo-aprovado.md`. Se o <user_name> pedir material adicional, voltar ao step-02.

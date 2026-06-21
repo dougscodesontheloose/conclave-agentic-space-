@@ -58,3 +58,21 @@ Reject and redo if ANY of these are true:
 - [ ] Flag ESG aplicado quando relevante.
 - [ ] Outliers sinalizados.
 - [ ] Links diretos incluídos.
+
+## Output Example
+
+```markdown
+# Priya Price — Pesquisa de Preços
+
+| Rank | Loja | Produto | Preço | Frete | Custo Total | Prazo | Pagamento | Estoque | Link | Alertas |
+|---:|---|---|---:|---:|---:|---|---|---|---|---|
+| 1 | Amazon BR | Modelo X 256GB | R$ 2.199 | R$ 0 | R$ 2.199 | 3 dias | PIX ou 10x | disponível | https://... | nenhum |
+| 2 | Magalu | Modelo X 256GB | R$ 2.149 | R$ 39 | R$ 2.188 | 5 dias | PIX com 5% | disponível | https://... | melhor PIX |
+
+## Outliers
+- Loja Y apareceu 45% abaixo da média; exige verificação de reputação antes de considerar.
+
+## Síntese
+- Menor custo total: Magalu, se PIX for aceito.
+- Menor risco operacional preliminar: Amazon BR.
+```

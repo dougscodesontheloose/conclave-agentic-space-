@@ -76,3 +76,25 @@ Reject and redo if ANY of these are true:
 - [ ] Taxa de resolução extraída.
 - [ ] Red flags listados com evidência.
 - [ ] Índice de confiança (🟢/🟡/🔴) atribuído.
+
+## Output Example
+
+```markdown
+# Rex Review — Análise de Reputação
+
+**Produto:** Smartphone Modelo X
+**Data:** YYYY-MM-DD
+
+## Resumo por Loja
+
+| Loja | ReclameAqui | Taxa Resolução | Google Reviews | Confiança | Red Flags |
+|---|---|---:|---|---|---|
+| Amazon BR | 8.2 | 91% | 4.5/5 | 🟢 | nenhum crítico |
+| Loja Y | 5.4 | 62% | 3.6/5 | 🟡 | atraso recorrente |
+
+## Detalhamento
+
+### Loja Y
+- Reclamações recentes: atraso de entrega e dificuldade de estorno.
+- Impacto: manter apenas se preço ajustado compensar risco.
+```

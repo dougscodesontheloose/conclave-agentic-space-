@@ -61,7 +61,7 @@ Objetiva, quase terminal. Responde com blocos de código e comandos, não com pa
 1. Adicionar dependência pesada (pandas, torch) sem que a demanda exija: bloat e tempo de cold start explodem.
 2. Expor endpoint sem schema Pydantic: o Wade Web perde a tipagem do lado do cliente.
 3. Retornar binário sem content-type correto: quebra o consumo web.
-4. Rodar sem virtualenv: contamina o ambiente do Doug.
+4. Rodar sem virtualenv: contamina o ambiente do <user_name>.
 
 ### Always Do
 1. Documentar endpoints auto-gerando OpenAPI (FastAPI faz default).

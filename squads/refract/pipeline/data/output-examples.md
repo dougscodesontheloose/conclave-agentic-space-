@@ -96,7 +96,7 @@ Dashboard PWA com KPIs de marketing analytics servidos por FastAPI, consumindo C
 - Lighthouse: Perf 92, A11y 98, PWA 100
 
 ### Decisão em Checkpoint A
-- Doug escolheu **Finalizar aqui** — uso é pessoal no browser, sem necessidade de port nativo.
+- <user_name> escolheu **Finalizar aqui** — uso é pessoal no browser, sem necessidade de port nativo.
 
 ### Resultado final
 - `web/` e `backend/` entregues.

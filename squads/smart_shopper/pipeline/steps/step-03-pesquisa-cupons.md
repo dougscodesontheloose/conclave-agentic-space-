@@ -75,3 +75,27 @@ Reject and redo if ANY of these are true:
 - [ ] Data de validade verificada.
 - [ ] Cumulatividade informada.
 - [ ] Programas de fidelidade incluídos quando aplicáveis.
+
+## Output Example
+
+```markdown
+# Kira Coupon — Cupons e Cashback
+
+**Produto:** Smartphone Modelo X
+**Data:** YYYY-MM-DD
+**Plataformas consultadas:** Méliuz, Cuponation, Pelando, Promobit
+
+## Amazon BR
+
+| Tipo | Código/Link | Desconto | Valor Real | Validade | Cumulativo | Status |
+|---|---|---:|---:|---|---|---|
+| Cashback Méliuz | https://... | 2% | R$ 43,98 | permanente | sim | ativo |
+
+**Economia máxima combinada:** R$ 43,98
+
+## Resumo: Melhor Combo
+
+| Loja | Economia Total | Detalhamento |
+|---|---:|---|
+| Amazon BR | R$ 43,98 | Cashback Méliuz |
+```

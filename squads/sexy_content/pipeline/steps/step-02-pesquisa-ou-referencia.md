@@ -10,7 +10,7 @@ model_tier: powerful
 ## Context Loading
 
 Load these files before executing:
-- `squads/sexy_content/output/research-focus.md` — modo selecionado pelo Doug (reference ou search) e foco/URL/tema
+- `squads/sexy_content/output/research-focus.md` — modo selecionado pelo <user_name> (reference ou search) e foco/URL/tema
 - `pipeline/data/research-brief.md` — critérios de qualidade de fontes e padrões de extração
 - `pipeline/data/domain-framework.md` — framework operacional de pesquisa para conteúdo LinkedIn
 
@@ -41,7 +41,7 @@ O modo de execução é determinado pelo checkpoint anterior (`step-01-triage.md
 ```markdown
 # Material Bruto
 
-**Fonte:** [URL ou "Input direto do Doug"]
+**Fonte:** [URL ou "Input direto do <user_name>"]
 **Data:** [data da publicação ou "N/A"]
 **Credibilidade:** [Alta / Média / Baixa — justificativa em 1 linha]
 **Modo:** [reference | search]
@@ -98,7 +98,7 @@ O lançamento marca uma inflexão no debate sobre IA no desenvolvimento de softw
 
 Reject and redo if ANY are true:
 1. O material-bruto.md tem menos de 5 pontos-chave — pesquisa insuficiente para suportar conteúdo de qualidade.
-2. Não há nenhum dado numérico ou estatística — conteúdo sem evidência não tem autoridade no LinkedIn do Doug.
+2. Não há nenhum dado numérico ou estatística — conteúdo sem evidência não tem autoridade no LinkedIn do <user_name>.
 
 ## Quality Criteria
 

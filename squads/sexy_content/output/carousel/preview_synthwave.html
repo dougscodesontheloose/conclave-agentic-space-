@@ -1,0 +1,232 @@
+<!DOCTYPE html><html><head><meta charset='UTF-8'><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@300;400;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: #000;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.slide {
+    width: 1080px;
+    height: 1080px;
+    padding: 56px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background: #090118;
+    border: 2px solid #1B0235;
+    transform: scale(0.5); /* Preview scale */
+    transform-origin: top left;
+    margin-bottom: -540px;
+    margin-right: -540px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+    border-radius: 8px;
+}
+
+/* ── Assinatura Vertical ────────────────── */
+.vertical-signature {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    transform-origin: right center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #8A2BE2;
+    white-space: nowrap;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FF007F;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 26px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FF00FF;
+    text-shadow: 0 0 5px #FF00FF;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px 0;
+}
+
+.signal {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 1.1;
+    color: #00FFFF;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.signal.headline {
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+.context {
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.55;
+    color: #FFFFFF;
+    max-width: 900px;
+}
+
+.context ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.context ul li::before {
+    content: '→ ';
+    color: #FF007F;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 32px;
+    margin-right: 12px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #FF007F;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8A2BE2;
+}
+
+.slide.capa .signal {
+    font-size: 72px;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.slide.capa .context {
+    font-size: 36px;
+    color: #00FFFF;
+}
+</style></head><body>
+
+<div class="slide" id="slide-1">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>ADS & SEARCH</span>
+        <span>01/06</span>
+    </div>
+    <div class="content">
+        <div class="signal headline">Como proteger suas campanhas B2B na transição agressiva do Google Ads.</div>
+        <div class="context">A compra cega pela palavra-chave parou de funcionar.</div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;"></span>
+    </div>
+</div>
+
+<div class="slide capa" id="slide-2">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>UPGRADE DA MÍDIA</span>
+        <span>02/06</span>
+    </div>
+    <div class="content">
+        <div class="signal">O Upgrade da Fita K7</div>
+        <div class="context">A música de conversão não mudou, mas o aparelho leitor virou CD. Deixar o antigo rodar sem atualizar o formato é garantir ruído estático na entrega.</div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;"></span>
+    </div>
+</div>
+
+<div class="slide" id="slide-3">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>NOVO BID</span>
+        <span>03/06</span>
+    </div>
+    <div class="content">
+        <div class="signal">O dado feed-first assume o controle.</div>
+        <div class="context">O novo "AI Search Mode" do Google ignora contas que apostam apenas em bid, mas estão desconectadas dos dados raiz e inventários ricos.</div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;"></span>
+    </div>
+</div>
+
+<div class="slide" id="slide-4">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>ROTEIRO</span>
+        <span>04/06</span>
+    </div>
+    <div class="content">
+        <div class="signal">01. Higiene Estrutural</div>
+        <div class="context"><ul><li>Atualizar inteiramente a tagologia com foco na ingestão da API.</li><li>Puxar colunas analíticas antes cegas dentro do seu Data Lake/CRM.</li></ul></div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;"></span>
+    </div>
+</div>
+
+<div class="slide" id="slide-5">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>ROTEIRO</span>
+        <span>05/06</span>
+    </div>
+    <div class="content">
+        <div class="signal">02. Readequação</div>
+        <div class="context"><ul><li>Lidar com o inventário não como "palavras de busca", mas como ativos crus, ricos.</li><li>A base precisa ser hiper categorizada para o algoritmo interpretar intenção sem você pedir.</li></ul></div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;"></span>
+    </div>
+</div>
+
+<div class="slide" id="slide-6">
+    <div class="vertical-signature">LINKEDIN.COM/IN/DOUGPMOURA</div>
+    <div class="label-row">
+        <span>REFLECTION</span>
+        <span>06/06</span>
+    </div>
+    <div class="content">
+        <div class="signal headline">O dado cru escondido vai afundar seu lead antes da jornada iniciar.</div>
+        <div class="context">A melhor copy do mundo não salva um banco de dados cego.</div>
+    </div>
+    <div class="detail-row">
+        <span>DICAS DO DOUG</span>
+        <span style="opacity: 0.8;">Dicas do Doug</span>
+    </div>
+</div>
+</body></html>

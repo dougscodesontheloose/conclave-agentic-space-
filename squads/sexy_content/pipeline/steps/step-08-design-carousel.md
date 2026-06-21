@@ -14,8 +14,8 @@ Load these files before executing:
 - `squads/sexy_content/output/draft-conteudo.md` — roteiro textual aprovado dos slides
 - `pipeline/data/visual-identity.md` — pacotes visuais e diretrizes de design
 - `pipeline/data/color-palettes.md` — paletas de cores disponíveis para cruzamento
-- `squads/sexy_content/_memory/douglas-visual-voice.md` — identidade visual detalhada do Doug
-- `squads/sexy_content/_memory/douglas-color-palettes.md` — paletas estendidas com contexto de uso
+- `squads/sexy_content/_memory/<user_name>-visual-voice.md` — identidade visual detalhada do <user_name>
+- `squads/sexy_content/_memory/<user_name>-color-palettes.md` — paletas estendidas com contexto de uso
 
 **Condição de ativação:** Este step é executado APENAS quando `formato-selecionado.md` contém `format = carousel`. Para posts e artigos, pular diretamente para step-09.
 

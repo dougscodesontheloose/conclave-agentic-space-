@@ -34,6 +34,31 @@ Load these files before executing:
 
 Seguir o formato definido no agent Solomon Verdict (veredito com tabela de ranking, trade-offs e links).
 
+## Output Example
+
+```markdown
+# Veredito de Compra
+
+## Ranking Final
+
+| Rank | Loja | Custo Real | Reputação | Custo Ajustado | Link | Veredito |
+|---:|---|---:|---|---:|---|---|
+| 1 | Amazon BR | R$ 2.155,02 | 🟢 | R$ 2.155,02 | https://... | Melhor equilíbrio |
+| 2 | Magalu | R$ 2.188,00 | 🟢 | R$ 2.188,00 | https://... | Boa alternativa |
+| 3 | Loja Y | R$ 2.020,00 | 🟡 | R$ 2.121,00 | https://... | Só vale pelo preço |
+
+## Recomendação
+Comprar na Amazon BR se o objetivo for menor risco. Comprar na Magalu se o desconto PIX for confirmado no checkout.
+
+## Trade-offs
+- Amazon: menor risco e entrega rápida, mas preço ligeiramente maior.
+- Magalu: preço competitivo, depende de condição PIX.
+- Loja Y: barata, mas reputação aumenta custo invisível.
+
+## Economia Total
+- Economia contra maior preço de vitrine: R$ 320,00.
+```
+
 ## Veto Conditions
 
 Reject and redo if ANY of these are true:

@@ -8,6 +8,7 @@ skills:
   - web_search
   - web_fetch
   - health-score-calculator
+  - tio-patinhas-protocol
 ---
 
 # Financial Planner (PLUTUS) — Educação & Estratégia Financeira

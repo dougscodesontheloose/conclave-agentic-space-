@@ -154,7 +154,7 @@ SLIDE_TEMPLATE = """
         <div class="context">{context_html}</div>
     </div>
     <div class="detail-row">
-        <span>DICAS DO DOUG</span>
+        <span>DICAS DO <user_name></span>
         <span style="opacity: 0.8;">{detail}</span>
     </div>
 </div>

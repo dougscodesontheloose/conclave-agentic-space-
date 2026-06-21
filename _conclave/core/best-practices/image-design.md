@@ -10,6 +10,17 @@ version: "1.0.0"
 
 # Visual Design & Image Creation — Best Practices
 
+## Conclave Visual Override
+
+When the visual output is for Conclave, <user_name>, Refract, Dream Catcher, LinkedIn personal branding, or any squad that inherits `_conclave/state/memory/global-preferences.md`, these identity rules override the generic examples in this file:
+
+- Read `_conclave/state/memory/<user_name>-visual-voice-v3-unified.md` and `_conclave/state/memory/visual-identity.md` before choosing a visual direction.
+- Do not use generic UI fonts such as Inter, Roboto, Arial, or Helvetica. Prefer Cabinet Grotesk, Clash Display, Neue Montreal, Space Grotesk, Space Mono, JetBrains Mono, Geist Mono, Lora, Editorial New, Cormorant, DM Sans, Plus Jakarta Sans, or Outfit according to the selected visual package.
+- Do not default to LinkedIn blue, SaaS blue, pastel startup gradients, or Canva-like layouts.
+- Consider the 2026-06-03 and 2026-06-10 behavioral patterns when matching the brief: Fujifilm/cinematic everyday mood, luxury technical object study, astral AI telemetry, editorial portraiture as human proof, sequential cinematic frames, cognitive habitat, quiet technology, inhabited workspaces, narrative landscapes, and technical light-mode editorial.
+- Treat architecture as a behavioral model for layout: clear circulation, framed views, meaningful thresholds, calm hierarchy, and technology subordinated to experience.
+- Use public film/game/celebrity references as composition, lighting, pacing, or mood references only. Do not use protected characters, branded frames, or celebrity likenesses as final public assets without license.
+
 ## Core Principles
 
 1. **Design system before individual pieces.** Before creating any visual, define the design system: primary and secondary colors, font family and scale, spacing unit, border radius, shadow style, and grid structure. Every element in the design draws from this system. No ad-hoc styling decisions.
@@ -94,7 +105,7 @@ Present all rendered images to the user or downstream agent. Include the design 
 
 ## Decision Criteria
 
-- **Font family selection**: Sans-serif for social media (Inter, Montserrat, Open Sans, Poppins). Serif only for editorial or luxury brands. Monospace only for technical content.
+- **Font family selection**: For generic projects, choose a font family that matches the platform and brand. For Conclave/<user_name> outputs, follow the Conclave Visual Override above and never default to Inter, Roboto, Arial, Helvetica, LinkedIn blue, or generic SaaS styling.
 - **Color palette size**: 3-5 colors maximum per design system. Primary + secondary + accent + background + text. More colors create visual noise.
 - **Slide count for carousels**: Instagram carousels perform best at 5-10 slides. Under 5 feels incomplete, over 10 causes drop-off. Hook on slide 1, CTA on last slide, value in between.
 - **When to use gradients**: For background overlays on images, for hero sections, for CTAs. Never for body text backgrounds. Linear gradients only (radial gradients render inconsistently).

@@ -2,7 +2,7 @@
 
 De acordo com as iterações mais recentes, este documento isola os padrões modulares de cor da Filosofia de Design, permitindo **cruzamentos criativos** (ex: combinar paletas Naturalistas em grids puramente Brutalistas, ou paletas Cockpit em interfaces orgânicas). 
 
-Use estas paletas em conjunto com as estruturas do arquivo `douglas-visual-voice.md` (ou em `visual-identity.md`) para forjar saídas singulares em seus carrosséis, portfólios e dashboards empresariais.
+Use estas paletas em conjunto com as estruturas do arquivo `<user_name>-visual-voice.md` (ou em `visual-identity.md`) para forjar saídas singulares em seus carrosséis, portfólios e dashboards empresariais.
 
 ---
 
@@ -55,4 +55,4 @@ Use estas paletas em conjunto com as estruturas do arquivo `douglas-visual-voice
 - **Estrutura de Gradientes:** A transição principal ocorre de um Vermelho Borgonha super fechado para um Vermelho Brilhante estridente. No Dark Mode, essas cápsulas coloridas criam o efeito de um carro superesportivo acelerando na madrugada.
 
 ---
-**Modo de uso pelo Operador (AI):** Sempre cruzar *uma Paleta* daqui com *uma Regra Arquitetônica* de `douglas-visual-voice.md`. Ao afastar o 'Cockpit' do estilo clássico de design e jogá-lo numa arquitetura Brutalista de formas soltas, ou ao aplicar a paleta *Red Energy* num grid modular de blocos transparentes de *Nothing Phone*, você atinge a originalidade extrema esperada.
+**Modo de uso pelo Operador (AI):** Sempre cruzar *uma Paleta* daqui com *uma Regra Arquitetônica* de `<user_name>-visual-voice.md`. Ao afastar o 'Cockpit' do estilo clássico de design e jogá-lo numa arquitetura Brutalista de formas soltas, ou ao aplicar a paleta *Red Energy* num grid modular de blocos transparentes de *Nothing Phone*, você atinge a originalidade extrema esperada.

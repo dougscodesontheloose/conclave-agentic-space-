@@ -21,20 +21,20 @@ Load these files before executing:
 
 1. Verificar que `revisao.md` contém veredicto APROVADO — nunca publicar com COM RESSALVAS ou REPROVADO.
 2. Ler o formato selecionado e executar a seção correspondente.
-3. Perguntar ao Doug: publicar imediatamente ou agendar?
+3. Perguntar ao <user_name>: publicar imediatamente ou agendar?
 4. Executar a publicação ou entrega conforme o formato.
 5. Salvar log de publicação em `publicacao.md`.
 
 **Para Posts de Texto:**
 
 1. Formatar o texto final: remover markdown (`**`, `##`), ajustar quebras de linha para o ritmo do LinkedIn.
-2. Confirmar horário de publicação com Doug (imediato ou agendar com data/hora).
+2. Confirmar horário de publicação com <user_name> (imediato ou agendar com data/hora).
 3. Publicar via skill `blotato`.
 
 **Para Carrosséis:**
 
 1. Verificar que `output/carousel.html` existe e foi gerado pelo step-08.
-2. Informar ao Doug: "O carrossel está em `output/carousel.html`. Abra no navegador para visualizar. Para publicar no LinkedIn, faça upload manual das imagens PNG."
+2. Informar ao <user_name>: "O carrossel está em `output/carousel.html`. Abra no navegador para visualizar. Para publicar no LinkedIn, faça upload manual das imagens PNG."
 3. Se a skill de screenshot estiver disponível, gerar PNGs automaticamente dos slides.
 4. Registrar entrega no log.
 
@@ -89,5 +89,5 @@ Reject and redo if ANY are true:
 
 - [ ] Veredicto APROVADO confirmado antes de qualquer ação de publicação
 - [ ] Formato do texto ajustado para LinkedIn (sem markdown residual em posts)
-- [ ] Horário de publicação confirmado com Doug (imediato ou agendado)
+- [ ] Horário de publicação confirmado com <user_name> (imediato ou agendado)
 - [ ] Log salvo em `publicacao.md` com timestamp, status e link

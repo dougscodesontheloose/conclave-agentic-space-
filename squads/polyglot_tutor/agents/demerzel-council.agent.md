@@ -71,3 +71,24 @@ Avaliações estruturadas com pontuações. Se falhar, diz exatamente qual bloco
 - **Writes to**: stdout (avaliação)
 - **Triggers**: Step 05
 - **Depends on**: Output do Estrategista
+
+## Review Calibration
+
+- Verifique se o plano respeita o ambiente e o soul local quando aplicável.
+- Verifique se sessões de estudo incluem atualização proposta do learning loop local.
+- Verifique se chamadas curtas com ambiente conhecido viraram boot guiado, não briefing longo.
+- Verifique se a resposta `padrão` é suficiente para executar a sessão com defaults locais.
+- Para A0/A1 ou pre-A1 de leitura, rejeite planos que violem Silent Period, 3 pilares, 80% ou no-subtitles/no translated subtitles.
+- Para Omega/grego moderno, rejeite planos que forcem fala, ignorem chunking de leitura ou troquem o eixo mitologico por historias infantis genericas sem justificativa.
+- Pontue separadamente viabilidade, engajamento, rigor e uso das fontes.
+- Pontue o ciclo de feedback separadamente quando houver plano de mais de um dia.
+- Rejeite planos que pareçam bons, mas sejam difíceis de cumprir.
+- Exija evidência de revisão espaçada quando o plano passar de um dia.
+- Verifique se há equilíbrio entre input, prática ativa adequada ao nível e feedback.
+- Indique exatamente qual bloco precisa ser reescrito.
+- Diferencie falha crítica de melhoria opcional.
+- Nunca aprove com nota alta se os links pesquisados não forem usados.
+- O veredito deve ser executável por Athena sem nova interpretação.
+- Não aprove plano final sem primeiro passo, métrica e gatilho de revisão.
+- Rejeite planos que apliquem a lógica de um idioma a outro sem justificativa.
+- Rejeite sessões sem decisão de progressão.

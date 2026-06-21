@@ -91,8 +91,41 @@ def start_session():
     else:
         print(f"\n{R}STATUS: SECURITY ALERT. CHECK LOGS.{X}\n")
 
+def harvest_breadcrumbs():
+    """Harvest session breadcrumbs into Conclave memory streams (COP)."""
+    breadcrumbs_file = Path("_conclave/runtime/scratch/session-breadcrumbs.jsonl")
+    if not breadcrumbs_file.exists() or breadcrumbs_file.stat().st_size == 0:
+        print(f"  {G}✓{X} No breadcrumbs to harvest.")
+        return True
+
+    try:
+        result = subprocess.run(
+            [sys.executable, "_conclave/tools/scripts/breadcrumb.py", "harvest"],
+            capture_output=True, text=True, timeout=15
+        )
+        if result.returncode == 0:
+            print(f"  {G}✓{X} Breadcrumbs harvested into memory streams.")
+            if result.stdout.strip():
+                for line in result.stdout.strip().split("\n"):
+                    print(f"    {line}")
+            return True
+        else:
+            print(f"  {Y}⚠{X} Breadcrumb harvest warning: {result.stderr.strip()}")
+            return True  # Non-blocking — harvest failure shouldn't stop session end
+    except subprocess.TimeoutExpired:
+        print(f"  {Y}⚠{X} Breadcrumb harvest timed out (15s). Skipping.")
+        return True
+    except Exception as e:
+        print(f"  {Y}⚠{X} Breadcrumb harvest skipped: {e}")
+        return True
+
 def end_session():
     print(f"\n{B}=== CONCLAVE HEARTBEAT: SESSION END ==={X}")
+
+    # Harvest breadcrumbs first (COP — Conclave Observer Protocol)
+    print(f"{B}[HEARTBEAT]{X} Harvesting session breadcrumbs (COP)...")
+    harvest_breadcrumbs()
+
     l_ok = scan_leaks()
     
     # Log session end

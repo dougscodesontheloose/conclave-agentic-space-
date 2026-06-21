@@ -14,7 +14,7 @@ Load these files before executing:
 - `squads/sexy_content/output/carousel.html` — design do carrossel (se formato = carousel)
 - `squads/sexy_content/output/formato-selecionado.md` — formato do conteúdo
 - `pipeline/data/quality-criteria.md` — rubrica completa de qualidade
-- `pipeline/data/tone-of-voice.md` — voz e estilo do Doug para comparação
+- `pipeline/data/tone-of-voice.md` — voz e estilo do <user_name> para comparação
 
 ## Instructions
 
@@ -30,7 +30,7 @@ Load these files before executing:
 ### Checklist de Qualidade — Texto (todos os formatos)
 
 - [ ] O hook para o scroll sem contexto prévio?
-- [ ] Voz do Doug presente? (técnico + narrativo, ponte entre tecnologia e emoção humana)
+- [ ] Voz do <user_name> presente? (técnico + narrativo, ponte entre tecnologia e emoção humana)
 - [ ] Ausência de clichês corporativos? ("Nesse cenário", "Com isso em mente", "É importante salientar", "No mundo atual")
 - [ ] Dado ou estatística presente e contextualizado organicamente?
 - [ ] Uma metáfora inusitada (videogame, cultura pop, literatura) presente e bem integrada?
@@ -54,7 +54,7 @@ Load these files before executing:
 
 ## Checklist — Texto
 - [x] ou [ ] Hook para o scroll
-- [x] ou [ ] Voz do Doug
+- [x] ou [ ] Voz do <user_name>
 - [x] ou [ ] Sem clichês corporativos
 - [x] ou [ ] Dado contextualizado
 - [x] ou [ ] Metáfora inusitada
@@ -86,7 +86,7 @@ Load these files before executing:
 
 ## Checklist — Texto
 - [x] Hook para o scroll — "78% de aumento de produtividade. Cursor mediu. O debate acabou." funciona.
-- [x] Voz do Doug — técnico + narrativo, ponte correu.
+- [x] Voz do <user_name> — técnico + narrativo, ponte correu.
 - [x] Sem clichês corporativos — limpo.
 - [x] Dado contextualizado — estatística do Cursor integrada no parágrafo 2.
 - [x] Metáfora inusitada — "como descobrir que você é rápido na corrida, mas não sabe para onde correr" — forte.
@@ -106,7 +106,7 @@ Load these files before executing:
 
 Reject and redo if ANY are true:
 1. Hook começa com pergunta retórica óbvia, emoji genérico ou fórmula "Você sabia que" — rejeitar e devolver ao step-07.
-2. Tom genérico sem identidade do Doug detectável — ausência de metáfora inusitada + linguagem corporativa = reprovação automática.
+2. Tom genérico sem identidade do <user_name> detectável — ausência de metáfora inusitada + linguagem corporativa = reprovação automática.
 3. Slide de carrossel com mais de 50 palavras — limite absoluto, sem exceção.
 4. Uso de mais de 3 emojis no mesmo post — sinal de conteúdo de baixa autoridade.
 

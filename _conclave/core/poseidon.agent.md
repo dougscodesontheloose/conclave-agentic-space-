@@ -50,16 +50,16 @@ When invoked via `/conclave tide`:
 
 ### 1. Run aggregation scripts
 
-Run both scripts. Each emits a JSON summary to stdout. Parse and merge them.
+Run the Poseidon RAG Engine to query the latest signals and evaluations.
 
 ```bash
-bash $HOME/.conclave/core/scripts/tide.sh
-bash $HOME/.conclave/core/scripts/eval.sh
+python3 _conclave/tools/scripts/poseidon_engine.py query --mode signals --n 10
+python3 _conclave/tools/scripts/poseidon_engine.py query --mode eval --n 10
 ```
 
-If `tide.sh` returns empty / no streams found → report cleanly: *"No tides yet — system has not accumulated enough signal to observe currents. Run more squads first."* and exit.
+If the engine returns empty / no streams found → report cleanly: *"No tides yet — system has not accumulated enough signal to observe currents. Run more squads first."* and exit.
 
-If `eval.sh` returns `"eval_signals":0` → note in the report: *"Eval harness has no data yet. Add `type:validate` steps with `skill_contract:` to pipelines to begin criterion-level tracking."* Continue with tide data if present.
+If the eval mode returns empty → note in the report: *"Eval harness has no data yet. Add `type:validate` steps with `skill_contract:` to pipelines to begin criterion-level tracking."* Continue with tide data if present.
 
 ### 2. Detect currents
 

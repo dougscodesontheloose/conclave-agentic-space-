@@ -22,8 +22,7 @@ script:
   runtime: node
   invoke: "node --env-file=.env {skill_path}/scripts/publish.js --images \"{images}\" --caption \"{caption}\""
 env:
-  - INSTAGRAM_ACCESS_TOKEN
-  - INSTAGRAM_USER_ID
+  - INSTAGRAM_ACCESS_TOKEN = "<secret_removed>" INSTAGRAM_USER_ID
   - IMGBB_API_KEY
 categories: [social-media, publishing, instagram]
 ---
@@ -95,13 +94,10 @@ Perguntas obrigatórias antes da execução:
 Copy `.env.example` to `.env` and fill in the two required variables:
 
 ```
-INSTAGRAM_ACCESS_TOKEN=
-INSTAGRAM_USER_ID=
+INSTAGRAM_ACCESS_TOKEN = "<secret_removed>"=
 ```
 
-#### INSTAGRAM_ACCESS_TOKEN
-
-Pré-requisito: conta Instagram Business conectada a uma Página do Facebook, e um app criado em [developers.facebook.com](https://developers.facebook.com/) (tipo: **Empresa**).
+#### INSTAGRAM_ACCESS_TOKEN = "<secret_removed>"é-requisito: conta Instagram Business conectada a uma Página do Facebook, e um app criado em [developers.facebook.com](https://developers.facebook.com/) (tipo: **Empresa**).
 
 **Para obter um token de longa duração (válido 60 dias):**
 

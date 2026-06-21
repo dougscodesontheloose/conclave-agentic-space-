@@ -1,5 +1,58 @@
 import os
 import json
+
+EXTRA_INTENTS_BY_SQUAD = {
+    "polyglot_tutor": [
+        "idioma",
+        "idiomas",
+        "language",
+        "languages",
+        "aprender idioma",
+        "estudar idioma",
+        "poliglota",
+        "polyglot",
+        "polyglot_tutor",
+        "poliglopter",
+        "inglês",
+        "ingles",
+        "english",
+        "id like some tea",
+        "i'd like some tea",
+        "espanhol",
+        "spanish",
+        "hablando",
+        "hablando demais",
+        "italiano",
+        "italian",
+        "ci vediamo dopo",
+        "francês",
+        "frances",
+        "french",
+        "cé la vie",
+        "ce la vie",
+        "c'est la vie",
+        "japonês",
+        "japones",
+        "japanese",
+        "gozaimasu",
+        "grego",
+        "greek",
+        "grego moderno",
+        "omega",
+    ],
+}
+
+EXTRA_CONTEXT_TRIGGERS_BY_SQUAD = {
+    "polyglot_tutor": [
+        "ambientes/projetos/Id like some tea",
+        "ambientes/projetos/Hablando demais!",
+        "ambientes/projetos/ci vediamo dopo",
+        "ambientes/projetos/Cé la vie",
+        "ambientes/projetos/gozaimasu",
+        "ambientes/projetos/Omega",
+    ],
+}
+
 def parse_simple_yaml(content):
     data = {}
     for line in content.splitlines():
@@ -52,13 +105,14 @@ def reindex():
                 if "carrossel" in description.lower() or "carousel" in description.lower(): intents.append("carrossel")
                 if "código" in description.lower() or "engineering" in description.lower(): intents.append("código")
                 if "pwa" in description.lower(): intents.append("pwa")
+                intents.extend(EXTRA_INTENTS_BY_SQUAD.get(squad_code, []))
                 
                 entry = {
                     "squad_id": squad_code,
                     "displayName": display_name,
                     "description": description,
                     "intents": list(set(intents)), 
-                    "context_triggers": [],
+                    "context_triggers": EXTRA_CONTEXT_TRIGGERS_BY_SQUAD.get(squad_code, []),
                     "usage_count": existing_data.get(squad_code, {}).get('usage_count', 0),
                     "last_run": existing_data.get(squad_code, {}).get('last_run', None)
                 }

@@ -1,5 +1,6 @@
 ---
 privacy: internal
+last_validated: 2026-06-21
 ---
 
 # Insights de Performance e Audiência — LinkedIn

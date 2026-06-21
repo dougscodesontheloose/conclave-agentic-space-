@@ -9,14 +9,14 @@ outputFile: squads/sexy_content/output/refined-instruction.md
 ## Context Loading
 
 Load these files before executing:
-- `_conclave/state/memory/company.md` — Perfil do Doug e estratégias principais.
+- `_conclave/state/memory/company.md` — Perfil do <user_name> e estratégias principais.
 - `pipeline/data/technique-registry.md` — Framework de técnicas T01-T13.
 - `pipeline/data/pietro-anti-patterns.md` — Guia de erros a evitar.
 
 ## Instructions
 
 ### Process
-1. **Analise o input inicial**: Leia o briefing ou a ideia fornecida pelo Doug.
+1. **Analise o input inicial**: Leia o briefing ou a ideia fornecida pelo <user_name>.
 2. **Aplique MSTCTRL**: Realize o diagnóstico arquitetural do prompt original identificando gargalos e camadas de abstração.
 3. **Refine a Instrução**: Reescreva a instrução utilizando as técnicas do `technique-registry.md`, focando em `T01 (Persona)`, `T04 (Output Schema)` e `T13 (MSTCTRL)`.
 4. **Valide contra Anti-Patterns**: Certifique-se de que o prompt refinado não cai nos erros de verborragia ou ambiguidade.
@@ -74,4 +74,4 @@ Reject and redo if ANY of these are true:
 
 - [ ] Uso correto de delimitadores.
 - [ ] Inclusão de Fallback protocol se o input for vago.
-- [ ] Alinhamento com a voz visual do Doug em `_memory/company.md`.
+- [ ] Alinhamento com a voz visual do <user_name> em `_memory/company.md`.

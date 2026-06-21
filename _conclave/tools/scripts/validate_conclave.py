@@ -330,6 +330,10 @@ def check_squad(squad_dir: Path, skills_dir: Path, r: Result):
     for field in ["name", "code", "description", "icon"]:
         r.check(bool(get_scalar(content, field)), f"squad.yaml: {field}", f"{name}: MISSING squad.yaml field '{field}'")
 
+    if get_scalar(content, "redirect_to"):
+        r.ok(f"{name}: is a redirect squad, skipping pipeline and agent checks")
+        return
+
     csv_path = squad_dir / "squad-party.csv"
     if not r.check(csv_path.exists(), "squad-party.csv exists", f"{name}: MISSING squad-party.csv"):
         return
@@ -348,7 +352,11 @@ def check_squad(squad_dir: Path, skills_dir: Path, r: Result):
     pipeline_steps = get_nested_list(content, "pipeline", "steps") or get_list(content, "steps")
 
     if not pipeline_steps:
-        r.warn(f"{name}: could not parse pipeline.steps from squad.yaml")
+        # Check if it's a custom pipeline (list of dicts)
+        if "- step:" in content:
+            r.ok(f"{name}: uses custom pipeline format")
+        else:
+            r.warn(f"{name}: could not parse pipeline.steps from squad.yaml")
     else:
         r.ok(f"pipeline: {len(pipeline_steps)} steps declared")
         first = pipeline_steps[0]
@@ -363,6 +371,10 @@ def check_squad(squad_dir: Path, skills_dir: Path, r: Result):
 
     for df in get_list(content, "data"):
         p = squad_dir / df
+        if not p.exists():
+            p_root = Path.cwd() / df
+            if p_root.exists():
+                p = p_root
         r.check(p.exists(), f"data: {df}", f"{name}: MISSING data file: {df}")
 
     for skill in get_list(content, "skills"):

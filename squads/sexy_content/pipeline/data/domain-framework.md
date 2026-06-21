@@ -39,7 +39,7 @@ O mesmo material gera ângulos completamente diferentes:
 - **Ângulo de Implicação**: começa pela consequência, não pela causa
 - **Ângulo de Tensão**: apresenta dois lados e escolhe um com clareza
 
-Regra: gerar 3 ângulos distintos. Selecionar 1 com o Doug antes de produzir.
+Regra: gerar 3 ângulos distintos. Selecionar 1 com o <user_name> antes de produzir.
 
 ### Fase 4 — Seleção de Formato
 
@@ -69,7 +69,7 @@ Sequência obrigatória:
 
 ### Fase 7 — Revisão de Qualidade
 
-Revisão contra: voz do Doug, ausência de clichês, dado contextualizado, hook que para o scroll.
+Revisão contra: voz do <user_name>, ausência de clichês, dado contextualizado, hook que para o scroll.
 Veredicto: APROVADO / COM RESSALVAS / REPROVADO.
 
 ### Fase 8 — Publicação

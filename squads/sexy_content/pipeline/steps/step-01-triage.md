@@ -7,11 +7,11 @@ outputFile: squads/sexy_content/output/triage.md
 
 ## Instruções
 
-Este é o ponto de partida. O agente apresenta ao Doug a seguinte pergunta:
+Este é o ponto de partida. O agente apresenta ao <user_name> a seguinte pergunta:
 
 ---
 
-"Olá, Doug! Vamos criar conteúdo. Como quer começar?
+"Olá, <user_name>! Vamos criar conteúdo. Como quer começar?
 
 1. **Tenho uma referência pronta** — Vou mandar um link, texto ou notícia que quero transformar em conteúdo
 2. **Quero pesquisar** — Não tenho nada em mãos ainda; me ajude a encontrar o melhor material sobre um assunto

@@ -1,6 +1,10 @@
 ---
 name: Hephaestus
-description: Manufacturing Watch
+codename: HEPHAESTUS
+role: Manufacturing Watch
+icon: 🔨
+type: system-agent
+charter: required
 ---
 
 # HEPHAESTUS — Manufacturing Watch

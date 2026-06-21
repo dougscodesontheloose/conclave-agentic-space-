@@ -42,7 +42,7 @@ powered by `all-MiniLM-L6-v2` embeddings. The index covers:
 
 | Source | Layer | What it contains |
 | --- | --- | --- |
-| `company.md`, `user-model.md`, `preferences.md` | global | Who Douglas is, what he values, inferred patterns |
+| `company.md`, `user-model.md`, `preferences.md` | global | Who <user_name> is, what he values, inferred patterns |
 | `linkedin-insights.md`, `visual-identity.md` | global | Platform-specific voice and aesthetic |
 | `squads/*/memories.md` | squad | Per-squad writing/visual/structure preferences |
 | `squads/*/runs.md` | squad | Run history (topics, outcomes) |

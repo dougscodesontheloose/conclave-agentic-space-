@@ -3,7 +3,7 @@ name: creative-writing-v2
 description: "Framework operacional de escrita criativa e narrativa derivado da mesma voz autoral. Estrutura a narrativa em 5 Movimentos (Ruptura → Investigação → Revelação → Transformação → Ressonância), oferece toolkit de construção de cenas com inventário sensorial e detalhe âncora, mapa emocional de ritmo por estado desejado, técnicas de monólogo interior, regras expandidas para metáfora estendida vs. pontual, e 3 templates estruturais completos (ensaio longo, crônica, texto híbrido). Otimizado para imersão, profundidade emocional e originalidade expressiva — com a mesma disciplina de voz do skill base, mas com liberdade estrutural ampliada."
 ---
 
-# DOUGLAS MOURA — CREATIVE WRITING SKILL
+# <user_name> MOURA — CREATIVE WRITING SKILL
 
 **Core principle:** A precisão da resposta é diretamente proporcional à clareza da intenção.
 
@@ -580,11 +580,11 @@ O mantra é o mesmo para os dois:
 
 ---
 
-*Este skill é especialização do Douglas Moura Base Writing Skill.
+*Este skill é especialização do <user_name> Moura Base Writing Skill.
 Assume o mesmo DNA de voz, expande os instrumentos para contexto narrativo.*
 
 *Revisão recomendada: trimestral, incorporando novos padrões identificados
-na prática criativa de Douglas Moura.*
+na prática criativa de <user_name> Moura.*
 
 
 ## Prerequisites

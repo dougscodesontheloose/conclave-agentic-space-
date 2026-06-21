@@ -1,0 +1,26 @@
+name: "Clube do Livro"
+code: "clube_do_livro"
+domain: "learning"
+icon: "📚"
+version: "2.0.0"
+description: "Squad de leitura dialética e ativa para acompanhamento de livros, registro de notas e discussão conceitual de alto nível."
+goal: "Acompanhar leituras, extrair conceitos centrais, atualizar o progresso de forma estruturada e conduzir discussões críticas conectando-as à carreira e vida do <user_name>."
+skills:
+  - creative-long-form
+discovery:
+  keywords: ["livro", "leitura", "book", "reading", "clube do livro", "notas", "fichamento", "resenha", "dialética", "discussão conceitual", "aprendizado ativo"]
+  aliases: ["clube_do_livro"]
+data:
+  - ../../_conclave/_memory/soul.md
+  - ../../_conclave/_memory/learning-loop.md
+  - ../../_conclave/_memory/content-diet.md
+  - ../../_conclave/_memory/progress-ledger.md
+  - ../../_conclave/_memory/decision.md
+pipeline:
+  steps:
+    - step-00-refinement.md
+    - step-01-contexto.md
+    - step-02-leitura-guiada.md
+    - step-03-checkpoint-progresso.md
+    - step-04-sintese-dialetica.md
+    - step-05-checkpoint-final.md
