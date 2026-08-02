@@ -1,12 +1,13 @@
 import os
 import sys
 import json
+import csv
 import yaml
 
 CONCLAVE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 SQUADS_DIR = os.path.join(CONCLAVE_ROOT, "squads")
 AGENTS_DIR = os.path.join(CONCLAVE_ROOT, "_conclave", "agents")
-SKILLS_DIR = os.path.join(CONCLAVE_ROOT, "_conclave", "skills")
+SKILLS_DIR = os.path.join(CONCLAVE_ROOT, "skills")
 INTENTION_MATRIX = os.path.join(CONCLAVE_ROOT, "_conclave", "core", "intention_matrix.json")
 
 def load_json(path):
@@ -16,6 +17,31 @@ def load_json(path):
 def load_yaml(path):
     with open(path, 'r') as f:
         return yaml.safe_load(f)
+
+def parse_agent_paths(party_csv_path):
+    """Return agent paths from both supported squad-party.csv layouts."""
+    with open(party_csv_path, 'r', encoding='utf-8', newline='') as f:
+        rows = list(csv.reader(f))
+
+    if not rows:
+        return []
+
+    header = [column.strip().lower() for column in rows[0]]
+    if "path" in header:
+        path_index = header.index("path")
+        data_rows = rows[1:]
+    else:
+        path_index = 0
+        data_rows = rows
+
+    paths = []
+    for row in data_rows:
+        if path_index >= len(row):
+            continue
+        path = row[path_index].strip()
+        if path:
+            paths.append(path)
+    return paths
 
 def auto_repair_intention_matrix(squad_code):
     print(f"🔧 Sentinel Auto-Repair: Removendo stub quebrado '{squad_code}' do intention_matrix...")
@@ -59,16 +85,11 @@ def run_preflight(squad_code):
     # 2. Verifica que todos os agentes referenciados têm .agent.md
     party_csv_path = os.path.join(squad_dir, "squad-party.csv")
     if os.path.exists(party_csv_path):
-        with open(party_csv_path, 'r') as f:
-            lines = f.readlines()
-            for line in lines[1:]: # skip header
-                parts = line.strip().split(',')
-                if len(parts) >= 4:
-                    agent_path_rel = parts[3]
-                    agent_path_abs = os.path.normpath(os.path.join(squad_dir, agent_path_rel))
-                    if not os.path.exists(agent_path_abs):
-                        print(f"❌ Erro: Agente referenciado '{agent_path_rel}' não encontrado em {agent_path_abs}.")
-                        sys.exit(1)
+        for agent_path_rel in parse_agent_paths(party_csv_path):
+            agent_path_abs = os.path.normpath(os.path.join(squad_dir, agent_path_rel))
+            if not os.path.exists(agent_path_abs):
+                print(f"❌ Erro: Agente referenciado '{agent_path_rel}' não encontrado em {agent_path_abs}.")
+                sys.exit(1)
     else:
         print(f"⚠️ Aviso: squad-party.csv não encontrado para '{squad_code}'.")
 

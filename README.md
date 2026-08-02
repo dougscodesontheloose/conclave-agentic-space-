@@ -4,6 +4,12 @@ Crie squads de agentes de IA que trabalham juntos — direto do seu IDE.
 
 ## Como Usar
 
+Instale a dependência do runtime:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
 Abra esta pasta no seu IDE e digite:
 
 ```
@@ -149,6 +155,12 @@ npx serve squads/<nome-do-squad>/dashboard
 Create AI squads that work together — right from your IDE.
 
 ## How to Use
+
+Install the runtime dependency:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 Open this folder in your IDE and type:
 
